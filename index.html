@@ -10,41 +10,53 @@
 		<title>Кухни-Слон | Специальное предложение</title>
 	</head>
 	<body>
-        <header>
-            <p class="header-logo">
-                <img src="assets/img/ico_logo_header.svg" alt="Логотип Кухни-Слон">
-                <span>Уже 28 лет производим кухни для Вас более чем в 13 городах</span>
-            </p>
-            
-            <ul class="city-choose">
-                <li>г. Орел</li>
-                <li>г. Москва</li>
-            </ul>
-            
-            <p class="header-tel">
-                <a href="79624775727">
-                    <span class="visually-hidden">Контактный телефон: </span>+7 (962) 477-57-27
-                </a>
-            </p>
-            
-            <button id="openCalculateCost">Рассчитать стоимость Вашей кухни</button>
-            
-            <button id="headerToggleMenu">
-                <span class="visually-hidden">Открыть/закрыть меню сайта</span>
-                <img class="burger" src="assets/img/ico_burger_header.svg" width="40" height="30" alt="Бургер для меню сайта">
-            </button>
-            
-			<!--
-            <nav class="header-nav">
-                <ul class="menu">
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                </ul>
-			</nav>
-            -->
+        <header class="container-fluid">
+            <div class="row">
+                <div class="col-4">
+                    <p class="header-logo d-flex flex-nowrap">
+                        <img src="assets/img/ico_logo_header.svg" alt="Логотип Кухни-Слон">
+                        <span class="align-self-stretch">Уже 28 лет производим кухни для Вас более чем в 13 городах</span>
+                    </p>
+                </div>
+                
+                <div class="col-4">
+                    <div class="d-flex justify-content-center">
+                        <ul class="city-choose d-flex flex-column">
+                            <li>г. Орел</li>
+                            <li>г. Москва</li>
+                        </ul>
+
+                        <p class="header-tel text-end">
+                            <a href="79624775727">
+                                <span class="visually-hidden">Контактный телефон: </span>+7 (962) 477-57-27
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-4">
+                    <div class="d-flex justify-content-end">
+                        <button id="openCalculateCost">Рассчитать стоимость Вашей кухни</button>
+
+                        <button id="headerToggleMenu">
+                            <span class="visually-hidden">Открыть/закрыть меню сайта</span>
+                            <img class="burger" src="assets/img/ico_burger_header.svg" width="40" height="30" alt="Бургер для меню сайта">
+                        </button>
+                    </div>
+                </div>
+
+                <!--
+                <nav class="header-nav">
+                    <ul class="menu">
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </nav>
+                -->
+            </div>
         </header>
         <main>
             <h1 class="visually-hidden">Кухни-Слон | Специальное предложение</h1>
