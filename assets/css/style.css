@@ -151,6 +151,421 @@ button.burger {
     background: none;
     border: none;
 }
-
-
 /* Хедер и футер - кон */
+
+
+/* Мейн - нач */
+
+b.green {
+    font-weight: inherit;
+    color: #5EB863;
+}
+
+
+/* Преимущества компании - нач */
+
+.main-features-section {
+    margin-bottom: 15px;
+    
+    padding-top: 65px;
+    padding-bottom: 100px;
+    
+    background-image: url("../img/main_features_bg.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-offer {
+    text-align: center;
+    
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78px;
+    
+    margin-bottom: 40px;
+}
+
+.main-features-block {
+    margin-bottom: 50px;
+}
+
+.main-offer-suptext {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.main-features-list {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.main-features-list li {
+    background-image: url("../img/ico_CheckBox.svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    
+    padding-left: 50px;
+    
+    margin-bottom: 60px;
+}
+
+.main-features-list li:last-child {
+    margin-bottom: 0px;
+}
+
+.main-feature {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #1F1F1F;
+    
+    margin-bottom: 5px;
+}
+
+.main-feature-desc {
+    margin-bottom: 0;
+}
+
+button#openModal3DProjecting {
+    padding-left: 25px;
+    padding-top: 30px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    font-size: 24px;
+    font-weight: 600;
+}
+/* Преимущества компании - кон */
+
+/* Акции - нач */
+
+.promotions-section {
+    margin-bottom: 100px;
+}
+
+.promotions-desc {
+    text-align: center;
+    
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 65px;
+    
+    margin-bottom: 45px;    
+}
+
+.slider-promo {
+    list-style: none;
+    padding-left: 0;
+}
+
+.slider-promo-item {
+    padding-left: 45px;
+    padding-top: 50px;
+    padding-right: 45px;
+    padding-bottom: 50px;
+}
+
+.promo-name, .promo-desc {
+    margin-bottom: 0;
+}
+
+.free-services, .fabric-birthday, .blum-discount {
+    position: relative;
+}
+
+.free-services .promo-name, .fabric-birthday .promo-name, .blum-discount .promo-name {
+    margin-bottom: 10px;
+}
+
+.free-services {
+    padding-right: 500px;
+    
+    background-color: #20A1FF;
+    background-image: url("../img/slider_promotion_bg_1.png");
+    background-position: left top;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.free-services::after {
+    content: "";
+    
+    position: absolute;
+    bottom: 0; right: 0;
+    
+    width: 292px; height: 211px;
+    
+    background-image: url("../img/slider_promotion_gift.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.free-services .promo-name {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    
+    color: #FFF;
+}
+
+.free-services .promo-desc {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    
+    color: #FFF;
+}
+
+.fabric-birthday {
+    padding-right: 500px;
+    
+    background-color: #5EB863;
+    background-image: url("../img/slider_promotion_bg_2.png");
+    background-position: left top;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.fabric-birthday::after {
+    content: "30%";
+    
+    position: absolute;
+    right: 30px; top: 10%;
+    
+    font-size: 196px;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-weight: 700;
+    line-height: 240px;
+    
+    color: #fff;
+}
+
+.fabric-birthday .promo-name {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    
+    color: #FFF;
+}
+
+.fabric-birthday .promo-desc {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.blum-discount {
+    padding-left: 500px;
+    
+    background-color: #FF521D;
+}
+
+.blum-discount::before {
+    content: "";
+    
+    position: absolute;
+    top: auto; left: 15px;
+    
+    width: 422px; height: 152px;
+    
+    background-image: url("../img/slider_promotion_blum.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blum-discount .promo-name {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    
+    text-align: right;
+    
+    color: #FFF;
+}
+
+.blum-discount .promo-desc {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    
+    text-align: right;
+    
+    color: #1F1F1F;
+}
+
+.slider-promo-item.slick-slide {
+    margin: 0 45px;
+    
+    transition-duration: 2s;
+    transition-property: opacity, transform;
+    transition-timing-function: ease-in-out;
+}
+
+.slider-promo-item.slick-slide:not(.slick-active) {
+    transform: scaleY(0.9);
+    opacity: 0.5;
+}
+
+.slider-promo .slick-dots li.slick-active button:before {
+    background-color: #5EB863;
+    opacity: 1;
+}
+
+.slider-promo .slick-dots li button:before {
+    content: "";
+    width: 28px; height: 28px;
+    
+    background-color: #D9D9D9;
+    opacity: 1;
+    border-radius: 100%;
+}
+
+.slider-promo .slick-dots {
+    bottom: -40px;
+}
+
+.slider-promo .slick-dots li:not(:last-of-type) {
+    margin-right: 30px;
+}
+
+.slider-promo button.slick-arrow {
+    width: 65px; height: 65px;
+    
+    background: #40AC46;
+    border-radius: 100%;
+}
+
+.slider-promo button.slick-arrow.slick-prev {
+    margin-left: 100px;
+    
+    z-index: 100;
+}
+
+.slider-promo button.slick-arrow.slick-next {
+    margin-right: 100px;
+    
+    z-index: 100;
+}
+
+.slider-promo button.slick-arrow.slick-prev::before {
+    content: "";
+    display: block;
+    
+    position: absolute;
+    top: 16px; left: 16px;
+    
+    width: 32px; height: 32px;
+    
+    background-image: url("../img/ico_arrow_prev.svg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.slider-promo button.slick-arrow.slick-next::before {
+    content: "";
+    display: block;
+    
+    position: absolute;
+    top: 16px; right: 16px;
+    
+    width: 32px; height: 32px;
+    
+    background-image: url("../img/ico_arrow_next.svg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
+
+
+/* Акции - кон */
+
+/* Беспроцентная рассрочка - нач */
+
+.promotion-pinned-section {
+    margin-bottom: 60px;
+    
+    padding-left: 150px;
+    padding-top: 110px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    
+    background-color: #FFF;
+    background-image: url("../img/installment_bg.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.promotion-pinned-section h2 {
+    margin-bottom: 75px;
+    
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.promotion-pinned-desc {
+    margin-bottom: 60px;
+    
+    text-align: center;
+    color: #5EB863;
+}
+
+.promotion-pinned-desc td {
+    font-size: 128px;
+    font-weight: 700;
+    line-height: 156px;
+}
+
+.promotion-pinned-desc th {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+form#installment input {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    
+    background: #E0E0E0;
+    border: 3px solid #BDBDBD;
+    border-radius: 90px;
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #969696;
+}
+
+form#installment input:first-of-type {
+    margin-right: 15px;
+}
+
+.installment-inputs {
+    margin-bottom: 30px;
+}
+
+.installment-checkbox {
+    margin-bottom: 30px;
+    
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+button#orderKitchenInstallment {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+/* Беспроцентная рассрочка - кон */
+
+/* Мейн - кон */

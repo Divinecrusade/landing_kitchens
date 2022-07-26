@@ -10,7 +10,7 @@
 		<title>Кухни-Слон | Специальное предложение</title>
 	</head>
 	<body>
-        <header class="main-header container-fluid">
+        <header class="main-header">
             <div class="row">
                 <div class="col-4">
                     <p class="header-logo d-flex flex-nowrap">
@@ -57,101 +57,133 @@
                 -->
             </div>
         </header>
-        <main class="container">
+        <main>
             <h1 class="visually-hidden">Кухни-Слон | Специальное предложение</h1>
             
-            <section class="main-features-section">
+            <section class="main-features-section container-fluid">
                 <h2 class="visually-hidden">Преимущества компании</h2>
-                
-                <p class="main-offer text-center">Создайте <b class="green">3D-проект</b> Вашей кухни, <b class="green">не выходя из дома</b> в режиме онлайн-конференции со специалистом мебельной фабрики Слон</p>
-                
-                <div class="row">
-                    <div class="col-6">
-                        <ul class="main-features-list">
-                            <li>
-                                <h3 class="main-feature">Поможем определиться с дизайном</h3>
-                                <p class="main-feature-desc">Сделаем проект, который будет максимально вписываться в Ваш интерьер</p>
-                            </li>
-                            <li>
-                                <h3 class="main-feature">Расчитаем кухню под Ваш бюджет</h3>
-                                <p class="main-feature-desc">Дизайнер вместе с Вами выберем фасады и фурнитуру, подберем технику и материалы</p>
-                            </li>          
-                            <li>
-                                <h3 class="main-feature">Расчитаем кухню под Ваш бюджет</h3>
-                                <p class="main-feature-desc">Дизайнер вместе с Вами выберем фасады и фурнитуру, подберем технику и материалы</p>
-                            </li>    
-                            <li>
-                                <h3 class="main-feature">Расчитаем стоимость кухни в 3-х ценовых категориях</h3>
-                                <p class="main-feature-desc">Разработаем 3 варианта проекта: стандарт, бизнес и премиум</p>
-                            </li>
-                            <li>
-                                <h3 class="main-feature">Есть проект? Предложим свою цену!</h3>
-                                <p class="main-feature-desc">Присылайте готовый проект - мы сделаем свой рассчет и подскажем, как сэкономить, не потеряв в качестве</p>
-                            </li>  
-                        </ul>
+
+                <div class="container">
+                    <p class="main-offer">Создайте <b class="green">3D-проект</b> Вашей кухни, <b class="green">не выходя из дома</b><br><span class="main-offer-suptext">в режиме онлайн-конференции со специалистом мебельной фабрики Слон</span></p>
+
+                    <div class="main-features-block row">
+                        <div class="col-6">
+                            <ul class="main-features-list">
+                                <li>
+                                    <h3 class="main-feature">Поможем определиться с дизайном</h3>
+                                    <p class="main-feature-desc">Сделаем проект, который будет максимально вписываться в Ваш интерьер</p>
+                                </li>
+                                <li>
+                                    <h3 class="main-feature">Расчитаем кухню под Ваш бюджет</h3>
+                                    <p class="main-feature-desc">Дизайнер вместе с Вами выберем фасады и фурнитуру, подберем технику и материалы</p>
+                                </li>          
+                                <li>
+                                    <h3 class="main-feature">Расчитаем кухню под Ваш бюджет</h3>
+                                    <p class="main-feature-desc">Дизайнер вместе с Вами выберем фасады и фурнитуру, подберем технику и материалы</p>
+                                </li>    
+                                <li>
+                                    <h3 class="main-feature">Расчитаем стоимость кухни в 3-х ценовых категориях</h3>
+                                    <p class="main-feature-desc">Разработаем 3 варианта проекта: стандарт, бизнес и премиум</p>
+                                </li>
+                                <li>
+                                    <h3 class="main-feature">Есть проект? Предложим свою цену!</h3>
+                                    <p class="main-feature-desc">Присылайте готовый проект - мы сделаем свой рассчет и подскажем, как сэкономить, не потеряв в качестве</p>
+                                </li>  
+                            </ul>
+                        </div>
+
+                        <div class="col-6 d-flex justify-content-end">
+                            <video class="video-promo" height="625" controls>
+                                <source src="assets/video/video-promo.MP4" type="video/mp4">
+                            </video>
+                        </div>
                     </div>
-                    
-                    <div class="col-6">
-                        <video class="video-promo"></video>
+
+                    <div class="text-center">
+                        <button class="btn-green-flat" id="openModal3DProjecting">Записаться на 3D-проект кухни</button>
                     </div>
-                </div>
-                
-                <div class="text-center">
-                    <button id="openModal3DProjecting">Записаться на 3D-проект кухни</button>
                 </div>
             </section>
 
-            <section class="promotions-section">
+            <section class="promotions-section container">
                 <h2 class="visually-hidden">Акции</h2>
-                
-                <p class="promotions-desc text-center">Только <b class="green">до конца июля</b> у нас есть специальные предложения для Вас!</p>
-                
-                <!-- слайдер с акциями -->
-                
+
+                <p class="promotions-desc">Только <b class="green">до конца июля</b> у нас есть специальные предложения для Вас!</p>
+
+                <ul class="slider-promo">
+                    <li class="slider-promo-item free-services">
+                        <h3 class="promo-name">
+                            ПОДАРКИ НАШИМ КЛИЕНТАМ
+                        </h3>
+                        <p class="promo-desc">
+                            Замер, дизайн-проект, доставка и установка
+                        </p>
+                    </li>
+                    <li class="slider-promo-item fabric-birthday">
+                        <h3 class="promo-name">
+                            ДЕНЬ РОЖДЕНИЕ ФАБРИКИ!
+                        </h3>
+
+                        <p class="promo-desc">
+                            Получи скидку 30%
+                        </p>
+                    </li>
+                    <li class="slider-promo-item blum-discount">
+                        <h3 class="promo-name">
+                            Скидка 25% до 31 июля на фурнитуру BLUM
+                        </h3>
+                        <p class="promo-desc">
+                            Гарантия 25 лет
+                        </p>
+                    </li>
+                </ul>
+
             </section>
-        
-            <section class="promotion-pinned">
-                <div class="col-7">
-                    <h2>Беспроцентная рассрочка до 24 месяцев</h2>
 
-                    <div class="promotion-pinned-content d-flex flex-column">
-                        <table class="promotion-pinned-desc col-8">
-                            <thead>
-                                <tr>
-                                    <th>Предоплаты</th>
-                                    <th>Процентов</th>
-                                    <th>До 24 месяцев</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>24</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        
-                        <form id="installment" class="col-8">
-                            <div class="d-flex">
-                                <label class="visually-hidden" for="installmentName">Введите имя: </label>
-                                <input id="installmentName" class="w-50" type="text" placeholder="Ваше имя" required>
-                                <label class="visually-hidden" for="installmentTel">Введите телефон: </label>
-                                <input id="installmentTel" class="w-50" type="tel" placeholder="Ваш телефон" required>
-                            </div>
+            <div class="container">
+                <section class="promotion-pinned-section">
+                    <div class="col-11">
+                        <h2>Беспроцентная рассрочка до 24 месяцев</h2>
 
-                            <div>
-                                <input id="termsAgree" type="checkbox">
-                                <label for="termsAgree">Я принимаю условия конфиденциальности сайта</label>
-                            </div>
-                            
-                            <button id="orderKitchenInstallment" type="submit" class="w-100">Заказать кухню в рассрочку</button>
-                        </form>
+                        <div class="promotion-pinned-content d-flex flex-column">
+                            <table class="promotion-pinned-desc col-8 d-flex flex-column-reverse">
+                                <thead class="w-100">
+                                    <tr class="row">
+                                        <th class="col-4">Предоплаты</th>
+                                        <th class="col-4">Процентов</th>
+                                        <th class="col-4">До 24 месяцев</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="w-100">
+                                    <tr class="row">
+                                        <td class="col-4">0</td>
+                                        <td class="col-4">0</td>
+                                        <td class="col-4">24</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <form id="installment" class="col-8">
+                                <div class="d-flex installment-inputs">
+                                    <label class="visually-hidden" for="installmentName">Введите имя: </label>
+                                    <input id="installmentName" class="w-50" type="text" placeholder="Ваше имя" required>
+                                    <label class="visually-hidden" for="installmentTel">Введите телефон: </label>
+                                    <input id="installmentTel" class="w-50" type="tel" placeholder="Ваш номер телефона" required>
+                                </div>
+
+                                <div class="installment-checkbox">
+                                    <input id="termsAgree" type="checkbox">
+                                    <label for="termsAgree">Я принимаю условия конфиденциальности сайта</label>
+                                </div>
+
+                                <button id="orderKitchenInstallment" class="w-100 btn-green-flat" type="submit">Заказать кухню в рассрочку</button>
+                            </form>
+                        </div>
                     </div>
-                </div>
-            </section>
-        
-            <section class="guarantee">
+                </section>
+            </div>
+            
+            <section class="guarantee container">
                 <div class="d-flex flex-row-reverse">                    
                     <div class="guarantee-desc text-end">
                         <h2>Гарантия 5 лет</h2>
@@ -165,7 +197,7 @@
             
             <!-- Раздел с материалами -->
             
-            <section class="our-designers">
+            <section class="our-designers container">
                 <h2 class="visually-hidden">Наши дизайнеры</h2>
                 
                 <p class="our-designers-promo-text text-center">С Вами работают профессионалы</p>
@@ -229,14 +261,14 @@
             
             <!-- Раздел с информацией о нас -->
             
-            <section class="our-manufacture">
+            <section class="our-manufacture container">
                 <h2><b class="green">Собственное</b> производство</h2>
                 
                 <!-- слайдер с производством -->
                 
             </section>
             
-            <section class="contacts-section">
+            <section class="contacts-section container">
                 <h2 class="visually-hidden">Контакты</h2>
                 
                 <div class="d-flex justify-content-around">
@@ -353,5 +385,11 @@
             </form>
         </section>
         -->
+        <link rel="stylesheet" href="assets/lib/slick/slick.css">
+        <link rel="stylesheet" href="assets/lib/slick/slick-theme.css">
+        
+        <script src="assets/lib/jquery/jquery-3.6.0.min.js"></script>
+        <script src="assets/lib/slick/slick.min.js"></script>        
+        <script src="assets/js/main.js"></script>
 	</body>
 </html>
