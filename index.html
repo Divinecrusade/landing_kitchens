@@ -10,7 +10,7 @@
 		<title>Кухни-Слон | Специальное предложение</title>
 	</head>
 	<body>
-        <header class="container-fluid">
+        <header class="main-header container-fluid">
             <div class="row">
                 <div class="col-4">
                     <p class="header-logo d-flex flex-nowrap">
@@ -20,13 +20,13 @@
                 </div>
                 
                 <div class="col-4">
-                    <div class="d-flex justify-content-center">
-                        <ul class="city-choose d-flex flex-column">
-                            <li>г. Орел</li>
-                            <li>г. Москва</li>
-                        </ul>
+                    <div class="h-100 d-flex align-items-center justify-content-center">
+                        <select class="city-choose h-100">
+                            <option>г. Орел</option>
+                            <option>г. Москва</option>
+                        </select>
 
-                        <p class="header-tel text-end">
+                        <p class="header-tel">
                             <a href="79624775727">
                                 <span class="visually-hidden">Контактный телефон: </span>+7 (962) 477-57-27
                             </a>
@@ -35,12 +35,11 @@
                 </div>
                 
                 <div class="col-4">
-                    <div class="d-flex justify-content-end">
-                        <button id="openCalculateCost">Рассчитать стоимость Вашей кухни</button>
-
-                        <button id="headerToggleMenu">
+                    <div class="d-flex justify-content-between">
+                        <button class="btn-green-flat" id="openCalculateCost">Рассчитать стоимость Вашей кухни</button>
+                        <button class="burger" id="headerToggleMenu">
                             <span class="visually-hidden">Открыть/закрыть меню сайта</span>
-                            <img class="burger" src="assets/img/ico_burger_header.svg" width="40" height="30" alt="Бургер для меню сайта">
+                            <img src="assets/img/ico_burger_header.svg" width="40" height="30" alt="Бургер для меню сайта">
                         </button>
                     </div>
                 </div>
@@ -286,7 +285,7 @@
                 <p class="static-map"><img src="assets/img/map_orel.png" width="1440" height="572" alt="Адреса салонов в Орле: ул. Октябрьская, д. 24, ул. 8 Марта д. 8, ул. Комсомольская, д. 267"></p>
             </section>
         </main>
-        <footer class="container-fluid">
+        <footer class="main-footer container-fluid">
             <div class="row">
                 <div class="col-4">
                     <p class="footer-logo d-flex flex-nowrap">
@@ -307,9 +306,9 @@
                     <div class="d-flex justify-content-end">
                         <button id="onlineConsultation">Онлайн-консультация</button>
 
-                        <button id="footerToggleMenu">
+                        <button class="burger" id="footerToggleMenu">
                             <span class="visually-hidden">Открыть/закрыть меню сайта</span>
-                            <img class="burger" src="assets/img/ico_burger_footer.svg" width="40" height="20" alt="Бургер для меню сайта">
+                            <img src="assets/img/ico_burger_footer.svg" width="40" height="20" alt="Бургер для меню сайта">
                         </button>
 
                         <!--

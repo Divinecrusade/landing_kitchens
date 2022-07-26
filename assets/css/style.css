@@ -1,130 +1,18 @@
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-Thin.woff2') format('woff2') url('Montserrat-Thin.woff') format('woff');
-	font-weight: 1;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-Thin.woff2') format('woff2') url('Montserrat-Thin.woff') format('woff');
-	font-weight: 100;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-ThinItalic.woff2') format('woff2') url('Montserrat-ThinItalic.woff') format('woff');
-	font-weight: 100;
-	font-style: italic;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-ThinItalic.woff2') format('woff2') url('Montserrat-ThinItalic.woff') format('woff');
-	font-weight: 1;
-	font-style: italic;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-ExtraLight.woff2') format('woff2') url('Montserrat-ExtraLight.woff') format('woff');
-	font-weight: 200;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-ExtraLightItalic.woff2') format('woff2') url('Montserrat-ExtraLightItalic.woff') format('woff');
-	font-weight: 200;
-	font-style: italic;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-Light.woff2') format('woff2') url('Montserrat-Light.woff') format('woff');
-	font-weight: 300;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-LightItalic.woff2') format('woff2') url('Montserrat-LightItalic.woff') format('woff');
-	font-weight: 300;
-	font-style: italic;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-Regular.woff2') format('woff2') url('Montserrat-Regular.woff') format('woff');
-	font-weight: 400;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-Italic.woff2') format('woff2') url('Montserrat-Italic.woff') format('woff');
-	font-weight: 400;
-	font-style: italic;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-Medium.woff2') format('woff2') url('Montserrat-Medium.woff') format('woff');
-	font-weight: 500;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-MediumItalic.woff2') format('woff2') url('Montserrat-MediumItalic.woff') format('woff');
-	font-weight: 500;
-	font-style: italic;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-SemiBold.woff2') format('woff2') url('Montserrat-SemiBold.woff') format('woff');
-	font-weight: 600;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-SemiBoldItalic.woff2') format('woff2') url('Montserrat-SemiBoldItalic.woff') format('woff');
-	font-weight: 600;
-	font-style: italic;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-Bold.woff2') format('woff2') url('Montserrat-Bold.woff') format('woff');
-	font-weight: 700;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-BoldItalic.woff2') format('woff2') url('Montserrat-BoldItalic.woff') format('woff');
-	font-weight: 700;
-	font-style: italic;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-ExtraBold.woff2') format('woff2') url('Montserrat-ExtraBold.woff') format('woff');
-	font-weight: 800;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-ExtraBoldItalic.woff2') format('woff2') url('Montserrat-ExtraBoldItalic.woff') format('woff');
-	font-weight: 800;
-	font-style: italic;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-Black.woff2') format('woff2') url('Montserrat-Black.woff') format('woff');
-	font-weight: 900;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-BlackItalic.woff2') format('woff2') url('Montserrat-BlackItalic.woff') format('woff');
-	font-weight: 900;
-	font-style: italic;
-}
+/* Подключение шрифтов - нач */
+@import url("../fonts/montserrat.css");
+/* Подключение шрифтов - кон */
 
+/* Начальная настройка шрифтов - нач */
 body {
     font-family: 'Montserrat', 'Arial', sans-serif;
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
     line-height: 20px;
+    
+    color: #1F1F1F;
+    
+    background-color: #FFF;
 }
 
 h2 {
@@ -136,3 +24,133 @@ h3 {
     font-size: 24px;
     line-height: 30px;
 }
+/* Начальная настройка шрифтов - кон */
+
+/* Хедер и футер - нач */
+.main-header, .main-footer {    
+    padding-left: 20px;
+    padding-top: 35px;
+    padding-right: 20px;
+    padding-bottom: 35px;
+}
+
+.main-footer {
+    background-color: #5EB863;
+    color: #fff;
+}
+
+.main-header p, .main-footer p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.header-logo, .footer-logo {
+    margin-right: 40px;
+}
+
+.header-logo > img, .footer-logo > img {
+    margin-right: 15px;
+}
+
+.header-logo > span, .footer-logo > span {
+    padding-left: 15px;
+}
+
+.header-logo > span {
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #5EB863;
+}
+
+.footer-logo > span {
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #FFF;    
+}
+
+.city-choose {
+    padding-left: 20px;
+    padding-right: 10px;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5EB863;
+    border-radius: 90px;
+    
+    background-image: linear-gradient(to left, #5EB863 15%, #FFF 15%);
+    
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000;
+}
+
+.header-tel, .footer-tel {
+    text-align: end;
+    padding-left: 40px;
+    margin-left: 80px;
+}
+
+.header-tel > a, .footer-tel > a {
+    position: relative;
+    text-decoration: none;
+    
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.header-tel > a {
+    color: #000000;
+}
+
+.footer-tel > a {
+    color: #FFF;
+}
+
+.header-tel > a::before, .footer-tel > a::before {
+    content:"";
+
+    position: absolute;
+
+    background-position: top left;
+    background-repeat: no-repeat;    
+    
+    width: 25px; height: 25px;
+    top: 0px; left: -30px;
+}
+
+.header-tel > a::before {
+    background-image: url("../img/ico_phone_green.svg");
+}
+
+.footer-tel > a::before {
+    background-image: url("../img/ico_phone_white.svg");
+}
+
+button.btn-green-flat {
+    background-color: #5EB863;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: #84C888;
+    border-radius: 90px;
+    
+    color: #FFF;
+    
+    font-weight: 800;
+    text-align: center;
+    
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+button.burger {
+    background: none;
+    border: none;
+}
+
+
+/* Хедер и футер - кон */
