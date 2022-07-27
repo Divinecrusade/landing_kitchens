@@ -624,6 +624,102 @@ button#orderKitchenInstallment {
 /* Гарантия - кон */
 
 
+/* Материалы - нач */
+
+.kitch_Type input[type="radio"] {
+  display: none;
+}
+.type-materials input[type="radio"] {
+  display: none;
+}
+.type-materials label:hover,
+.kitch_Type label:hover {
+  cursor: pointer;
+}
+.kitch_Type input[type="radio"]:checked + label {
+  background-color: #40ac46;
+  color: white;
+}
+.kitch_Type_variations input[type="radio"]:checked + label {
+  color: #40ac46;
+}
+.kitch_Type_variations label:not(:last-of-type)::after {
+    content: "●";
+    color: #5EB863;
+    
+    margin-left: 5px; margin-right: 5px;
+}
+.kitch_Type {
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 25px;
+}
+.kitch_Type input[type="radio"]:checked + label i {
+  display: inline-flex;
+}
+.kitch_Type label:not(:last-of-type) {
+    margin-right: 15px;
+}
+.kitch_Type label:first-of-type {
+    border-radius: 90px 0 0 90px;
+}
+.kitch_Type label:last-of-type {
+    border-radius: 0 90px 90px 0;
+}
+.materials {
+  margin-top: 60px;
+}
+.materials_Title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #1A1A1A;
+    
+    margin-bottom: 30px;
+}
+.kitch_Type_Btn {
+  border: 2px solid #5EB863;
+  padding: 5px 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+}
+.desc_text {
+    margin-top: 45px;
+}
+.desc_text img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+    
+  border-radius: 45px;
+}
+.desc_title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 120%;
+  padding-left: 2rem;
+}
+.desc_text {
+  margin-bottom: 55px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+}
+.desc_text div ul li {
+  color: #40ac46;
+}
+.desc_text div ul li span {
+  color: black;
+}
+.desc_text div ul li {
+  margin: 20px 0;
+}
+/* Материалы - кон */
+
+
 /* Наши дизайнеры - нач */
 
 .our-designers {
