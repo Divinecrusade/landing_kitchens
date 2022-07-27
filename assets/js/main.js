@@ -11,7 +11,8 @@ jQuery(document).ready(function() {
         initialSlide: 1,
         adaptiveHeight: true,
         arrows: true,
-        dots: true
+        dots: true,
+        speed: 750
     });
     
     $('.slider-manufacture').slick({
@@ -23,6 +24,7 @@ jQuery(document).ready(function() {
         arrows: true,
         dots: true,
         autoplay: true,
+        speed: 1000,
         autoplaySpeed: 4000
     });
 //-------------------------------------------------------------------
