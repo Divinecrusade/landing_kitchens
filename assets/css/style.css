@@ -170,6 +170,45 @@ button.burger {
 /* Хедер и футер - кон */
 
 
+/* Меню - нач */
+
+#menu a,
+#menu a:active,
+#menu a:visited,
+#menu a:link {
+  text-decoration: none;
+  color: #444444;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+#menu {
+  padding: 20px 0;
+}
+
+.menu-wrapper {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 4;
+    
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #5EB863;
+    
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #5EB863;
+    
+}
+
+/* Меню - кон */
+
+
+
 /* Мейн - нач */
 
 b.green {
