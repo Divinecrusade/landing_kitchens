@@ -1,7 +1,7 @@
 $(function() {
 	$('.slider-promo').slick({
         centerMode: true,
-        centerPadding: '100px',
+        centerPadding: '120px',
         slidesToShow: 1,
         initialSlide: 1,
         adaptiveHeight: true,
@@ -11,7 +11,7 @@ $(function() {
     
     $('.slider-manufacture').slick({
         centerMode: true,
-        centerPadding: '100px',
+        centerPadding: '200px',
         slidesToShow: 1,
         initialSlide: 0,
         adaptiveHeight: true,

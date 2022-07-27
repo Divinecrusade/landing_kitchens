@@ -397,15 +397,14 @@ button#openModal3DProjecting {
 }
 
 .slider-promo-item.slick-slide {
-    margin: 0 45px;
+    margin: 0 30px;
     
     transition-duration: 2s;
-    transition-property: opacity, transform;
+    transition-property: opacity;
     transition-timing-function: ease-in-out;
 }
 
 .slider-promo-item.slick-slide:not(.slick-active) {
-    transform: scaleY(0.9);
     opacity: 0.5;
 }
 
@@ -439,13 +438,13 @@ button#openModal3DProjecting {
 }
 
 .slider-promo button.slick-arrow.slick-prev {
-    margin-left: 100px;
+    margin-left: 90px;
     
     z-index: 100;
 }
 
 .slider-promo button.slick-arrow.slick-next {
-    margin-right: 100px;
+    margin-right: 90px;
     
     z-index: 100;
 }
@@ -494,9 +493,10 @@ button#openModal3DProjecting {
     
     background-color: #FFF;
     background-image: url("../img/installment_bg.png");
-    background-position: left top;
+    background-position: center right;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-origin: padding-box;
 }
 
 .promotion-pinned-section h2 {
@@ -708,7 +708,7 @@ button#orderKitchenInstallment {
 }
 
 .slider-manufacture-item.slick-slide {
-    margin: 0 30px;
+    margin: 0 10px;
     
     transition-duration: 2s;
     transition-property: opacity, transform;
@@ -716,7 +716,7 @@ button#orderKitchenInstallment {
 }
 
 .slider-manufacture-item.slick-slide:not(.slick-active) {
-    transform: scaleY(0.9);
+    transform: scale(0.9);
     opacity: 0.5;
 }
 
@@ -749,13 +749,13 @@ button#orderKitchenInstallment {
 }
 
 .slider-manufacture button.slick-arrow.slick-prev {
-    margin-left: 175px;
+    margin-left: 240px;
     
     z-index: 100;
 }
 
 .slider-manufacture button.slick-arrow.slick-next {
-    margin-right: 175px;
+    margin-right: 240px;
     
     z-index: 100;
 }
@@ -813,6 +813,7 @@ button#orderKitchenInstallment {
 
 .addresses-contact-wrapper {
     padding: 0;
+    padding-top: 160px;
     position: absolute;
 }
 
