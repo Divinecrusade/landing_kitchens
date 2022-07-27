@@ -479,9 +479,8 @@ button#openModal3DProjecting {
     background-repeat: no-repeat;
     background-size: contain;    
 }
-
-
 /* Акции - кон */
+
 
 /* Беспроцентная рассрочка - нач */
 
@@ -567,5 +566,381 @@ button#orderKitchenInstallment {
 }
 
 /* Беспроцентная рассрочка - кон */
+
+
+/* Гарантия - нач */
+
+.guarantee {  
+    background-image: url("../img/warranty_bg.png");
+    background-position: center center;
+    background-size: cover;
+    background-clip: content-box;
+    
+    box-shadow: 0 0 8px 8px white inset;
+    
+    padding-left: 0; padding-right: 0;    
+    margin-bottom: 40px;
+}
+
+.guarantee-desc {
+    padding-top: 85px;
+    
+    text-align: right;
+    
+    color: #FFF;
+}
+
+.guarantee-desc h2 {
+    margin-bottom: 30px;
+    
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    
+    color: #FFF;
+}
+
+.guarantee-desc p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+/* Гарантия - кон */
+
+
+/* Наши дизайнеры - нач */
+
+.our-designers {
+    margin-bottom: 65px;
+    
+    background-image: url("../img/designers_bg.png");
+    background-position: center center;
+    background-size: cover;
+    background-clip: padding-box;
+    
+    box-shadow: 0 0 8px 8px white inset;
+    
+    padding-top: 75px; padding-bottom: 75px;
+    padding-left: 0; padding-right: 0; 
+}
+
+.our-designers-promo-text {
+    margin-bottom: 50px;
+    
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    text-align: center;
+}
+
+.our-designers-list {
+    padding: 0; margin: 0;
+    
+    list-style: none;
+}
+
+.our-designer-photo {
+    text-align: center;
+    
+    margin-bottom: 45px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px 8px rgba(0, 0, 0, 0.25);
+    
+    border-color: #FFF;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 45px;
+}
+
+.our-designer-info {
+    padding-left: 20px; padding-right: 20px;
+    
+    text-align: center;
+}
+
+.our-designer-name {
+    padding-top: 5px; padding-bottom: 5px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 90px;
+    
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #1A1A1A;
+}
+
+.our-designer-experience {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    
+    color: #000000;
+}
+
+/* Наши дизайнеры - кон */
+
+
+/* Наше производство - нач */
+
+.our-manufacture {
+    margin-bottom: 100px;
+}
+
+.our-manufacture > h2 {
+    margin-bottom: 70px;
+    
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+.slider-manufacture {
+    list-style: none;
+    padding-left: 0;
+}
+
+.slider-manufacture-item img {
+    object-fit: contain;
+}
+
+.slider-manufacture-item.slick-slide {
+    margin: 0 30px;
+    
+    transition-duration: 2s;
+    transition-property: opacity, transform;
+    transition-timing-function: ease-in-out;
+}
+
+.slider-manufacture-item.slick-slide:not(.slick-active) {
+    transform: scaleY(0.9);
+    opacity: 0.5;
+}
+
+.slider-manufacture .slick-dots li.slick-active button:before {
+    background-color: #5EB863;
+    opacity: 1;
+}
+
+.slider-manufacture .slick-dots li button:before {
+    content: "";
+    width: 28px; height: 28px;
+    
+    background-color: #D9D9D9;
+    opacity: 1;
+    border-radius: 100%;
+}
+
+.slider-manufacture .slick-dots {
+    bottom: -40px;
+}
+
+.slider-manufacture .slick-dots li:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+.slider-manufacture button.slick-arrow {
+    width: 65px; height: 65px;
+    
+    background: none;
+}
+
+.slider-manufacture button.slick-arrow.slick-prev {
+    margin-left: 175px;
+    
+    z-index: 100;
+}
+
+.slider-manufacture button.slick-arrow.slick-next {
+    margin-right: 175px;
+    
+    z-index: 100;
+}
+
+.slider-manufacture button.slick-arrow.slick-prev::before {
+    content: "";
+    display: block;
+    
+    position: absolute;
+    top: 16px; left: 16px;
+    
+    width: 32px; height: 32px;
+    
+    background-image: url("../img/ico_arrow_prev.svg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.slider-manufacture button.slick-arrow.slick-next::before {
+    content: "";
+    display: block;
+    
+    position: absolute;
+    top: 16px; right: 16px;
+    
+    width: 32px; height: 32px;
+    
+    background-image: url("../img/ico_arrow_next.svg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
+/* Наше производство - кон */
+
+
+/* Контакты - нач */
+
+.contacts-section {
+    padding: 0;
+    position: relative;
+}
+
+.static-map {
+    margin-bottom: 0;
+}
+
+.static-map img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-position: center center;
+}
+
+.addresses-contact-wrapper {
+    padding: 0;
+    position: absolute;
+}
+
+.addresses {
+    background: #5EB863;
+    
+    border-style: solid;
+    border-color: #5EB863;
+    border-width: 2px;
+    border-radius: 15px;
+}
+
+
+.addresses-promo-text {
+    padding: 25px 30px;
+    
+    background: #FFF;
+    border-radius: 15px;
+    
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #000;
+}
+
+.addresses-list {
+    list-style: none;
+    padding-left: 30px;
+    
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFF;
+}
+
+.addresses-list li:not(:last-of-type) {
+    margin-bottom: 20px;
+}
+
+.addresses-list li address {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.contacts-tel {
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.contacts-tel a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.contact-form {
+    padding: 25px 30px;
+    
+    background: #FFF;
+    
+    border-style: solid;
+    border-color: #5EB863;
+    border-width: 2px;
+    border-radius: 15px;
+}
+
+.contact-promo-text {
+    margin-bottom: 20px;
+    
+    text-align: center;
+    
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #000;
+}
+
+form#sendQuestion input {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    
+    background: #E0E0E0;
+    border: 3px solid #BDBDBD;
+    border-radius: 90px;
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #969696;
+}
+
+form#sendQuestion input, form#sendQuestion textarea {
+    margin-bottom: 15px;
+}
+
+form#sendQuestion textarea {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    
+    background: #E0E0E0;
+    border: 3px solid #BDBDBD;
+    border-radius: 15px;
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #969696;   
+}
+
+.send-question-agree-terms {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+form#sendQuestion button {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+/* Контакты - кон */
+
 
 /* Мейн - кон */

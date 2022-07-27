@@ -8,4 +8,14 @@ $(function() {
         arrows: true,
         dots: true
     })
+    
+    $('.slider-manufacture').slick({
+        centerMode: true,
+        centerPadding: '100px',
+        slidesToShow: 1,
+        initialSlide: 0,
+        adaptiveHeight: true,
+        arrows: true,
+        dots: true
+    })
 })
