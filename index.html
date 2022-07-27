@@ -104,7 +104,7 @@
                     <div class="text-center">
                         
                         <a name="3D-project"></a>
-                        
+                                            
                         <button class="btn-green-flat" id="openModal3DProjecting">Записаться на 3D-проект кухни</button>
                     </div>
                 </div>
@@ -975,48 +975,48 @@
                         <span class="visually-hidden">Открыть/закрыть меню сайта</span>
                         <img src="assets/img/ico_burger_footer.svg" width="40" height="30" alt="Бургер для меню сайта">
                     </button>
-
-                    <!--
-                    <nav class="footer-nav">
-                        <ul class="menu">
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                    </nav>
-                    -->
                 </div>
             </div>
         </footer>
-        <!--
-        <section class="modal-3D-projecting">
-            <button id="closeModal3DProjecting"><span class="visually-hidden">Закрыть модальное окно</span></button>
-            <h2 class="visually-hidden">Запись на 3D проектирование кухни</h2>
+        
+        <!-- Всплывающая справа панель -->
+        <input type="checkbox" id="side-checkbox">
+        <section class="3D-projecting side-panel">
+            <label class="side-button-2" for="side-checkbox">+</label>    
+            <h3 class="side-title">Планирование кухни вместе с дизайнером онлайн</h3>
+            <p class="side-text"><b class="green">Заполните заявку</b><br>на бесплатный 3D-проект Вашей кухни в 3 клика!</p>
             
-            <p class="modal-3D-projecting-promo-text">
-                Планирование кухни вместе с дизайнером онлайн
-            </p>
-            <p class="modal-3D-projecting-text">
-                <b class="green">Заполните заявку</b><br>
-                на бесплатный 3D-проект Вашей кухни в 3 клика!
-            </p>
-            
-            <form id="register3DProjecting">
-                <label class="visually-hidden" for="register3DProjectingName">Введите имя: </label><input id="register3DProjectingName" type="text" placeholder="Ваше имя" required>
-                <label class="visually-hidden" for="register3DProjectingTel">Введите телефон: </label><input id="register3DProjectingTel" type="tel" placeholder="Ваш телефон" required>
+            <form class="container col-8 d-flex flex-column" id="register3DProjecting">
+                <label for="register3DProjectingName">Введите имя: </label><input id="register3DProjectingName" class="inp-grey" type="text" placeholder="Ваше имя">
+                <label for="register3DProjectingTel">Введите телефон: </label><input id="register3DProjectingTel" class="inp-grey" type="tel" placeholder="Ваш телефон">
                 
-                <button id="register3DProjectingShowMore">Дополнительно <span class="register3DProjectingShowMoreSym">+</span></button>
-                -->
-                <!-- Взять с основного сайта "онлайн-консультация" -->
-                <!--
+                
+                <div id="register3DProjecting_moreInputs" class="container-fluid d-flex flex-column p-0 visually-hidden">
+                    <label for="register3DProjectingDate">Выберите день:</label>
+                    <input id="register3DProjectingDate" class="inp-grey" type="date" name="Дата">
+
+                    <label for="register3DProjectingTime">Выберите время:</label>
+                    <input id="register3DProjectingTime" class="inp-grey" type="time" name="Время">
+                    
+                    <div class="col-md-12 col-12">
+                        <input class="modal_Inp_File" id="modal_Inp_File" type="file" multiple name="form_file[]">
+                        <label id="modal_Inp_File-label" for="modal_Inp_File" class="modal_Inp_File_Label Btn-pointer">План вашей кухни
+                            <input class="f_name" type="text" id="f_name" value="Файл не выбран." disabled />
+                        </label>
+                    </div>
+                    
+                    <label for="register3DProjectingComment">Оставьте комментарии: </label><textarea class="inp-grey" id="register3DProjectingComment" rows="6" cols="4" placeholder="Комментарии"></textarea>
+                </div>
+                
+                <div id="register3DProjectingShowMore"><span id="showMoreText">Дополнительно +</span><span id="hideText" class="visually-hidden">Обязательно -</span></div>
+                
                 <p class="register-3D-projecting-agree-terms">Согласен на обработку персональных данных в соответствии с политикой конфиденциальности</p>
 
-                <button type="submit">Отправить заявку</button>
+                
+                <button class="btn-green-flat" type="submit">Отправить заявку</button>
             </form>
         </section>
-        -->
+        
         <link rel="stylesheet" href="assets/lib/slick/slick.css">
         <link rel="stylesheet" href="assets/lib/slick/slick-theme.css">
         

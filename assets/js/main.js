@@ -103,4 +103,44 @@ jQuery(document).ready(function() {
         }
     };
 //-------------------------------------------------------------------
+    
+    
+    // Высплывающая панель
+    
+    let is_shown = false;
+    let checkbox =  $('#side-checkbox');
+    let panel = $('.3D-projecting.side-panel');
+    
+    $("#openModal3DProjecting").click(function() {
+        checkbox.prop('checked', true);
+        is_shown = true;
+    });
+    
+    $(document).mouseup( function(e){
+        if (is_shown && !panel.is(e.target) && panel.has(e.target).length === 0) 
+        {
+            checkbox.prop('checked', false);
+        }
+    });
+
+    let buttonShowMore = $('#register3DProjectingShowMore');
+    let is_shownMore = false;
+    let hidden_inps = $('#register3DProjecting_moreInputs');
+
+    buttonShowMore.click(function() {
+        if (!is_shownMore){
+            hidden_inps.removeClass('visually-hidden');
+            is_shownMore = true;
+            
+            $('#showMoreText').addClass('visually-hidden');
+            $('#hideText').removeClass('visually-hidden');
+        }
+        else {
+            hidden_inps.addClass('visually-hidden');
+            is_shownMore = false;
+            
+            $('#showMoreText').removeClass('visually-hidden');
+            $('#hideText').addClass('visually-hidden');
+        }
+    });  
 })
