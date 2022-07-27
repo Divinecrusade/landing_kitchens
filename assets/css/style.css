@@ -147,6 +147,22 @@ button.btn-green-flat {
     padding-bottom: 10px;
 }
 
+button.btn-white-border {
+    padding-top: 5px; padding-bottom: 5px;
+    padding-left: 20px; padding-right: 20px;
+    
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    
+    border: 2px solid #FFFFFF;
+    border-radius: 90px;
+    
+    color: #FFF;
+    
+    background: none;
+}
+
 button.burger {
     background: none;
     border: none;
@@ -813,7 +829,7 @@ button#orderKitchenInstallment {
 
 .addresses-contact-wrapper {
     padding: 0;
-    padding-top: 160px;
+    margin-top: 160px;
     position: absolute;
 }
 

@@ -16,6 +16,8 @@ $(function() {
         initialSlide: 0,
         adaptiveHeight: true,
         arrows: true,
-        dots: true
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 4000
     })
 })
