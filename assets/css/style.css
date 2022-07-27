@@ -840,8 +840,95 @@ button#orderKitchenInstallment {
     
     color: #000000;
 }
-
 /* Наши дизайнеры - кон */
+
+
+/* О нас - нач  */
+
+.about-section {
+    margin-bottom: 110px;
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    
+    margin: 0 0 20px 0;
+}
+.about-subtitle {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    
+    margin-bottom: 60px;
+}
+
+.about_Statistics div.row {
+  position: relative;
+}
+
+.about-statistics p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #FFF;
+    padding: 46px;    
+}
+
+.about-statistics-desc-1 {
+  background-position: bottom center;
+  background-size: cover;
+  height: 200px;
+}
+
+.about-statistics-desc-2 {
+  background-position: center center;
+  background-size: cover;
+  height: 200px;
+}
+
+.about-statistics-desc-3 {
+  background-position: top center;
+  background-size: cover;
+  height: 200px;
+}
+
+.about-statistics-desc-4 {
+  background-position: center center;
+  background-size: cover;
+  height: 200px;
+}
+
+
+.about-statistics-desc-5 {
+  background-position: center center;
+  background-size: cover;
+  height: 200px;
+}
+
+
+.about-statistics-desc-1{
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6) 0%), url('../img/about_Statistics_1.jpg');
+}
+.about-statistics-desc-2{
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6) 0%), url('../img/about_Statistics_2.jpg');
+}
+.about-statistics-desc-3{
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6) 0%), url('../img/about_Statistics_3.jpg');
+}
+.about-statistics-desc-4{
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6) 0%), url('../img/about_Statistics_4.jpg');
+}
+.about-statistics-desc-5{
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6) 0%), url('../img/about_Statistics_5.jpg');
+}
+
+.about-statistics-first-row {
+    margin-bottom: 30px;
+}
+
+/* О нас - кон */
 
 
 /* Наше производство - нач */
