@@ -142,5 +142,33 @@ jQuery(document).ready(function() {
             $('#showMoreText').removeClass('visually-hidden');
             $('#hideText').addClass('visually-hidden');
         }
-    });  
-})
+    }); 
+//-------------------------------------------------------------------
+});
+//-------------------------------------------------------------------
+
+
+// Открытие/закрытие модального окна
+
+function showInfo(nameModal, is_overlay = true) {
+    let modalWindow = document.querySelector("." + nameModal);
+    modalWindow.style.display = "flex";
+    if (is_overlay) {
+        let overlay = document.querySelector(".overlay");
+        overlay.style.display = "block";
+
+        overlay.addEventListener("click", ()=>closeModal(nameModal, is_overlay), false);
+    }
+}
+
+function closeModal(nameModal, is_overlay = true) {
+    let modalWindow = document.querySelector("." + nameModal);
+    if (modalWindow) modalWindow.style.display = "none";
+    if (is_overlay) {
+        let overlay = document.querySelector(".overlay");
+        overlay.style.display = "none";
+
+        overlay.removeEventListener("click", ()=>closeModal(nameModal, is_overlay));
+    }
+}
+//-------------------------------------------------------------------
