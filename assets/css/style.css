@@ -69,6 +69,7 @@ h3 {
 }
 
 .city-choose {
+    padding-top: 10px; padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 10px;
     
@@ -291,6 +292,15 @@ button#openModal3DProjecting {
     font-size: 24px;
     font-weight: 600;
 }
+
+.project-btn-wrapper {
+    margin-top: 55px;
+}
+
+.video-promo {
+    background-color: #000;
+    max-height: 620px;
+}
 /* Преимущества компании - кон */
 
 /* Акции - нач */
@@ -318,43 +328,23 @@ button#openModal3DProjecting {
     padding-left: 45px;
     padding-top: 50px;
     padding-right: 45px;
-    padding-bottom: 50px;
+    padding-bottom: 0;
 }
 
 .promo-name, .promo-desc {
     margin-bottom: 0;
 }
 
-.free-services, .fabric-birthday, .blum-discount {
-    position: relative;
-}
-
 .free-services .promo-name, .fabric-birthday .promo-name, .blum-discount .promo-name {
     margin-bottom: 10px;
 }
 
-.free-services {
-    padding-right: 500px;
-    
+.free-services {    
     background-color: #20A1FF;
     background-image: url("../img/slider_promotion_bg_1.png");
     background-position: left top;
     background-repeat: repeat;
     background-size: cover;
-}
-
-.free-services::after {
-    content: "";
-    
-    position: absolute;
-    bottom: 0; right: 0;
-    
-    width: 292px; height: 211px;
-    
-    background-image: url("../img/slider_promotion_gift.png");
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .free-services .promo-name {
@@ -373,28 +363,18 @@ button#openModal3DProjecting {
     color: #FFF;
 }
 
-.fabric-birthday {
-    padding-right: 500px;
-    
+.free-services .promo-dec img {    
+    width: 100%;
+    object-fit: contain;
+    object-position: right bottom;
+}
+
+.fabric-birthday {    
     background-color: #5EB863;
     background-image: url("../img/slider_promotion_bg_2.png");
     background-position: left top;
     background-repeat: repeat;
     background-size: cover;
-}
-
-.fabric-birthday::after {
-    content: "30%";
-    
-    position: absolute;
-    right: 30px; top: 10%;
-    
-    font-size: 196px;
-    font-family: "Montserrat", "Arial", sans-serif;
-    font-weight: 700;
-    line-height: 240px;
-    
-    color: #fff;
 }
 
 .fabric-birthday .promo-name {
@@ -411,24 +391,17 @@ button#openModal3DProjecting {
     line-height: 50px;
 }
 
-.blum-discount {
-    padding-left: 500px;
+.fabric-birthday .promo-dec span {        
+    font-size: 196px;
+    font-weight: 700;
+    line-height: 240px;
     
-    background-color: #FF521D;
+    color: #fff;
 }
 
-.blum-discount::before {
-    content: "";
-    
-    position: absolute;
-    top: auto; left: 15px;
-    
-    width: 422px; height: 152px;
-    
-    background-image: url("../img/slider_promotion_blum.png");
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: cover;
+.blum-discount {    
+    padding-bottom: 40px;
+    background-color: #FF521D;
 }
 
 .blum-discount .promo-name {
@@ -450,6 +423,13 @@ button#openModal3DProjecting {
     
     color: #1F1F1F;
 }
+
+.blum-discount .promo-dec img {
+    width: 100%;
+    object-fit: contain;
+    object-position: center center;
+}
+
 
 .slider-promo-item.slick-slide {
     margin: 0 30px;
@@ -1086,6 +1066,8 @@ button#orderKitchenInstallment {
 }
 
 .static-map {
+    display: block;
+    height: 572px;
     margin-bottom: 0;
 }
 
@@ -1097,13 +1079,17 @@ button#orderKitchenInstallment {
     object-position: center center;
 }
 
-.addresses-contact-wrapper {
-    padding: 0;
-    margin-top: 160px;
+.contacts-section {
+    position: relative;
+}
+
+.addresses-wrapper,
+.contact-wrapper {
+    top: 5%;
     position: absolute;
 }
 
-.addresses {
+.addresses {   
     background: #5EB863;
     
     border-style: solid;
@@ -1178,7 +1164,7 @@ button#orderKitchenInstallment {
     color: #000;
 }
 
-input.inp-grey {
+form#sendQuestion input {
     padding-left: 20px;
     padding-top: 10px;
     padding-right: 20px;
@@ -1522,3 +1508,254 @@ modal_Form_Online_conference p {
 }
 
 /* Модальные окна - кон */
+
+
+/* Адаптив - нач */
+@media (max-width: 1420px) {
+    .header-logo {
+        margin-right: 20px;
+    }
+    
+    .header-tel {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1240px) {    
+    .header-logo {
+        margin-right: 0px;
+    }
+    
+    .header-tel {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header-tel {
+        margin-left: 30px;
+    }
+    
+    .header-tel span {
+        display: none;
+    }
+    
+    .header-tel > a {
+        width: 56px; height: 56px;
+        display: block;
+    }
+    
+    .header-tel > a::before {
+        width: 56px; height: 56px;
+        
+        left: 0;
+        
+        background-image: url("../img/ico_PhoneButton.svg");
+        background-size: contain;
+    }
+    
+    .fabric-birthday .promo-desc {
+        font-size: 30px;
+    }
+    
+    .fabric-birthday .promo-dec span {        
+        font-size: 140px;
+        line-height: 200px;
+    }
+    
+    .promotion-pinned-section {
+        background-position: 200%;
+    }
+    
+    #orderKitchenInstallment {
+        width: 80%!important;
+    }
+    
+    .footer-tel {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 991px) {    
+    .main-header, .main-footer {
+        padding-left: 15px;
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .city-choose {
+        padding-left: 0; padding-right: 0;
+    }
+    
+    .header-tel {
+        margin-left: 30px;
+    }
+    
+    #openCalculateCost {
+        display: none;
+    }
+    
+    header .burger {
+        margin-left: auto;
+    }
+    
+    .main-features-list {
+        margin-bottom: 20px;
+    }
+    
+    .video-promo {
+        max-height: 450px;
+    }
+    
+    .project-btn-wrapper {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .promotion-section-wrapper {
+        padding-left: 0; padding-right: 0;
+    }
+    
+    .promotion-pinned-section {
+        padding-left: 25px;
+    }
+    
+    #orderKitchenInstallment {
+        width: 55%!important;
+    }
+    
+    .our-manufacture {
+        padding-left: 0; padding-right: 0;
+    }
+    
+    .slider-manufacture button.slick-arrow.slick-prev {
+        margin-left: 180px;
+    }
+
+    .slider-manufacture button.slick-arrow.slick-next {
+        margin-right: 180px;
+    }
+    
+    .contact-wrapper,
+    .addresses-wrapper {
+        padding-left: 0; padding-right: 0;
+    }
+    
+    .footer-logo {
+        margin-right: 0;
+    }
+    
+    #onlineConsultation {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .city-choose {
+        display: none;
+    }
+    
+    .header-tel {
+        margin-left: 0px;
+    }
+    
+    .promotion-pinned-section {
+        padding-right: 100px;
+        
+        background-position: 300%;
+    }
+    
+    #orderKitchenInstallment {
+        width: 50%!important;
+    }
+    
+    .fabric-birthday {
+        padding-bottom: 100px;
+    }
+    
+    .guarantee-img {
+        display: none;
+    }
+    
+    .about-statistics-desc-1,
+    .about-statistics-desc-3,
+    .about-statistics-desc-4 {
+        margin-bottom: 30px;
+    }
+        
+    .footer-tel span {
+        display: none;
+    }
+    
+    .footer-tel > a {
+        width: 56px; height: 56px;
+        display: block;
+    }
+    
+    .footer-tel > a::before {
+        width: 56px; height: 56px;
+        
+        left: 0;
+        
+        background-image: url("../img/ico_PhoneButton.svg");
+        background-size: contain;
+    }
+    
+    footer .burger {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 677px) {
+    .promotion-pinned-section {    
+        background: none;
+    }    
+    
+    .fabric-birthday::after {
+        font-size: 156px
+    }
+    
+    #orderKitchenInstallment {
+        width: 80%!important;
+    }
+    
+    .slider-manufacture button.slick-arrow.slick-prev {
+        margin-left: 150px;
+    }
+
+    .slider-manufacture button.slick-arrow.slick-next {
+        margin-right: 150px;
+    }
+}
+
+@media (max-width: 575px) {
+    body {
+        font-size: 16px;
+    }
+    
+    .header-logo > span {
+        display: none;
+    }
+    
+    header .burger {
+        margin-left: 0;
+        margin-right: auto;
+    }
+    
+    .header-logo {
+        margin-left: auto;
+    }
+    
+    .header-logo img {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .header-tel {
+        padding-left: 0;
+        margin-left: auto;
+    }
+}
+
+/* Адаптив - кон */

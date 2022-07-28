@@ -12,30 +12,30 @@
 	<body>
         <header class="main-header">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-md-4 col-sm-7 col-4 order-sm-1 d-flex align-content-center order-2">
                     <p class="header-logo d-flex flex-nowrap">
                         <img src="assets/img/ico_logo_header.svg" alt="Логотип Кухни-Слон">
                         <span class="align-self-stretch">Уже 28 лет производим кухни для Вас более чем в 13 городах</span>
                     </p>
                 </div>
                 
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6 col-sm-4 col-4 order-sm-2 order-3">
                     <div class="h-100 d-flex align-items-center justify-content-center">
-                        <select class="city-choose h-100">
+                        <select class="city-choose">
                             <option>г. Орел</option>
                             <option>г. Москва</option>
                         </select>
 
                         <p class="header-tel">
                             <a href="79624775727">
-                                <span class="visually-hidden">Контактный телефон: </span>+7 (962) 477-57-27
+                                <span class="visually-hidden">Контактный телефон: </span><span>+7 (962) 477-57-27</span>
                             </a>
                         </p>
                     </div>
                 </div>
                 
-                <div class="col-4">
-                    <div class="d-flex justify-content-between">
+                <div class="col-lg-4 col-md-2 col-sm-1 col-4 order-sm-3 order-1">
+                    <div class="d-flex h-100 align-items-center justify-content justify-content-between">
                         <button class="btn-green-flat" id="openCalculateCost">Рассчитать стоимость Вашей кухни</button>
                         <button class="burger" id="headerToggleMenu">
                             <span class="visually-hidden">Открыть/закрыть меню сайта</span>
@@ -68,7 +68,7 @@
                     <p class="main-offer">Создайте <b class="green">3D-проект</b> Вашей кухни, <b class="green">не выходя из дома</b><br><span class="main-offer-suptext">в режиме онлайн-конференции со специалистом мебельной фабрики Слон</span></p>
 
                     <div class="main-features-block row">
-                        <div class="col-6">
+                        <div class="col-xl-6 col-lg-6 col-12 order-xl-1 order-lg-1 order-md-3">
                             <ul class="main-features-list">
                                 <li>
                                     <h3 class="main-feature">Поможем определиться с дизайном</h3>
@@ -93,24 +93,23 @@
                             </ul>
                         </div>
 
-                        <div class="col-6 d-flex justify-content-end">
-                            <video class="video-promo" height="625" controls>
+                        <div class="col-xl-6 col-lg-6 col-12 order-xl-1 order-lg-1 order-md-1 d-flex justify-content-end">
+                            <video class="container-fluid video-promo" controls>
                                 <source src="assets/video/video-promo.MP4" type="video/mp4">
                             </video>
                         </div>
-                    </div>
-
-                    
-                    <div class="text-center">
                         
-                        <a name="3D-project"></a>
-                                            
-                        <button class="btn-green-flat" id="openModal3DProjecting">Записаться на 3D-проект кухни</button>
+                        <div class="project-btn-wrapper col-12 text-center order-xl-2 order-lg-2 order-md-2">
+
+                            <a name="3D-project"></a>
+
+                            <button class="btn-green-flat" id="openModal3DProjecting">Записаться на 3D-проект кухни</button>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <section class="promotions-section container">
+            <section class="promotions-section container-lg container-fluid">
                 
                 <a name="promotions"></a>
                 
@@ -120,40 +119,56 @@
                 
                 <ul class="slider-promo">
                     <li class="slider-promo-item free-services">
-                        <h3 class="promo-name">
-                            ПОДАРКИ НАШИМ КЛИЕНТАМ
-                        </h3>
-                        <p class="promo-desc">
-                            Замер, дизайн-проект, доставка и установка
-                        </p>
+                        <div class="row">
+                            <h3 class="promo-name col-12">
+                                ПОДАРКИ НАШИМ КЛИЕНТАМ
+                            </h3>
+                            <p class="promo-desc col-6">
+                                Замер, дизайн-проект, доставка и установка
+                            </p>
+                            <div class="promo-dec col-6 d-flex justify-content-end align-content-end">
+                                <img src="assets/img/slider_promotion_gift.png" width="292" height="211" alt="Подарок">
+                            </div>
+                        </div>
                     </li>
                     <li class="slider-promo-item fabric-birthday">
-                        <h3 class="promo-name">
-                            ДЕНЬ РОЖДЕНИЕ ФАБРИКИ!
-                        </h3>
-
-                        <p class="promo-desc">
-                            Получи скидку 30%
-                        </p>
+                        <div class="row">
+                            <h3 class="promo-name col-12">
+                                ДЕНЬ РОЖДЕНИЕ ФАБРИКИ!
+                            </h3>
+                            <p class="promo-desc col-6">
+                                Получи скидку 30%
+                            </p>
+                            <div class="promo-dec col-6 d-flex justify-content-end">
+                                <span>30%</span>
+                            </div>
+                        </div>
                     </li>
                     <li class="slider-promo-item blum-discount">
-                        <h3 class="promo-name">
-                            Скидка 25% до 31 июля на фурнитуру BLUM
-                        </h3>
-                        <p class="promo-desc">
-                            Гарантия 25 лет
-                        </p>
+                        <div class="row">
+                            <div class="promo-dec xl-order-1 order-2 col-xl-6 col-12 d-flex align-items-center">
+                                <img src="assets/img/slider_promotion_blum.png" width="422" height="152" alt="Логотип Blum">
+                            </div>
+                            <div class="xl-order-2 order-1 col-xl-6 col-12 row">
+                                <h3 class="promo-name col-12">
+                                    Скидка 25% до 31 июля на фурнитуру BLUM
+                                </h3>
+                                <p class="promo-desc col-12">
+                                    Гарантия 25 лет
+                                </p>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </section>
             
-            <div class="container">
+            <div class="promotion-section-wrapper container-lg container-fluid">
                 <section class="promotion-pinned-section">
-                    <div class="col-10">
+                    <div class="col-xl-10 col-12">
                         <h2>Беспроцентная рассрочка до 24 месяцев</h2>
                         
                         <div class="promotion-pinned-content d-flex flex-column">
-                            <table class="promotion-pinned-desc col-8 d-flex flex-column-reverse">
+                            <table class="promotion-pinned-desc col-xl-8 col-12 d-flex flex-column-reverse">
                                 <thead class="w-100">
                                     <tr class="row">
                                         <th class="col-4">Предоплаты</th>
@@ -170,7 +185,7 @@
                                 </tbody>
                             </table>
 
-                            <form id="installment" class="col-8">
+                            <form id="installment" class="col-xl-8 col-12">
                                 <div class="d-flex installment-inputs">
                                     <label class="visually-hidden" for="installmentName">Введите имя: </label>
                                     <input id="installmentName" class="w-50" type="text" placeholder="Ваше имя" required>
@@ -763,7 +778,7 @@
                     <p class="our-designers-promo-text">С Вами работают профессионалы</p>
 
                     <ol class="our-designers-list row">
-                        <li class="col-3">
+                        <li class="col-lg-3 col-md-6">
                             <figure class="our-designer d-flex flex-column align-items-center">
                                 <img class="our-designer-photo" src="assets/img/specialists_1.jpg" width="255" height="368" alt="Оржанцева Наталья">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
@@ -776,7 +791,7 @@
                                 </figcaption>
                             </figure>
                         </li>
-                        <li class="col-3">
+                        <li class="col-lg-3 col-md-6">
                             <figure class="our-designer d-flex flex-column align-items-center">
                                 <img class="our-designer-photo" src="assets/img/specialists_2.jpg" width="255" height="368" alt="Ванифатова Людмила">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
@@ -790,7 +805,7 @@
                                 </figcaption>
                             </figure>
                         </li>
-                        <li class="col-3">
+                        <li class="col-lg-3 col-md-6">
                             <figure class="our-designer d-flex flex-column align-items-center">
                                 <img class="our-designer-photo" src="assets/img/specialists_3.jpg" width="255" height="368" alt="Семина Татьяна">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
@@ -803,7 +818,7 @@
                                 </figcaption>
                             </figure>
                         </li>
-                        <li class="col-3">
+                        <li class="col-lg-3 col-md-6">
                             <figure class="our-designer d-flex flex-column align-items-center">
                                 <img class="our-designer-photo" src="assets/img/specialists_4.jpg" width="255" height="368" alt="Заболотская Наталия">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
@@ -832,29 +847,29 @@
                 
                 <div class="about-statistics">
                     <div class="about-statistics-first-row row">
-                        <div class="col-6">
+                        <div class="col-md-6 col-12">
                             <div class="about-statistics-desc-1">
                                 <p>Уже 28 лет делаем для Вас отличные кухни</p>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-6 col-12">
                             <div class="about-statistics-desc-2">
                                 <p>Более 20 дилерских салонов в крупнейших городах центрального федерального округа</p>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-md-4 col-12">
                             <div class="about-statistics-desc-3">
                                 <p>Более 21 350 довольных клиентов</p>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4 col-12">
                             <div class="about-statistics-desc-4">
                                 <p> 3 офиса продаж в Орле и 3 офиса в Москве</p>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4 col-12">
                             <div class="about-statistics-desc-5">
                                 <p>Штат более 80 человек 70% из них работают более 10 лет</p>
                             </div>
@@ -863,7 +878,7 @@
                 </div>
             </section>
             
-            <section class="our-manufacture container">
+            <section class="our-manufacture container-lg container-fluid">
                 <h2><b class="green">Собственное</b> производство</h2>
                 
                 <ul class="slider-manufacture">
@@ -901,9 +916,9 @@
                 
                 <h2 class="visually-hidden">Контакты</h2>
             
-                <div class=" container-fluid d-flex justify-content-center"> 
-                    <div class="addresses-contact-wrapper container d-flex justify-content-between align-items-stretch">
-                        <div class="addresses col-4 d-flex flex-column">
+                <div class="addresses-wrapper container-fluid">
+                    <div class="container-lg container-fluid d-flex">
+                        <div class="addresses col-xl-3 col-lg-4 col-5 d-flex flex-column">
                             <p class="addresses-promo-text w-100">Мы ждем Вас в наших офисах, чтобы обсудить все детали и подробности</p>
 
                             <ul class="addresses-list w-100">
@@ -927,8 +942,15 @@
                                 </li>
                             </ul>                    
                         </div>
+                    </div>
+                </div>
 
-                        <div class="contact-form col-4">
+                <a class="static-map" href="https://yandex.ru/maps/-/CCUiASBV0C"><img src="assets/img/map_orel.png" height="572" alt="Адреса салонов в Орле: ул. Октябрьская, д. 24, ул. 8 Марта д. 8, ул. Комсомольская, д. 267"></a>
+
+                <div class="contact-wrapper container-fluid">
+                    <div class="container-lg container-fluid d-flex justify-content-end">
+                        
+                        <div class="contact-form col-xl-4 col-lg-5 col-6">
                             <h3 class="visually-hidden">Контактная форма</h3>
 
                             <p class="contact-promo-text">Остались вопросы?</p>
@@ -945,29 +967,27 @@
                         </div>
                     </div>
                 </div>
-                
-                <a href="https://yandex.ru/maps/-/CCUiASBV0C" class="static-map d-flex w-100"><img src="assets/img/map_orel.png" alt="Адреса салонов в Орле: ул. Октябрьская, д. 24, ул. 8 Марта д. 8, ул. Комсомольская, д. 267"></a>
             </section>
         </main>
         <footer class="main-footer container-fluid">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-6">
                     <p class="footer-logo d-flex flex-nowrap">
                         <img src="assets/img/ico_logo_footer.svg" alt="Логотип Кухни-Слон">
                         <span class="align-self-stretch">Уже 28 лет производим кухни для Вас более чем в 13 городах</span>
                     </p>
                 </div>
 
-                <div class="col-4">
+                <div class="col-lg-4 col-1">
                     <div class="h-100 d-flex align-items-center justify-content-center">
                         <button class="btn-white-border" id="onlineConsultation" onclick="showInfo('modal_Form_Online_conference')">Онлайн-консультация</button>
                     </div>
                 </div>                        
                 
-                <div class="col-4 d-flex justify-content-between align-items-center">
+                <div class="col-lg-4 col-5 d-flex justify-content-between align-items-center">
                     <p class="footer-tel">
                         <a href="79624775727">
-                            <span class="visually-hidden">Контактный телефон: </span>+7 (962) 477-57-27
+                            <span class="visually-hidden">Контактный телефон: </span><span>+7 (962) 477-57-27</span>
                         </a>
                     </p>
                     
