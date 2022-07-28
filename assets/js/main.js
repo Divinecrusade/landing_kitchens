@@ -4,27 +4,18 @@ jQuery(document).ready(function() {
     
     // Слайдеры
     
-	$('.slider-promo').slick({
-        centerMode: true,
-        centerPadding: '120px',
-        slidesToShow: 1,
-        initialSlide: 1,
-        adaptiveHeight: true,
-        arrows: true,
-        dots: true,
-        speed: 750,
-        mobileFirst: true/*,
-        responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
-          }
-        }]*/
-    });
+     $('.slider-promo').slick({
+            centerMode: true,
+            centerPadding: '10%',
+            slidesToShow: 1,
+            initialSlide: 1,
+            adaptiveHeight: true,
+            arrows: true,
+            dots: true,
+            speed: 750,
+            mobileFirst: true
+    }); 
+    
     
     $('.slider-manufacture').slick({
         centerMode: true,
@@ -43,8 +34,27 @@ jQuery(document).ready(function() {
           settings: {
             centerPadding: '100px',
           }
-        }]
+        },
+        {
+          breakpoint: 575,
+          settings: {
+            centerPadding: '60px',
+          }
+        }
+        ]
     });
+    
+    $('.our-designers-slider').slick({
+            centerMode: true,
+            centerPadding: '15%',
+            slidesToShow: 1,
+            initialSlide: 0,
+            adaptiveHeight: true,
+            arrows: false,
+            dots: true,
+            speed: 750,
+            mobileFirst: true
+    }); 
 //-------------------------------------------------------------------
     
     
@@ -90,7 +100,7 @@ jQuery(document).ready(function() {
     menu.hide();
     let basis;
 
-    $('#headerToggleMenu, #footerToggleMenu, #menu a').click(function(){
+    $('#headerToggleMenu, #footerToggleMenu, #menu a, #closeMenu').click(function(){
         if (flag){
             basis = window.pageYOffset || document.documentElement.scrollTop;
             
@@ -127,11 +137,16 @@ jQuery(document).ready(function() {
     
     let is_shown = false;
     let checkbox =  $('#side-checkbox');
-    let panel = $('.3D-projecting.side-panel');
+    let panel = $('.3D-projecting.side-panel'); 
     
     $("#openModal3DProjecting").click(function() {
         checkbox.prop('checked', true);
         is_shown = true;
+    });
+    
+    $("#closeSidePanel").click(function() {
+        checkbox.prop('checked', false);
+        is_shown = false;
     });
     
     $(document).mouseup( function(e){
