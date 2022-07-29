@@ -53,7 +53,16 @@ jQuery(document).ready(function() {
             arrows: false,
             dots: true,
             speed: 750,
-            mobileFirst: true
+            mobileFirst: false,
+            responsive: [
+        {
+          breakpoint: 380,
+          settings: {
+              centerMode: false,
+              slidesToShow: 1,
+          }
+        }
+        ]
     }); 
 //-------------------------------------------------------------------
     
