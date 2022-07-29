@@ -96,7 +96,7 @@ jQuery(document).ready(function() {
     var target = $('#type-materials-1');
     $('.type-materials').hide(0);
     target.fadeIn(500);
-    var target3 = $('#desc_text-1');
+    var target3 = $('#desc_text-4');
     $('.desc_text').hide(0);
     target3.fadeIn(500);
 //-------------------------------------------------------------------
@@ -542,3 +542,136 @@ req.onerror = function() {alert("Ошибка отправки запроса");
 req.send(new FormData(event.target));
 }
 //-------------------------------------------------------------------
+
+
+//---------------------------------------------------------------
+// Блокирование кнопок отправки форм
+
+function changeButtonStatus() {
+    let form = this.form;
+
+    if (form) {
+        if (form.elements['Имя'].value !== "" && form.elements['Телефон'].value.length === 18) {
+            form.querySelector('button[type=submit]').disabled = false;
+            form.querySelector('button[type=submit]').classList.remove("disabled");
+        } else {
+            let btn = form.querySelector('button[type=submit]');
+            if (btn) {
+                btn.disabled = true;
+                btn.classList.add("disabled");
+            }
+        }
+    }
+}
+
+function changeButtonStatusForInstallment() {
+    let form = this.form;
+
+    if (form) {
+        if (form.elements['Имя'].value !== "" && form.elements['Телефон'].value.length === 18 && form.elements['Agree'].checked) {
+            form.querySelector('button[type=submit]').disabled = false;
+            form.querySelector('button[type=submit]').classList.remove("disabled");
+        } else {
+            let btn = form.querySelector('button[type=submit]');
+            if (btn) {
+                btn.disabled = true;
+                btn.classList.add("disabled");
+            }
+        }
+    }
+}
+//---------------------------------------------------------------
+// Маска телефона
+
+window.addEventListener("DOMContentLoaded", function()
+{
+    [].forEach.call(document.querySelectorAll("input[name='Телефон']"), function(input)
+    {
+        let keyCode;
+
+        function mask(event)
+        {
+            event.keyCode && (keyCode = event.keyCode);
+
+            let pos = this.selectionStart;
+
+            if (pos < 3) event.preventDefault();
+
+            let matrix = "+7 (___) ___-__-__",
+                i = 0,
+                def = matrix.replace(/\D/g, ""),
+                val = this.value.replace(/\D/g, ""),
+                new_value = matrix.replace(/[_\d]/g, function(a)
+                {
+                    return i < val.length ? val.charAt(i++) || def.charAt(i) : a
+                });
+
+            i = new_value.indexOf("_");
+
+            if (i !== -1)
+            {
+                i < 5 && (i = 3);
+                new_value = new_value.slice(0, i)
+            }
+
+            let reg = matrix.substr(0, this.value.length).replace(/_+/g,
+                function(a)
+                {
+                    return "\\d{1," + a.length + "}"
+                }).replace(/[+()]/g, "\\$&");
+
+            reg = new RegExp("^" + reg + "$");
+
+            if (!reg.test(this.value) || this.value.length < 5 || keyCode > 47 && keyCode < 58) this.value = new_value;
+            if (event.type === "blur" && this.value.length < 5)  this.value = "";
+        }
+
+        input.addEventListener("input", mask, false);
+        input.addEventListener("focus", mask, false);
+        input.addEventListener("blur", mask, false);
+        input.addEventListener("keydown", mask, false);
+    });
+
+
+    let names = document.getElementsByName('Имя');
+    let tels = document.getElementsByName('Телефон');
+    let btns = document.querySelectorAll('button[type=submit]');
+    let installmentForm = document.getElementById('installment');
+
+    [].forEach.call(names,function(input){
+        input.addEventListener("input", changeButtonStatus, false);
+        input.addEventListener("focus", changeButtonStatus, false);
+        input.addEventListener("blur", changeButtonStatus, false);
+        input.addEventListener("keydown", changeButtonStatus, false);
+    });
+    [].forEach.call(tels,function(input){
+        input.addEventListener("input", changeButtonStatus, false);
+        input.addEventListener("focus", changeButtonStatus, false);
+        input.addEventListener("blur", changeButtonStatus, false);
+        input.addEventListener("keydown", changeButtonStatus, false);
+    });
+    for (let i in btns) {
+        if (btns[i])
+        {
+            btns[i].disabled = true;
+
+            if (typeof(btns[i].classList) != 'undefined')
+                btns[i].classList.add("disabled");
+        }
+    }
+    
+    [].forEach.call(installmentForm.elements, function(input){
+        input.removeEventListener("input", changeButtonStatus, false);
+        input.removeEventListener("focus", changeButtonStatus, false);
+        input.removeEventListener("blur", changeButtonStatus, false);
+        input.removeEventListener("keydown", changeButtonStatus, false);
+    });
+    
+    [].forEach.call(installmentForm.elements, function(input){
+        input.addEventListener("input", changeButtonStatusForInstallment, false);
+        input.addEventListener("focus", changeButtonStatusForInstallment, false);
+        input.addEventListener("blur", changeButtonStatusForInstallment, false);
+        input.addEventListener("keydown", changeButtonStatusForInstallment, false);
+    });
+});
+//---------------------------------------------------------------

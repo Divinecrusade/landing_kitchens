@@ -1306,7 +1306,10 @@ form#sendQuestion button {
 /* Контакты - кон */
 
 /* Мейн - кон */
-
+button.btn-green-flat.disabled {
+    background-color: #A9E3AC;
+    pointer-events: none;
+}
 
 /* Модальные окна - нач */
 

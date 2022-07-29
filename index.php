@@ -11,6 +11,23 @@
 <!DOCTYPE HTML>
 <html lang="ru">
 	<head>
+        
+        <link rel="icon" sizes="48x48" href="https://mf-slon.ru/favicon.ico" type="image/x-icon">
+        <link rel="icon" sizes="32x32" href="https://mf-slon.ru/favicon32.ico" type="image/x-icon">
+        <link rel="icon" sizes="16x16" href="https://mf-slon.ru/favicon16.ico" type="image/x-icon">
+        <link rel="icon" href="https://mf-slon.ru/favicon.svg" type="image/svg+xml">
+        <link rel="shortcut icon" href="https://mf-slon.ru/favicon.svg" type="image/svg+xml">
+        <link rel="shortcut icon" sizes="32x32" href="https://mf-slon.ru/favicon32.ico" type="image/x-icon">
+        <link rel="shortcut icon" sizes="16x16" href="https://mf-slon.ru/favicon16.ico" type="image/x-icon">
+        <link rel="shortcut icon" sizes="48x48" href="https://mf-slon.ru/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="https://mf-slon.ru/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" href="https://mf-slon.ru/favicon.ico" type="image/x-icon">
+
+        <link rel="icon" href="./favicon.png" type="image/png">
+        <link rel="icon" href="./favicon.jpg" type="image/jpeg">
+
+        <meta property="og:image" content="https://mf-slon.ru/images/logo.webp">
+        
 		<meta charset="utf-8">	
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 		
@@ -18,6 +35,8 @@
 		<link rel="stylesheet" href="assets/css/style.css">
 		
 		<title>Кухни-Слон | Специальное предложение</title>
+        
+        <meta name="description" content="Купить модульные кухни в Орле от производителя по цене от 29 000 рублей. Собственное производство. Изготовление от 3 дней. Онлайн расчет стоимости кухни. Бесплатная доставка в пределах города. Гарантия на кухни 5 лет">
 	</head>
 	<body>
         <header class="main-header">
@@ -25,7 +44,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-7 col-4 order-sm-1 d-flex align-content-center order-2">
                     <p class="header-logo d-flex flex-nowrap">
                         <img src="assets/img/ico_logo_header.svg" alt="Логотип Кухни-Слон">
-                        <span class="align-self-stretch">Уже 28 лет производим кухни для Вас более чем в 13 городах</span>
+                        <span class="align-self-stretch">Уже 29 лет производим кухни для Вас более чем в 13 городах</span>
                     </p>
                 </div>
                 
@@ -264,10 +283,10 @@
                 <div class="row">
                     <div class="type-materials col-12" id="type-materials-1">
                         <p class="kitch_Type_variations">
-                            <input type="radio" id="kitch_Type_1_1" name="radioSec" value="1" checked="checked"><label for="kitch_Type_1_1">ЛДСП</label>
+                            <input type="radio" id="kitch_Type_1_1" name="radioSec" value="1"><label for="kitch_Type_1_1">ЛДСП</label>
                             <input type="radio" id="kitch_Type_1_2" name="radioSec" value="2"><label for="kitch_Type_1_2">Пластик + МДФ</label>
                             <input type="radio" id="kitch_Type_1_3" name="radioSec" value="3"><label for="kitch_Type_1_3">Экомембрана + МДФ</label>
-                            <input type="radio" id="kitch_Type_1_4" name="radioSec" value="4"><label for="kitch_Type_1_4">Эмаль + МДФ</label>
+                            <input type="radio" id="kitch_Type_1_4" name="radioSec" value="4" checked="checked"><label for="kitch_Type_1_4">Эмаль + МДФ</label>
                             <input type="radio" id="kitch_Type_1_5" name="radioSec" value="5"><label for="kitch_Type_1_5">Шпон</label>
                             <input type="radio" id="kitch_Type_1_6" name="radioSec" value="6"><label for="kitch_Type_1_6">Массив дерева</label>
                         </p>
@@ -1048,7 +1067,7 @@
                                 
                                 <label class="visually-hidden" for="sendQuestionName">Введите имя: </label><input id="sendQuestionName" class="w-100" name="Имя" type="text" placeholder="Ваше имя" required>
                                 <label class="visually-hidden" for="sendQuestionTel">Введите телефон: </label><input id="sendQuestionTel" class="w-100" name="Телефон" type="tel" placeholder="Ваш телефон" required>
-                                <label class="visually-hidden" for="sendQuestionComment">Оставьте вопрос: </label><textarea id="sendQuestionComment" name="Вопрос" rows="6" cols="4" placeholder="Ваш вопрос" required></textarea>
+                                <label class="visually-hidden" for="sendQuestionComment">Оставьте вопрос: </label><textarea id="sendQuestionComment" name="Вопрос" rows="6" cols="4" placeholder="Ваш вопрос"></textarea>
 
                                 <p class="send-question-agree-terms">Согласен на обработку персональных данных в соответствии с <a href="./politics.html" target="_blank">политикой конфиденциальности</a></p>
 
@@ -1064,7 +1083,7 @@
                 <div class="col-lg-4 col-sm-6 col-10 order-sm-1 order-2">
                     <p class="footer-logo d-flex flex-nowrap">
                         <img src="assets/img/ico_logo_footer.svg" alt="Логотип Кухни-Слон">
-                        <span class="align-self-stretch">Уже 28 лет производим кухни для Вас более чем в 13 городах</span>
+                        <span class="align-self-stretch">Уже 29 лет производим кухни для Вас более чем в 13 городах</span>
                     </p>
                 </div>
 
@@ -1107,8 +1126,8 @@
                 <input type="hidden" name="form_subject" value="3D-проектирование кухни">
                 <!-- END Hidden Required Fields -->
                 
-                <label for="register3DProjectingName">Введите имя: </label><input id="register3DProjectingName" class="inp-grey" name="Имя" type="text" placeholder="Ваше имя">
-                <label for="register3DProjectingTel">Введите телефон: </label><input id="register3DProjectingTel" class="inp-grey" name="Телефон" type="tel" placeholder="Ваш телефон">
+                <label for="register3DProjectingName">Введите имя: </label><input id="register3DProjectingName" class="inp-grey" name="Имя" type="text" placeholder="Ваше имя" required>
+                <label for="register3DProjectingTel">Введите телефон: </label><input id="register3DProjectingTel" class="inp-grey" name="Телефон" type="tel" placeholder="Ваш телефон" required>
                 
                 
                 <div id="register3DProjecting_moreInputs" class="container-fluid d-flex flex-column p-0 visually-hidden">
@@ -1120,7 +1139,7 @@
                     
                     <div class="col-md-12 col-12">
                         <input class="modal_Inp_File" id="modal_Inp_File" type="file" multiple name="form_file[]">
-                        <label id="modal_Inp_File-label" for="modal_Inp_File" class="modal_Inp_File_Label Btn-pointer">План вашей кухни
+                        <label id="modal_Inp_File-label" for="modal_Inp_File" class="modal_Inp_File_Label btn-pointer">План вашей кухни
                             <input class="f_name" type="text" id="f_name" value="Файл не выбран." disabled />
                         </label>
                     </div>
@@ -1164,10 +1183,10 @@
                 <div class="row">
                     <div class="col-md-4 col-12">
                         <label for="online-conf-date" class="online-conf-label">Выберите день:</label>
-                        <input id="online-conf-date" class="modal_Inp" type="date" name="Дата" required>
+                        <input id="online-conf-date" class="modal_Inp" type="date" name="Дата">
 
                         <label for="online-conf-time" class="online-conf-label">Выберите время:</label>
-                        <input id="online-conf-time" class="modal_Inp" type="time" name="Время" required>
+                        <input id="online-conf-time" class="modal_Inp" type="time" name="Время">
 
                         <label for="online-conf-email" class="online-conf-label">Введите email:</label>
                         <input id="online-conf-email" class="modal_Inp" type="email" name="E-mail" placeholder="user-mail@mail.ru">
@@ -1192,7 +1211,7 @@
 
                     <div class="col-md-12 col-12 mt-4">
                         <input class="modal_Inp_File-2" id="modal_Inp_File-2" type="file" multiple name="form_file[]">
-                        <label id="modal_Inp_File-label-2" for="modal_Inp_File-2" class="modal_Inp_File_Label Btn-pointer">План вашей кухни
+                        <label id="modal_Inp_File-label-2" for="modal_Inp_File-2" class="modal_Inp_File_Label btn-pointer">План вашей кухни
                             <input class="f_name" type="text" id="f_name-2" value="Файл не выбран." disabled />
                         </label>
                     </div>
