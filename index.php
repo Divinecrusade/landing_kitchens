@@ -231,7 +231,7 @@
                                 <label class="checkbox-field installment-checkbox">
                                     <input id="termsAgree" class="checkbox" name="Agree" type="checkbox">
                                     <span class="checkbox-indicator"></span>
-                                    <span class="checkbox-label">Я принимаю условия конфиденциальности сайта</span>
+                                    <span class="checkbox-label">Я принимаю <a href="./politics.html" target="_blank">условия конфиденциальности сайта</a></span>
                                 </label>
 
                                 <button id="orderKitchenInstallment" class="w-100 btn-green-flat" type="submit">Заказать кухню в рассрочку</button>
@@ -1054,7 +1054,7 @@
                                 <label class="visually-hidden" for="sendQuestionTel">Введите телефон: </label><input id="sendQuestionTel" class="w-100" name="Телефон" type="tel" placeholder="Ваш телефон" required>
                                 <label class="visually-hidden" for="sendQuestionComment">Оставьте вопрос: </label><textarea id="sendQuestionComment" name="Вопрос" rows="6" cols="4" placeholder="Ваш вопрос" required></textarea>
 
-                                <p class="send-question-agree-terms">Согласен на обработку персональных данных в соответствии с политикой конфиденциальности</p>
+                                <p class="send-question-agree-terms">Согласен на обработку персональных данных в соответствии с <a href="./politics.html" target="_blank">политикой конфиденциальности</a></p>
 
                                 <button class="btn-green-flat" type="submit">Отправить заявку</button>
                             </form>
@@ -1134,7 +1134,7 @@
                 
                 <div id="register3DProjectingShowMore"><span id="showMoreText">Дополнительно +</span><span id="hideText" class="visually-hidden">Обязательно -</span></div>
                 
-                <p class="register-3D-projecting-agree-terms">Согласен на обработку персональных данных в соответствии с политикой конфиденциальности</p>
+                <p class="register-3D-projecting-agree-terms">Согласен на обработку персональных данных в соответствии с <a href="./politics.html" target="_blank">политикой конфиденциальности</a></p>
 
                 
                 <button class="btn-green-flat" type="submit">Отправить заявку</button>
