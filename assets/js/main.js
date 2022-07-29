@@ -79,17 +79,17 @@ jQuery(document).ready(function() {
 
     $('input[name="radioSec"]').click(function(){   
                 
-            var target2 = $('#desc_text-' + $(this).val()); 
+            var target3 = $('#desc_text-' + $(this).val()); 
             
             $('.desc_text').not(target).hide(0);
-            target2.fadeIn(500);     
+            target3.fadeIn(500);     
     });
     var target = $('#type-materials-1');
     $('.type-materials').hide(0);
     target.fadeIn(500);
-    var target2 = $('#desc_text-1');
+    var target3 = $('#desc_text-1');
     $('.desc_text').hide(0);
-    target2.fadeIn(500);
+    target3.fadeIn(500);
 //-------------------------------------------------------------------
     
     
@@ -177,6 +177,207 @@ jQuery(document).ready(function() {
         }
     }); 
 //-------------------------------------------------------------------
+    
+    
+    // Квиз сайта
+    
+    let steps = document.getElementsByClassName("step");
+    let lines = document.getElementsByClassName("step_Line");
+    let btn = document.getElementsByClassName("modal_Quiz_Btn");
+    let stepNum = 1;
+    let stepPerc = 0;
+    let target2;
+    let targetRow;
+    let targetNum;
+    let offerRows;
+    let typeKitch = 0;
+    let firstClick = true;
+    $(document).ready(function () {
+      $(".modal_Form_Count_Cost > .top_bar_modal.justify-content-end").click(
+        function () {
+          stepNum = 1;
+          stepPerc = 0;
+          target2 = 0;
+          targetRow = undefined;
+          targetNum = 0;
+          offerRows = 0;
+          target = 0;
+
+          $(".modal_Form_Count_Cost_Inpunts")[0].reset();
+          $(".Quiz_Step_Name > span").text(stepNum);
+          $(".step").removeClass("active_Step");
+          $(".step_Line").removeClass("step_Line_active");
+          $(".step").eq(0).addClass("active_Step");
+          $(".step_Line").eq(0).addClass("step_Line_active");
+          target = $(".modal_Type_Kitchen>div.row").eq(0);
+          $(".modal_Type_Kitchen div.row").hide(0);
+          target.fadeIn(500);
+          let modalBtn = $(".modal_Quiz_Btn");
+          modalBtn.fadeIn(0);
+          let backBtn = $(".modal_Quiz_Btn_Back");
+          backBtn.fadeIn(0);
+        }
+      );
+      $(".Quiz_Step_Name > span").text(stepNum);
+      $(".step_percentage_value").text(stepPerc);
+      /* */
+      $(".modal_Type_Kitchen > div.row > label").click(function () {
+        if ($(this).hasClass("modal_Kitch_Type")) {
+          target2 = $(".modal_Type_Kitchen>div.row").eq(1);
+          if ($(this).hasClass("1")) {
+            typeKitch = 1;
+          } else if ($(this).hasClass("2")) {
+            typeKitch = 0;
+          } else if ($(this).hasClass("3")) {
+            typeKitch = 2;
+          } else {
+            typeKitch = 3;
+          }
+          targetRow = target2.find("div>div.row.sizes").eq(typeKitch);
+          targetNum = typeKitch;
+        }
+
+        if (firstClick == false) {
+          stepNum++;
+          stepPerc += 16;
+          firstClick = true;
+        }
+        $(".Quiz_Step_Name > span").text(stepNum + 1);
+        $(".step_percentage_value").text(stepPerc + 16);
+        $(".step").eq(stepNum).addClass("active_Step");
+        $(".step_Line").eq(stepNum).addClass("step_Line_active");
+        if (typeof targetRow == "undefined") {
+          target2 = $(".modal_Type_Kitchen>div.row").eq(1);
+          targetRow = target2.find("div>div.row.sizes").eq(1);
+          targetNum = 1;
+        }
+        if (stepNum == 1) {
+          target.hide(0);
+          targetRow.hide(0);
+          target = $(".modal_Type_Kitchen>div.row").eq(stepNum);
+
+          target.fadeIn(500);
+          target.children().children().eq(targetNum).fadeIn(500);
+          target = target.children().children().eq(targetNum).children().children();
+          target.fadeIn(500);
+        } else {
+          target.hide(0);
+          targetRow.hide(0);
+          target = $(".modal_Type_Kitchen>div.row").eq(stepNum);
+          target.fadeIn(500);
+        }
+
+        stepNum++;
+        stepPerc += 16;
+        if (stepNum == 7) {
+          let modalBtn = $(".modal_Quiz_Btn");
+          modalBtn.hide(0);
+          let backBtn = $(".modal_Quiz_Btn_Back");
+          backBtn.hide(0);
+        } else {
+          offerRows = $(".modal_Type_Kitchen>div.row").eq(stepNum);
+        }
+      });
+      /* */
+
+      $(".modal_Quiz_Btn").click(function () {
+        if (firstClick == false) {
+          stepNum++;
+          stepPerc += 16;
+          firstClick = true;
+        }
+        $(".Quiz_Step_Name > span").text(stepNum + 1);
+        $(".step_percentage_value").text(stepPerc + 16);
+        $(".step").eq(stepNum).addClass("active_Step");
+        $(".step_Line").eq(stepNum).addClass("step_Line_active");
+
+        if (typeof targetRow == "undefined") {
+          target2 = $(".modal_Type_Kitchen>div.row").eq(1);
+          targetRow = target2.find("div>div.row.sizes").eq(1);
+          targetNum = 1;
+        }
+        if (stepNum == 1) {
+          target.hide(0);
+          targetRow.hide(0);
+          target = $(".modal_Type_Kitchen>div.row").eq(stepNum);
+
+          target.fadeIn(500);
+          target.children().children().eq(targetNum).fadeIn(500);
+          target = target.children().children().eq(targetNum).children().children();
+          target.fadeIn(500);
+        } else {
+          target.hide(0);
+          targetRow.hide(0);
+          target = $(".modal_Type_Kitchen>div.row").eq(stepNum);
+          target.fadeIn(500);
+        }
+
+        stepNum++;
+        stepPerc += 16;
+        if (stepNum == 7) {
+          let modalBtn = $(".modal_Quiz_Btn");
+          modalBtn.hide(0);
+          let backBtn = $(".modal_Quiz_Btn_Back");
+          backBtn.hide(0);
+        } else {
+          offerRows = $(".modal_Type_Kitchen>div.row").eq(stepNum);
+        }
+      });
+
+      /* */
+      $(".modal_Quiz_Btn_Back").click(function () {
+        if (firstClick == true) {
+          stepPerc -= 16;
+          stepNum--;
+          firstClick = false;
+        }
+        if (stepNum == 0) {
+        } else {
+          stepNum--;
+          stepPerc -= 16;
+          $(".Quiz_Step_Name > span").text(stepNum + 1);
+          $(".step_percentage_value").text(stepPerc + 16);
+          $(".step")
+            .eq(stepNum + 1)
+            .removeClass("active_Step");
+          $(".step_Line")
+            .eq(stepNum + 1)
+            .removeClass("step_Line_active");
+
+          if (stepNum == 1) {
+            target.hide(0);
+            targetRow.hide(0);
+            target = $(".modal_Type_Kitchen>div.row").eq(stepNum);
+
+            target.fadeIn(500);
+            target.children().children().eq(targetNum).fadeIn(500);
+            target = target
+              .children()
+              .children()
+              .eq(targetNum)
+              .children()
+              .children();
+            target.fadeIn(500);
+          } else {
+            target.hide(0);
+            targetRow.hide(0);
+            target = $(".modal_Type_Kitchen>div.row").eq(stepNum);
+            target.fadeIn(500);
+          }
+
+          if (stepNum == 5) {
+            target3 = $(".modal_Quiz_Btn");
+            target3.fadeIn(500);
+          } else {
+            offerRows = $(".modal_Type_Kitchen>div.row").eq(stepNum);
+          }
+        }
+      });
+      /* */
+      var target = $(".modal_Type_Kitchen>div.row").eq(0);
+      $(".modal_Type_Kitchen div.row").hide(0);
+      target.fadeIn(500);
+    });
 });
 //-------------------------------------------------------------------
 

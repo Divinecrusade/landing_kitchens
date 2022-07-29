@@ -1590,6 +1590,306 @@ form#register3DProjecting .modal_Inp_File_Label {
 .modal_Form_Online_conference form label {
     font-size: 18px;
 }
+
+
+/* Квиз сайта - нач */
+
+.modal_Form_Count_Cost::-webkit-scrollbar {
+  width: 15px;
+}
+
+.modal_Form_Count_Cost::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  /* border-radius: 100px; */
+}
+
+.modal_Form_Count_Cost::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background-image: linear-gradient(180deg, #479cf1 0%, #a6c7ff 99%);
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+}
+
+.modal_Form_Count_Cost {
+  margin-left: 20px;
+    
+  position: fixed;
+  top: 2%;
+  bottom: 2%;
+  left: 20%;
+  display: none;
+  width: 60%;
+  height: max-content;
+  overflow: hidden;
+  outline: 0;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+  background-color: white;
+  color: #000000;
+  padding: 2%;
+  /*max-height: 90%;*/
+  z-index: 6;
+}
+
+.modal_Form_Count_Cost label {
+    cursor: pointer;
+}
+.modal_Form_Count_Cost a:first-child {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 5px;
+}
+
+.Quiz_Title {
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 120%;
+  color: #444444;
+}
+.quiz-appeal{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.Quiz_Subtitle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 160%;
+  color: #444444;
+}
+.Quiz_Title_Last {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 120%;
+  color: #444444;
+}
+.Quiz_Step_Name {
+  margin-bottom: 5px;
+}
+.Quiz_Steps {
+  margin-bottom: 20px;
+}
+.step_percentage {
+  margin-left: 265px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  color: #148e11;
+}
+.modal_Type_Kitchen > div.row > label > div > img {
+  height: 160px;
+  width: 160px;
+}
+
+.modal_Form_Count_Cost a:not([href]) {
+    color: inherit;
+    text-decoration: none;
+}
+
+.announcement-point {
+    color: #40AC46;
+    font-weight: bold;
+}
+
+.step {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+}
+.active_Step {
+  background-color: #40ac46;
+}
+.step_Line {
+  width: 50px;
+  height: 1px;
+  background-color: #c4c4c4;
+}
+.step_Line_active {
+  width: 50px;
+  height: 1px;
+  background-color: #40ac46;
+}
+.modal_Type_Kitchen input[type="radio"],
+.material_Stol input[type="radio"] {
+  display: none;
+}
+.modal_Type_Kitchen
+  .row:first-child
+  input[type="radio"]:checked
+  + label.modal_Kitch_Type
+  img {
+  border: 2px solid #40ac46;
+}
+.modal_Type_Kitchen
+  .material_Fasads.row
+  input[type="radio"]:checked
+  + label
+  img {
+  border: 2px solid #40ac46;
+}
+.modal_Type_Kitchen .material_Stol.row input[type="radio"]:checked + label img {
+  border: 2px solid #40ac46;
+}
+.modal_Type_Kitchen .cost.row input[type="radio"]:checked + label img {
+  border: 2px solid #40ac46;
+}
+.modal_Type_Kitchen .additional.row input[type="radio"]:checked + label img {
+  border: 2px solid #40ac46;
+}
+.modal_Type_Kitchen .additional.row input.modal_Kitch_Tech[type="checkbox"] {
+  display: none;
+}
+
+.modal_Type_Kitchen .services.row input[type="radio"]:checked + label img {
+  border: 2px solid #40ac46;
+}
+.modal_Type_Kitchen .services.row input.modal_Kitch_Service[type="radio"] {
+  display: none;
+}
+
+.modal_Type_Kitchen .additional.row input.included[type="radio"] {
+  display: none;
+}
+
+input.included[type="checkbox"]:checked,
+input.included[type="checkbox"]:not(:checked) {
+  display: none;
+}
+
+input.included[type="checkbox"]:checked + label,
+input.included[type="checkbox"]:not(:checked) + label {
+  display: inline-block;
+  position: relative;
+  padding-left: 28px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+input.included[type="checkbox"]:checked + label:before,
+input.included[type="checkbox"]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
+}
+
+input.included[type="checkbox"]:checked + label:before,
+input.included[type="checkbox"]:not(:checked) + label:before {
+  border-radius: 2px;
+}
+
+input.included[type="checkbox"]:checked + label:after,
+input.included[type="checkbox"]:not(:checked) + label:after {
+  content: "";
+  position: absolute;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+input.included[type="checkbox"]:checked + label:after,
+input.included[type="checkbox"]:not(:checked) + label:after {
+  left: 3px;
+  top: 4px;
+  width: 15px;
+  height: 10px;
+  border-radius: 1px;
+  border-left: 4px solid #40ac46;
+  border-bottom: 4px solid #40ac46;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+input.included[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+}
+
+input.included[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+
+.modal_Type_Kitchen .additional.row input[type="checkbox"]:checked + label img {
+  border: 2px solid #40ac46;
+}
+.modal_Type_Kitchen .row div div.col-12,
+.material_Fasads .col-12,
+.material_Stol .col-12,
+.cost .col-12,
+.additional .col-12,
+.services .col-12 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 160%;
+  margin-bottom: 5px;
+}
+.modal_Inp_Sizes {
+  width: 50%;
+  border-radius: 30px;
+  border: 1px solid #40ac46;
+  padding: 15px 20px;
+  margin: 5px 5px;
+}
+.modal_Kitch_Sizes_Img {
+  width: 100%;
+  pointer-events: none;
+}
+#modal_Quiz_Btn {
+  background: linear-gradient(
+    125deg,
+    #4382ec 0%,
+    #479cf1 15%,
+    #3292f1 15%,
+    #21c1fc 90%,
+    #08bafd 90%,
+    #11acfc 100%
+  );
+  border-radius: 77px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  max-width: 25%;
+  border: none;
+  margin: 15px 0;
+  padding: 24px 58px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+cursor: pointer;
+}
+#modal_Quiz_Btn_Back {
+  text-decoration: underline;
+  border-radius: 77px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  color: #3292f1;
+  max-width: 25%;
+  border: none;
+  margin: 15px 0;
+  padding: 24px 58px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+    cursor: pointer;
+}
+/* Квиз сайта - кон */
+
 /* Модальные окна - кон */
 
 
@@ -2373,14 +2673,44 @@ form#register3DProjecting .modal_Inp_File_Label {
 }
 
 /*      Медиаторы с другого лендинга      */
-@media (max-height: 900px) {
-  .modal_Form_Online_conference,
-  .modal_Form_Online_conference-second {
+
+@media (max-width: 1200px) {
+.modal_Form_Count_Cost {
+    left: 0;
+    max-width: 100%;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .modal_Form_Online_conference {
     height: 100%;
     top: 0;
     max-height: 100%;
     justify-content: normal;
     overflow-y: auto;
+  }
+    
+  .modal_Form_Count_Cost {
+    height: 100%;
+    top: 0;
+    max-height: 100%;
+    justify-content: normal;
+  }
+  .modal_Form_Count_Cost {
+    overflow-y: auto;
+  }
+}
+@media (max-width: 750px) {
+  .modal_Form_Count_Cost {
+    max-height: 100%;
+    height: 100%;
+    top: 0;
+    justify-content: flex-start;
+  }
+  .Quiz_Steps {
+    height: max-content;
   }
 }
 
@@ -2406,6 +2736,94 @@ form#register3DProjecting .modal_Inp_File_Label {
   }
   .modal_Form_Online_conference .modal_Title {
     font-size: 16px;
+  }
+    
+  .modal_Form_Count_Cost {
+    max-height: 100%;
+    height: 100%;
+    top: 0;
+    justify-content: flex-start;
+    overflow-y: auto;
+  }
+    
+  .Quiz_Title,
+  .Quiz_Title_Last {
+    font-size: 18px;
+    text-align: center;
+  }
+  .Quiz_Subtitle {
+    font-size: 12px;
+    text-align: center;
+  }
+  .step_Line {
+    width: 20px;
+  }
+  .modal_Form_Count_Cost {
+    overflow-y: auto;
+  }
+  .modal_Kitch_Type {
+    width: 90px;
+  }
+  .modal_Kitch_Type div img {
+    height: 90px !important;
+    width: 90px !important;
+  }
+  .modal_Kitch_Type {
+    font-size: 12px;
+    margin: 0 15px;
+  }
+  .modal_Inp_Sizes {
+    font-size: 12px;
+  }
+  .modal_Quiz_Btn {
+    font-size: 16px;
+    width: 100%;
+    margin: auto;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+  }
+  .modal_Inp_Sizes {
+    padding: 5px 10px;
+  }
+  .row.material_Fasads label img,
+  .row.material_Stol label img,
+  .row.cost label img,
+  .additional label img,
+  .services label img {
+    width: 90px;
+  }
+  button.modal_Btn {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+  .modal_Inp {
+    font-size: 12px;
+  }
+  .modal_Form_Count_Cost_Inpunts div.row span {
+    padding: 10px 0;
+    font-size: 12px;
+  }
+  .modal_Form_Count_Cost_Inpunts div.row p,
+  .modal_Type_Kitchen .row div div.col-12,
+  .material_Fasads .col-12,
+  .material_Stol .col-12,
+  .cost .col-12,
+  .additional .col-12,
+  .services .col-12 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .modal_Form_Count_Cost {
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 0;
+    justify-content: left;
   }
 }
 /* Адаптив - кон */
