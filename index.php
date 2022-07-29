@@ -97,7 +97,7 @@
 
                 <div class="container">
                     <p class="main-offer">Создайте <b class="green">3D-проект</b> <br class="break-575-on">Вашей кухни, <b class="green"><br class="break-575-on">не выходя из дома</b></p>
-                    <p class="main-offer-suptext">в режиме онлайн-конференции <br class="break-575-on">со специалистом <br class="break-575-on">мебельной фабрики Слон</p>
+                    <p class="main-offer-suptext">в режиме онлайн-конференции <br>со специалистом <br class="break-575-on">мебельной фабрики Слон</p>
 
                     <div class="main-features-block row">
                         <div class="col-xl-6 col-lg-6 col-12 order-xl-1 order-lg-1 order-3">
@@ -107,15 +107,11 @@
                                     <p class="main-feature-desc">Сделаем проект, который будет максимально вписываться в Ваш интерьер</p>
                                 </li>
                                 <li>
-                                    <h3 class="main-feature">Расчитаем кухню под Ваш бюджет</h3>
-                                    <p class="main-feature-desc">Дизайнер вместе с Вами выберем фасады и фурнитуру, подберем технику и материалы</p>
-                                </li>          
+                                    <h3 class="main-feature">Рассчитаем кухню под Ваш бюджет</h3>
+                                    <p class="main-feature-desc">Дизайнер вместе с Вами выберет фасады и фурнитуру, подберем технику и материалы</p>
+                                </li>            
                                 <li>
-                                    <h3 class="main-feature">Расчитаем кухню под Ваш бюджет</h3>
-                                    <p class="main-feature-desc">Дизайнер вместе с Вами выберем фасады и фурнитуру, подберем технику и материалы</p>
-                                </li>    
-                                <li>
-                                    <h3 class="main-feature">Расчитаем стоимость кухни в 3-х ценовых категориях</h3>
+                                    <h3 class="main-feature">Рассчитаем стоимость кухни в 3-х ценовых категориях</h3>
                                     <p class="main-feature-desc">Разработаем 3 варианта проекта: стандарт, бизнес и премиум</p>
                                 </li>
                                 <li>
@@ -126,7 +122,7 @@
                         </div>
 
                         <div class="col-xl-6 col-lg-6 col-12 order-xl-1 order-lg-1 order-1 d-flex justify-content-end">
-                            <video class="container-fluid video-promo" controls>
+                            <video class="video-promo" controls>
                                 <source src="assets/video/video-promo.MP4" type="video/mp4">
                             </video>
                         </div>
@@ -246,7 +242,7 @@
                     <div class="d-flex flex-row-reverse">                    
                         <div class="guarantee-desc">
                             <h2>Гарантия 5 лет</h2>
-                            <p>Мы готовы дать гарантию 5 лет, благодаря тому, что сами изготавливаем для Вас материалы кухни, столешницу, фасады и сами собираем ее из надежных комплектующих.</p>  
+                            <p>Мы готовы дать гарантию 5 лет благодаря тому, что сами изготавливаем для Вас материалы кухни, столешницу, фасады и сами собираем ее из надежных комплектующих.</p>  
                         </div>
 
                         <img class="guarantee-img" src="assets/img/warranty.png" width="409" height="462" alt="Договор">
@@ -955,12 +951,12 @@
                         </div>
                         <div class="col-md-4 col-sm-12 col-6">
                             <div class="about-statistics-desc-4">
-                                <p> 3 офиса продаж в Орле и 3 офиса в Москве</p>
+                                <p> 3 офиса продаж в Орле и <br>3 офиса в Москве</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-12 col-6">
                             <div class="about-statistics-desc-5">
-                                <p>Штат более 80 человек 70% из них работают более 10 лет</p>
+                                <p>Штат более 80 человек <br>70% из них работают <br>более 10 лет</p>
                             </div>
                         </div>
                     </div>
@@ -1005,7 +1001,7 @@
                 <div class="addresses-wrapper container-fluid">
                     <div class="container-lg container-fluid d-flex">
                         <div class="addresses col-xl-3 col-lg-4 col-sm-5 col-12 d-flex flex-column">
-                            <p class="addresses-promo-text w-100">Мы ждем Вас в наших офисах, чтобы обсудить <b class="green">все детали и подробности</b></p>
+                            <p class="addresses-promo-text w-100">Мы ждем Вас в наших офисах, чтобы обсудить <br><b class="green">все детали и подробности</b></p>
 
                             <ul class="addresses-list w-100">
                                 <li>

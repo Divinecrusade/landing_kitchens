@@ -326,10 +326,6 @@ b.green {
     line-height: 78px;
 }
 
-.main-features-block {
-    margin-bottom: 50px;
-}
-
 .main-offer-suptext {
     text-align: center;
     
@@ -387,8 +383,9 @@ button#openModal3DProjecting {
 }
 
 .video-promo {
+    max-width: fit-content;
     background-color: #000;
-    max-height: 620px;
+    max-height: 515px;
 }
 /* Преимущества компании - кон */
 
@@ -2031,6 +2028,7 @@ cursor: pointer;
     }
     
     .video-promo {
+        margin-left: auto; margin-right: auto;
         max-height: 450px;
     }
     
@@ -2230,11 +2228,7 @@ cursor: pointer;
         
         margin-bottom: 32px;
     }
-    
-    .main-features-block {
-        margin-bottom: 0;
-    }
-    
+        
     .main-features-list {
         margin-bottom: 0; 
     }
@@ -2712,6 +2706,34 @@ cursor: pointer;
         margin-top: 40px;
 
         display: flex;
+    }
+}
+
+@media (max-width: 375px) {
+    .promotion-pinned-desc {
+        padding: 5px;
+    }
+    
+    .promotion-pinned-desc td {
+        font-size: 24px;
+        line-height: 120%;
+    }
+    
+    .promotion-pinned-desc th {
+        font-size: 12px;
+        line-height: 120%;
+    }
+    
+    .checkbox-indicator {
+        margin-top: 0;
+    }
+    
+    .about-statistics p {
+        padding: 20px;
+    }
+    
+    .about-statistics-desc-3 p {
+        padding: 36px;
     }
 }
 
