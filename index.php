@@ -213,15 +213,23 @@
                             </table>
 
                             <form id="installment" class="col-xl-8 col-12">
+                                
+                                <!-- Hidden Required Fields -->
+                                <input type="hidden" name="project_name" value="Кухни-Слон">
+                                <input type="hidden" name="city" value="Орёл">
+
+                                <input type="hidden" name="form_subject" value="Беспроцентная рассрочка">
+                                <!-- END Hidden Required Fields -->
+                                
                                 <div class="d-flex installment-inputs flex-sm-row flex-column">
                                     <label class="visually-hidden" for="installmentName">Введите имя: </label>
-                                    <input id="installmentName" class="w-50" type="text" placeholder="Ваше имя" required>
+                                    <input id="installmentName" class="w-50" name="Имя" type="text" placeholder="Ваше имя" required>
                                     <label class="visually-hidden" for="installmentTel">Введите телефон: </label>
-                                    <input id="installmentTel" class="w-50" type="tel" placeholder="Ваш номер телефона" required>
+                                    <input id="installmentTel" class="w-50" name="Телефон" type="tel" placeholder="Ваш номер телефона" required>
                                 </div>
 
                                 <label class="checkbox-field installment-checkbox">
-                                    <input id="termsAgree" class="checkbox" type="checkbox">
+                                    <input id="termsAgree" class="checkbox" name="Agree" type="checkbox">
                                     <span class="checkbox-indicator"></span>
                                     <span class="checkbox-label">Я принимаю условия конфиденциальности сайта</span>
                                 </label>
@@ -1033,10 +1041,18 @@
 
                             <p class="contact-promo-text">Остались вопросы?</p>
 
-                            <form id="sendQuestion" class="d-flex flex-column">
-                                <label class="visually-hidden" for="sendQuestionName">Введите имя: </label><input id="sendQuestionName" class="w-100" type="text" placeholder="Ваше имя" required>
-                                <label class="visually-hidden" for="sendQuestionTel">Введите телефон: </label><input id="sendQuestionTel" class="w-100" type="tel" placeholder="Ваш телефон" required>
-                                <label class="visually-hidden" for="sendQuestionComment">Оставьте вопрос: </label><textarea id="sendQuestionComment" rows="6" cols="4" placeholder="Ваш вопрос" required></textarea>
+                            <form id="sendQuestion" class="d-flex flex-column modal_Form_Send_Question">
+                                
+                                <!-- Hidden Required Fields -->
+                                <input type="hidden" name="project_name" value="Кухни-Слон">
+                                <input type="hidden" name="city" value="Орёл">
+
+                                <input type="hidden" name="form_subject" value="Задать вопрос">
+                                <!-- END Hidden Required Fields -->
+                                
+                                <label class="visually-hidden" for="sendQuestionName">Введите имя: </label><input id="sendQuestionName" class="w-100" name="Имя" type="text" placeholder="Ваше имя" required>
+                                <label class="visually-hidden" for="sendQuestionTel">Введите телефон: </label><input id="sendQuestionTel" class="w-100" name="Телефон" type="tel" placeholder="Ваш телефон" required>
+                                <label class="visually-hidden" for="sendQuestionComment">Оставьте вопрос: </label><textarea id="sendQuestionComment" name="Вопрос" rows="6" cols="4" placeholder="Ваш вопрос" required></textarea>
 
                                 <p class="send-question-agree-terms">Согласен на обработку персональных данных в соответствии с политикой конфиденциальности</p>
 
@@ -1086,9 +1102,17 @@
             <h3 class="side-title">Планирование кухни вместе с дизайнером онлайн</h3>
             <p class="side-text"><b class="green">Заполните заявку</b><br>на бесплатный 3D-проект Вашей кухни в 3 клика!</p>
             
-            <form class="container col-sm-8 col-10 d-flex flex-column" id="register3DProjecting">
-                <label for="register3DProjectingName">Введите имя: </label><input id="register3DProjectingName" class="inp-grey" type="text" placeholder="Ваше имя">
-                <label for="register3DProjectingTel">Введите телефон: </label><input id="register3DProjectingTel" class="inp-grey" type="tel" placeholder="Ваш телефон">
+            <form class="container col-sm-8 col-10 d-flex flex-column register3DProjecting" id="offer-with-file" enctype="multipart/form-data" method="post" onsubmit="send(event, 'assets/php/mail.php')">
+                
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="Кухни-Слон">
+                <input type="hidden" name="city" value="Орёл">
+
+                <input type="hidden" name="form_subject" value="3D-проектирование кухни">
+                <!-- END Hidden Required Fields -->
+                
+                <label for="register3DProjectingName">Введите имя: </label><input id="register3DProjectingName" class="inp-grey" name="Имя" type="text" placeholder="Ваше имя">
+                <label for="register3DProjectingTel">Введите телефон: </label><input id="register3DProjectingTel" class="inp-grey" name="Телефон" type="tel" placeholder="Ваш телефон">
                 
                 
                 <div id="register3DProjecting_moreInputs" class="container-fluid d-flex flex-column p-0 visually-hidden">
@@ -1105,7 +1129,7 @@
                         </label>
                     </div>
                     
-                    <label for="register3DProjectingComment">Оставьте комментарии: </label><textarea class="inp-grey" id="register3DProjectingComment" rows="6" cols="4" placeholder="Комментарии"></textarea>
+                    <label for="register3DProjectingComment">Оставьте комментарии: </label><textarea class="inp-grey" id="register3DProjectingComment" name="Комментарий" rows="6" cols="4" placeholder="Комментарии"></textarea>
                 </div>
                 
                 <div id="register3DProjectingShowMore"><span id="showMoreText">Дополнительно +</span><span id="hideText" class="visually-hidden">Обязательно -</span></div>
@@ -1131,7 +1155,7 @@
             <p>Вам на почту придёт инструкция, как подключиться к онлайн-конференции: с её помощью вы сможете увидеть весь процесс создания проекта.</p>
             <p>Есди у вас не получится подключиться к онлайн-конференции в назначенное время, вам позвонит специалист по планированию кухонь и поможет.</p>
 
-            <form class="modal_Form_Online_conference_Inpunts" id="offer-with-file-second" onsubmit="send(event, 'mail.php')" enctype="multipart/form-data" method="post">
+            <form class="modal_Form_Online_conference_Inpunts" id="offer-with-file-second" onsubmit="send(event, 'assets/php/mail.php')" enctype="multipart/form-data" method="post">
 
                 <!-- Hidden Required Fields -->
                 <input type="hidden" name="project_name" value="Кухни-Слон">
@@ -1664,6 +1688,15 @@
                     </div>
                 </div>
             </form>
+        </div>
+        
+        <!-- Полностью перенесено с другого лендинга компании -->
+        <div class="modal_Form_Offer_Call_Alert">
+            <a class="top_bar_modal justify-content-end"><button class="modal-close" onclick="closeModal('modal_Form_Offer_Call_Alert')"></button></a>
+
+            <span><img src="/assets/img/paper_Plane<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Бумажный самолёт"></span>
+            <p class="modal_Title">Ваша заявка принята!</p>
+            <p class="modal_Subtitle">Мы свяжемся с Вами в ближайшее время для уточнения деталей!</p>
         </div>
         
         <div class="overlay"></div>

@@ -1460,7 +1460,7 @@ input.modal_Inp_File-2{
     right: 0;
 }
 
-form#register3DProjecting input.inp-grey {
+form.register3DProjecting input.inp-grey {
     padding-left: 20px;
     padding-top: 10px;
     padding-right: 20px;
@@ -1477,7 +1477,7 @@ form#register3DProjecting input.inp-grey {
     color: #969696;
 }
 
-form#register3DProjecting textarea.inp-grey {
+form.register3DProjecting textarea.inp-grey {
     padding-left: 20px;
     padding-top: 10px;
     padding-right: 20px;
@@ -1493,11 +1493,11 @@ form#register3DProjecting textarea.inp-grey {
     
     color: #969696;   
 }
-form#register3DProjecting input.inp-grey, form#register3DProjecting textarea.inp-grey {
+form.register3DProjecting input.inp-grey, form.register3DProjecting textarea.inp-grey {
     margin-bottom: 15px;
 }
 
-form#register3DProjecting label {
+form.register3DProjecting label {
     margin-bottom: 5px;
 }
 
@@ -1522,7 +1522,7 @@ div#register3DProjectingShowMore {
     line-height: 17px;
 }
 
-form#register3DProjecting .modal_Inp_File_Label {
+form.register3DProjecting .modal_Inp_File_Label {
     margin-bottom: 15px;
 }
 /* Всплывающая справа панель - кон */
@@ -1889,6 +1889,49 @@ cursor: pointer;
     cursor: pointer;
 }
 /* Квиз сайта - кон */
+
+
+.modal_Form_Offer_Call_Alert {
+  position: fixed;
+  top: 25%;
+  left: 35%;
+  display: none;
+  width: 30%;
+  height: max-content;
+  overflow: hidden;
+  outline: 0;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+  background-color: white;
+  color: #000000;
+  padding: 2%;
+
+  z-index: 6;
+
+  align-items: center;
+  text-align: center;
+}
+
+.modal_Form_Offer_Call_Alert .modal_Title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.modal_Form_Offer_Call_Alert a {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5px;
+}
+
+.modal_Form_Offer_Call_Alert > span {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin: 15px 0;
+}
+
 
 /* Модальные окна - кон */
 
@@ -2637,7 +2680,7 @@ cursor: pointer;
         margin-bottom: 24px;
     }
     
-    #register3DProjecting label {
+    .register3DProjecting label {
         font-size: 14px;
     }
     
@@ -2812,6 +2855,12 @@ cursor: pointer;
   .services .col-12 {
     font-size: 14px;
   }
+    
+  .modal_Form_Offer_Call_Alert {
+    width: 60%;
+    top: 20%;
+    left: 21%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -2825,5 +2874,10 @@ cursor: pointer;
     margin-left: 0;
     justify-content: left;
   }
+    
+    .modal_Form_Offer_Call_Alert {
+        width: 100%;
+        left: 0;
+    }
 }
 /* Адаптив - кон */

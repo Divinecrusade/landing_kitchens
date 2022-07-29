@@ -378,6 +378,113 @@ jQuery(document).ready(function() {
       $(".modal_Type_Kitchen div.row").hide(0);
       target.fadeIn(500);
     });
+ //-------------------------------------------------------------------   
+    
+  // Ajax-обработка почты
+    
+  //E-mail Ajax Send
+  $("form#installment").submit(function () {
+
+    var th = $(this);
+
+    $.ajax({
+      type: "POST",
+      url: "./assets/php/mail.php", 
+      data: th.serialize(),
+    }).done(function () {
+      showInfo("modal_Form_Offer_Call_Alert");
+      setTimeout(function () {
+
+        th.trigger("reset");
+      }, 1000);
+    });
+    return false;
+  });
+  $("form.modal_Form_Send_Question").submit(function () {
+
+    var th = $(this);
+    
+    $.ajax({
+      type: "POST",
+      url: "./assets/php/mail.php", 
+      data: th.serialize(),
+    }).done(function () {
+        showInfo("modal_Form_Offer_Call_Alert");
+        
+      setTimeout(function () {
+        th.trigger("reset");
+      }, 1000);
+    });
+    return false;
+  });
+  $("form.modal_Form_Count_Cost_Inpunts").submit(function () {
+
+    var th = $(this);
+
+    
+     closeModal("modal_Form_Count_Cost");
+      
+    $.ajax({
+      type: "POST",
+      url: "./assets/php/mail.php", 
+      data: th.serialize(),
+    }).done(function () {
+      showInfo("modal_Form_Offer_Call_Alert");
+
+      setTimeout(function () {
+        th.trigger("reset");
+      }, 1000);
+    });
+    return false;
+  });
+  $("form.register3DProjecting").submit(function () {
+    var th = $(this);
+
+    checkbox.prop('checked', false);
+    is_shown = false;
+      
+    $.ajax({}).done(function () {
+      showInfo("modal_Form_Offer_Call_Alert");
+
+      setTimeout(function () {
+        th.trigger("reset");
+      }, 1000);
+    });
+    return false;
+  });
+  $("form.modal_Form_Online_conference_Inpunts").submit(function () {
+    var th = $(this);
+
+    closeModal("modal_Form_Online_conference");
+    $.ajax({}).done(function () {
+      showInfo("modal_Form_Offer_Call_Alert");
+
+      setTimeout(function () {
+        th.trigger("reset");
+      }, 1000);
+    });
+    return false;
+  });
+//-------------------------------------------------------------------
+    
+    
+    // Прикрепление файлов к письму
+    
+    $(".modal_Inp_File").change(function() {
+        var f_name = [];
+        for (var i = 0; i < $(this).get(0).files.length; ++i) {
+            f_name.push(" " + $(this).get(0).files[i].name);
+        }
+        $("#f_name").val(f_name.join(", "));
+    });
+
+    $(".modal_Inp_File-2").change(function() {
+        var f_name = [];
+        for (var i = 0; i < $(this).get(0).files.length; ++i) {
+            f_name.push(" " + $(this).get(0).files[i].name);
+        }
+        $("#f_name-2").val(f_name.join(", "));
+    });
 });
 //-------------------------------------------------------------------
 
@@ -403,6 +510,26 @@ function closeModal(nameModal, is_overlay = true) {
         overlay.style.display = "none";
 
         overlay.removeEventListener("click", ()=>closeModal(nameModal, is_overlay));
-    }
+    } 
+}
+//-------------------------------------------------------------------
+
+
+// Отправка письма с файлом
+
+function send(event, php){
+console.log("Отправка запроса");
+event.preventDefault ? event.preventDefault() : event.returnValue = false;
+var req = new XMLHttpRequest();
+req.open('POST', php, true);
+req.onload = function() {
+	if (req.status >= 200 && req.status < 400) {
+	
+    // Если не удалось связаться с php файлом
+    } else {alert("Ошибка сервера. Номер: "+req.status);}}; 
+
+// Если не удалось отправить запрос. Стоит блок на хостинге
+req.onerror = function() {alert("Ошибка отправки запроса");};
+req.send(new FormData(event.target));
 }
 //-------------------------------------------------------------------
