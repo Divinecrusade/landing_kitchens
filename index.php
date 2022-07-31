@@ -56,7 +56,7 @@
                         </select>
 
                         <p class="header-tel">
-                            <a href="79624775727">
+                            <a href="tel:79624775727">
                                 <span class="visually-hidden">Контактный телефон: </span><span>+7 (962) 477-57-27</span>
                             </a>
                         </p>
@@ -90,18 +90,15 @@
                         </div>
                     </div>
                     
-                    <a href="#">Главное</a>
-                    <a href="#">Специальные предложения</a>
-                    <a href="#"><b class="green">Беспроцентная</b> рассрочка</a>
-                    <a href="#">Гарантия</a>
-                    <a href="#">Материалы</a>
-                    <a href="#">Наши специалисты</a>
-                    <a href="#">О нас в цифрах</a>
-                    <a href="#"><b class="green">Собственное</b> производство</a>
-                    <a href="#">Где нас искать</a>
+                    <a href="#promo">Специальные предложения</a>
+                    <a href="#guarantee">Гарантия</a>
+                    <a href="#materials">Материалы</a>
+                    <a href="#designers">Наши специалисты</a>
+                    <a href="#about">О фабрике</a>
+                    <a href="#contacts">Контакты</a>
                     
                     <div class="sub-option-menu-bot">
-                        <a class="btn-green-flat" href="#">Задать вопрос</a>
+                        <a class="btn-green-flat" href="#question">Задать вопрос</a>
                     </div>
                 </div>
             </div>
@@ -110,12 +107,11 @@
         <main>
             <h1 class="visually-hidden">Кухни-Слон | Специальное предложение</h1>
             
-            
             <section class="main-features-section container-fluid">
                 <h2 class="visually-hidden">Преимущества компании</h2>
 
                 <div class="container">
-                    <p class="main-offer">Создайте <b class="green">3D-проект</b> <br class="break-575-on">Вашей кухни, <b class="green"><br class="break-575-on">не выходя из дома</b></p>
+                    <p class="main-offer">Создайте <b class="green">3D-проект</b> <br class="break-575-on">Вашей кухни, <b class="green"><br>не выходя из дома</b></p>
                     <p class="main-offer-suptext">в режиме онлайн-конференции <br>со специалистом <br class="break-575-on">мебельной фабрики Слон</p>
 
                     <div class="main-features-block row">
@@ -141,23 +137,24 @@
                         </div>
 
                         <div class="col-xl-6 col-lg-6 col-12 order-xl-1 order-lg-1 order-1 d-flex justify-content-end">
-                            <video class="video-promo" controls>
+                            <video class="video-promo" controls autoplay muted loop>
                                 <source src="assets/video/video-promo.MP4" type="video/mp4">
                             </video>
                         </div>
                         
                         <div class="project-btn-wrapper col-12 text-center order-xl-2 order-lg-2 order-2">
-                            <button class="btn-green-flat" id="openModal3DProjecting">Записаться на 3D-проект кухни</button>
+                            <button class="btn-green-flat" id="openModal3DProjecting">Записаться на <br class="break-575-on">3D-проект кухни</button>
                         </div>
                     </div>
                 </div>
             </section>
-
+            
+            <a name="promo" class="anchor"></a>
             <section class="promotions-section container-lg container-fluid">
-                                
+                   
                 <h2 class="visually-hidden">Акции</h2>
 
-                <p class="promotions-desc">Только <b class="green">до конца июля</b> у нас есть специальные предложения для Вас!</p>
+                <p class="promotions-desc">Только <b class="green">до конца июля</b> у нас есть специальные предложения для Вас!</p> 
                 
                 <ul class="slider-promo">
                     <li class="slider-promo-item free-services">
@@ -260,6 +257,7 @@
                 <div class="container">
                     <div class="d-flex flex-row-reverse">                    
                         <div class="guarantee-desc">
+                            <a name="guarantee" class="anchor"></a>
                             <h2>Гарантия 5 лет</h2>
                             <p>Мы готовы дать гарантию 5 лет благодаря тому, что сами изготавливаем для Вас материалы кухни, столешницу, фасады и сами собираем ее из надежных комплектующих.</p>  
                         </div>
@@ -271,6 +269,7 @@
             
             <!-- Раздел с материалами -->
             <section class="materials container" name="materials">
+                <a name="materials" class="anchor"></a>
                 <h2 class="materials_Title col-12">
                     Создаём кухни только <br>
                     из качественных материалов
@@ -823,6 +822,7 @@
             
             <section class="our-designers container-fluid">
                 <div class="container-lg container-fluid">
+                    <a name="designers" class="anchor"></a>
                     <h2 class="visually-hidden">Наши дизайнеры</h2>
 
                     <p class="our-designers-promo-text">С Вами работают <b class="green">профессионалы</b></p>
@@ -944,7 +944,8 @@
             
             
             <!-- Раздел с информацией о нас -->
-            <section class="about-section container" >                
+            <section class="about-section container" >    
+                <a name="about" class="anchor"></a>
                 <h2 class="about-title">О нас в <b class="green">цифрах</b></h2>
                 
                 <p class="about-subtitle">Мебельная фабрика «Слон» основана в сентябре 1993 года</p>
@@ -1014,7 +1015,8 @@
                 
             </section>
             
-            <section class="contacts-section container-fluid">                
+            <section class="contacts-section container-fluid">   
+                <a name="contacts" class="anchor"></a>
                 <h2 class="visually-hidden">Контакты</h2>
             
                 <div class="addresses-wrapper container-fluid">
@@ -1026,19 +1028,19 @@
                                 <li>
                                     <address>ул. Октябрьская, д. 24</address>
                                     <p class="contacts-tel">
-                                        <a href="79624775727"><span class="visually-hidden">Контактный телефон для салона по адресу ул. Октябрьская, д. 24: </span>+7 (962) 477-57-27</a>
+                                        <a href="tel:79624775727"><span class="visually-hidden">Контактный телефон для салона по адресу ул. Октябрьская, д. 24: </span>+7 (962) 477-57-27</a>
                                     </p>
                                 </li>
                                 <li>
                                     <address>ул. 8 Марта д. 8</address>
                                     <p class="contacts-tel">
-                                        <a href="74862780171"><span class="visually-hidden">Контактный телефон для салона по адресу ул. 8 Марта д. 8: </span>+7 (4862) 78-01-71</a>
+                                        <a href="tel:74862780171"><span class="visually-hidden">Контактный телефон для салона по адресу ул. 8 Марта д. 8: </span>+7 (4862) 78-01-71</a>
                                     </p>  
                                 </li>
                                 <li>
                                     <address>ул. Комсомольская, д. 267</address>
                                     <p class="contacts-tel">
-                                        <a href="74862732718"><span class="visually-hidden">Контактный телефон для салона по адресу ул. Комсомольская, д. 267: </span>+7 (4862) 73-27-18</a>
+                                        <a href="tel:74862732718"><span class="visually-hidden">Контактный телефон для салона по адресу ул. Комсомольская, д. 267: </span>+7 (4862) 73-27-18</a>
                                     </p>
                                 </li>
                             </ul>                    
@@ -1052,6 +1054,7 @@
                     <div class="container-lg container-fluid d-flex justify-content-end">
                         
                         <div class="contact-form col-xl-4 col-lg-5 col-sm-6 col-12">
+                            <a name="question" class="anchor"></a>
                             <h3 class="visually-hidden">Контактная форма</h3>
 
                             <p class="contact-promo-text">Остались вопросы?</p>
@@ -1095,7 +1098,7 @@
                 
                 <div class="col-lg-4 col-sm-5 col-1 order-sm-3 order-3 d-flex justify-content-between align-items-center">
                     <p class="footer-tel">
-                        <a href="79624775727">
+                        <a href="tel:79624775727">
                             <span class="visually-hidden">Контактный телефон: </span><span>+7 (962) 477-57-27</span>
                         </a>
                     </p>
@@ -1147,7 +1150,7 @@
                     <label for="register3DProjectingComment">Оставьте комментарии: </label><textarea class="inp-grey" id="register3DProjectingComment" name="Комментарий" rows="6" cols="4" placeholder="Комментарии"></textarea>
                 </div>
                 
-                <div id="register3DProjectingShowMore"><span id="showMoreText">Дополнительно +</span><span id="hideText" class="visually-hidden">Обязательно -</span></div>
+                <div id="register3DProjectingShowMore"><span id="showMoreText">Дополнительно +</span><span id="hideText" class="visually-hidden">Скрыть доп. поля</span></div>
                 
                 <p class="register-3D-projecting-agree-terms">Согласен на обработку персональных данных в соответствии с <a href="./politics.html" target="_blank">политикой конфиденциальности</a></p>
 

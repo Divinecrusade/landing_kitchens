@@ -50,7 +50,7 @@ jQuery(document).ready(function() {
             slidesToShow: 1,
             initialSlide: 0,
             adaptiveHeight: true,
-            arrows: false,
+            arrows: true,
             dots: true,
             speed: 750,
             mobileFirst: false,

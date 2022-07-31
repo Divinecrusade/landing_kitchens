@@ -3,6 +3,7 @@
 /* Подключение шрифтов - кон */
 
 /* Начальная настройка шрифтов - нач */
+
 body {
     font-family: 'Montserrat', 'Arial', sans-serif;
     font-size: 16px;
@@ -26,6 +27,11 @@ h3 {
 }
 /* Начальная настройка шрифтов - кон */
 
+
+a.anchor {
+    position: relative;
+    top: -100px;
+}
 
 .break-575-on {
     display: none;
@@ -71,9 +77,9 @@ h3 {
 /* Хедер и футер - нач */
 .main-header, .main-footer {    
     padding-left: 20px;
-    padding-top: 35px;
+    padding-top: 10px;
     padding-right: 20px;
-    padding-bottom: 35px;
+    padding-bottom: 10px;
 }
 
 .main-footer {
@@ -102,12 +108,16 @@ h3 {
     border-left-style: solid;
     border-left-width: 2px;
     border-left-color: #5EB863;
+    
+    max-width: 348px;
 }
 
 .footer-logo > span {
     border-left-style: solid;
     border-left-width: 2px;
-    border-left-color: #FFF;    
+    border-left-color: #FFF;   
+    
+    max-width: 348px;
 }
 
 .city-choose {
@@ -210,6 +220,11 @@ button.burger {
     background: none;
     border: none;
 }
+
+button#onlineConsultation {
+    font-size: 16px;
+    line-height: 20px;
+}
 /* Хедер и футер - кон */
 
 
@@ -310,7 +325,7 @@ b.green {
 .main-features-section {
     margin-bottom: 15px;
     
-    padding-top: 65px;
+    padding-top: 30px;
     padding-bottom: 100px;
     
     background-image: url("../img/main_features_bg.png");
@@ -321,19 +336,23 @@ b.green {
 .main-offer {
     text-align: center;
     
-    font-size: 64px;
+    font-size: 56px;
     font-weight: 800;
-    line-height: 78px;
+    line-height: 64px;
 }
 
 .main-offer-suptext {
     text-align: center;
     
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 600;
-    line-height: 44px;
+    line-height: 28px;
     
     margin-bottom: 40px;
+}
+
+.main-features-block {
+    margin-left: 55px; margin-right: 55px;
 }
 
 .main-features-list {
@@ -379,7 +398,7 @@ button#openModal3DProjecting {
 }
 
 .project-btn-wrapper {
-    margin-top: 55px;
+    margin-top: 35px;
 }
 
 .video-promo {
@@ -516,13 +535,14 @@ button#openModal3DProjecting {
     object-position: center center;
 }
 
-
 .slider-promo-item.slick-slide {
     margin: 0 30px;
     
     transition-duration: 2s;
     transition-property: opacity;
     transition-timing-function: ease-in-out;
+    
+    min-height: 488px;
 }
 
 .slider-promo-item.slick-slide:not(.slick-active) {
@@ -1947,7 +1967,11 @@ cursor: pointer;
     }
 }
 
-@media (max-width: 1240px) {    
+@media (max-width: 1240px) {   
+    .main-header {    
+        padding-bottom: 40px;
+    }
+    
     .header-logo {
         margin-right: 0px;
     }
@@ -1955,9 +1979,17 @@ cursor: pointer;
     .header-tel {
         margin-left: 10px;
     }
+    
+    .main-features-block {
+        margin-left: 0; margin-right: 0;
+    }
 }
 
 @media (max-width: 1200px) {
+    .main-header {    
+        padding-bottom: 10px;
+    }
+    
     .header-tel {
         margin-left: 30px;
     }
@@ -2165,6 +2197,10 @@ cursor: pointer;
         font-size: 16px;
     }
     
+    a.anchor {
+        top: -100vh;
+    }
+    
     .break-575-on {
         display: block; 
     }
@@ -2193,22 +2229,22 @@ cursor: pointer;
     }
     
     .main-features-section {
-        padding-top: 50px;
+        padding-top: 15px;
         margin-bottom: 0;
     }
     
     .main-offer {
-        font-size: 32px;
-        line-height: 38px;
+        font-size: 28px;
+        line-height: 34px;
         
         margin-bottom: 12px;
     }
     
     .main-offer-suptext {
-        font-size: 24px;
-        line-height: 28px;
+        font-size: 16px;
+        line-height: 18px;
         
-        margin-bottom: 32px;
+        margin-bottom: 20px;
     }
     
     .video-promo {
@@ -2217,7 +2253,13 @@ cursor: pointer;
         border: 3px solid #5EB863;
         border-radius: 30px;
         
-        margin-bottom: 32px;
+        margin-bottom: 20px;
+        
+        max-height: 280px;
+    }
+    
+    .project-btn-wrapper {
+        margin-top: 0;
     }
     
     #openModal3DProjecting {
@@ -2232,6 +2274,10 @@ cursor: pointer;
         margin-bottom: 32px;
     }
         
+    .checkbox-indicator {
+        margin-top: 0;
+    }
+    
     .main-features-list {
         margin-bottom: 0; 
     }
@@ -2322,7 +2368,7 @@ cursor: pointer;
     
     .promotion-pinned-section {
         padding-top: 20px; padding-bottom: 0;
-        padding-left: 40px; padding-right: 40px;
+        padding-left: 20px; padding-right: 20px;
     }
     
     .promotion-pinned-section h2 {
@@ -2501,6 +2547,59 @@ cursor: pointer;
     .our-designer-experience {
         font-size: 14px;
         line-height: 16px;
+    }
+    
+    .our-designers-slider button.slick-arrow {
+        width: 65px; height: 65px;
+        
+        border-radius: 100%;
+        background-color: #02871bbf;
+    }
+
+    .our-designers-slider button.slick-arrow.slick-prev {
+        top: 35%;
+        
+        margin-left: 65px;
+
+        z-index: 100;
+    }
+
+    .our-designers-slider button.slick-arrow.slick-next {
+        top: 35%;
+        
+        margin-right: 65px;
+
+        z-index: 100;
+    }
+
+    .our-designers-slider button.slick-arrow.slick-prev::before {
+        content: "";
+        display: block;
+
+        position: absolute;
+        top: 16px; left: 16px;
+
+        width: 32px; height: 32px;
+
+        background-image: url("../img/ico_arrow_prev.svg");
+        background-position: top left;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .our-designers-slider button.slick-arrow.slick-next::before {
+        content: "";
+        display: block;
+
+        position: absolute;
+        top: 16px; right: 16px;
+
+        width: 32px; height: 32px;
+
+        background-image: url("../img/ico_arrow_next.svg");
+        background-position: top left;
+        background-repeat: no-repeat;
+        background-size: contain;    
     }
     
     .about-title {
