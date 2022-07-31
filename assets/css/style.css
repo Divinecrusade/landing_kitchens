@@ -1453,21 +1453,21 @@ input.modal_Inp_File-2{
 .side-title {
     text-align: center;
     
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     
     font-weight: 700;
-    font-size: 48px;
-    line-height: 59px;
+    font-size: 32px;
+    line-height: 40px;
 }
 
 .side-text {
     text-align: center;
     
-    margin-bottom: 45px;
+    margin-bottom: 30px;
     
     font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 #side-checkbox:checked + .side-panel + .side-button-1 {
@@ -1484,7 +1484,7 @@ form.register3DProjecting input.inp-grey {
     padding-left: 20px;
     padding-top: 10px;
     padding-right: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     
     background: #E0E0E0;
     border: 3px solid #BDBDBD;
@@ -2043,7 +2043,7 @@ cursor: pointer;
     }
     
     .city-choose {
-        padding-left: 0; padding-right: 0;
+        padding-left: 5px; padding-right: 5px;
     }
     
     .header-tel {

@@ -34,7 +34,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/style.css">
 		
-		<title>Кухни-Слон | Специальное предложение</title>
+		<title>Кухни-Слон | Дизайн кухни онлайн</title>
         
         <meta name="description" content="Купить модульные кухни в Орле от производителя по цене от 29 000 рублей. Собственное производство. Изготовление от 3 дней. Онлайн расчет стоимости кухни. Бесплатная доставка в пределах города. Гарантия на кухни 5 лет">
 	</head>
@@ -105,7 +105,7 @@
         </nav>
         
         <main>
-            <h1 class="visually-hidden">Кухни-Слон | Специальное предложение</h1>
+            <h1 class="visually-hidden">Кухни-Слон | Дизайн кухни онлайн</h1>
             
             <section class="main-features-section container-fluid">
                 <h2 class="visually-hidden">Преимущества компании</h2>
@@ -1092,7 +1092,7 @@
 
                 <div class="col-lg-4 col-1 order-sm-2 order-1">
                     <div class="h-100 d-flex align-items-center justify-content-center">
-                        <button class="btn-white-border" id="onlineConsultation" onclick="showInfo('modal_Form_Online_conference')">Онлайн-консультация</button>
+                        <button class="btn-white-border" id="onlineConsultation" onclick="showInfo('modal_Form_Online_conference')">Планирование кухни онлайн</button>
                     </div>
                 </div>                        
                 
@@ -1160,7 +1160,7 @@
         </section>
         
         
-        <!-- Онлайн-консультация -->
+        <!-- Планирование кухни онлайн -->
         <section class="modal_Form_Online_conference">
             <div class="row col-12 justify-content-end">
                 <button class="modal-close" onclick="closeModal('modal_Form_Online_conference')"></button>
@@ -1179,7 +1179,7 @@
                 <input type="hidden" name="project_name" value="Кухни-Слон">
                 <input type="hidden" name="city" value="Орёл">
 
-                <input type="hidden" name="form_subject" value="Онлайн-консультация">
+                <input type="hidden" name="form_subject" value="Планирование кухни онлайн">
                 <!-- END Hidden Required Fields -->
 
 
