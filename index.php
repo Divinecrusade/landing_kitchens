@@ -245,6 +245,7 @@
                                     <span class="checkbox-indicator"></span>
                                     <span class="checkbox-label">*Я принимаю <a href="./politics.html" target="_blank">условия конфиденциальности сайта</a></span>
                                 </label>
+
                                 <div class="col-12">
                                     <small class="text-remark">* - обязательные для заполнения поля</small>
                                 </div>
@@ -1077,6 +1078,10 @@
 
                                 <p class="send-question-agree-terms">Согласен на обработку персональных данных в соответствии с <a href="./politics.html" target="_blank">политикой конфиденциальности</a></p>
 
+                                
+                                <div class="col-12">
+                                    <small class="text-remark">* - обязательные для заполнения поля</small>
+                                </div>
                                 <button class="btn-green-flat" type="submit">Отправить заявку</button>
                             </form>
                         </div>
@@ -1157,7 +1162,9 @@
                 
                 <p class="register-3D-projecting-agree-terms">Согласен на обработку персональных данных в соответствии с <a href="./politics.html" target="_blank">политикой конфиденциальности</a></p>
 
-                
+                <div class="col-12">
+                    <small class="text-remark">* - обязательные для заполнения поля</small>
+                </div>
                 <button class="btn-green-flat" type="submit">Отправить заявку</button>
             </form>
         </section>
@@ -1223,6 +1230,10 @@
                     </div>
                 </div>
 
+                
+                <div class="col-12">
+                    <small class="text-remark">* - обязательные для заполнения поля</small>
+                </div>
                 <button  type="submit" class="modal_Btn">Отправить заявку</button>
                 <p>Нажимая кнопку "Отправить заявку" вы даете согласие на обработку персональных данных в соответствии с <a href="./politics.html" target="_blank">политикой конфиденциальности</a></p>
             </form>
