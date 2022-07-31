@@ -126,7 +126,7 @@
                                     <p class="main-feature-desc">Дизайнер вместе с Вами выберет фасады и фурнитуру, подберем технику и материалы</p>
                                 </li>            
                                 <li>
-                                    <h3 class="main-feature">Рассчитаем стоимость кухни в 3-х ценовых категориях</h3>
+                                    <h3 class="main-feature">Рассчитаем стоимость кухни в трех ценовых категориях</h3>
                                     <p class="main-feature-desc">Разработаем 3 варианта проекта: стандарт, бизнес и премиум</p>
                                 </li>
                                 <li>
@@ -165,8 +165,8 @@
                             <p class="promo-desc col-sm-6 col-12">
                                 Замер, дизайн-проект, доставка и установка
                             </p>
-                            <div class="promo-dec col-sm-6 col-12 d-flex justify-content-end align-content-end">
-                                <img src="assets/img/slider_promotion_gift.png" width="292" height="211" alt="Подарок">
+                            <div class="promo-dec col-sm-6 col-12 d-flex justify-content-end align-content-end align-self-end">
+                                <img src="assets/img/slider_promotion_gift.png" alt="Подарок">
                             </div>
                         </div>
                     </li>
@@ -186,7 +186,7 @@
                     <li class="slider-promo-item blum-discount">
                         <div class="row">
                             <div class="promo-dec xl-order-1 order-2 col-xl-6 col-12 d-flex align-items-center">
-                                <img src="assets/img/slider_promotion_blum.png" width="422" height="152" alt="Логотип Blum">
+                                <img src="assets/img/slider_promotion_blum.png" alt="Логотип Blum">
                             </div>
                             <div class="xl-order-2 order-1 col-xl-6 col-12 row">
                                 <h3 class="promo-name col-12">
@@ -235,16 +235,19 @@
                                 
                                 <div class="d-flex installment-inputs flex-sm-row flex-column">
                                     <label class="visually-hidden" for="installmentName">Введите имя: </label>
-                                    <input id="installmentName" class="w-50" name="Имя" type="text" placeholder="Ваше имя" required>
+                                    <input id="installmentName" class="w-50" name="Имя" type="text" placeholder="*Ваше имя" required>
                                     <label class="visually-hidden" for="installmentTel">Введите телефон: </label>
-                                    <input id="installmentTel" class="w-50" name="Телефон" type="tel" placeholder="Ваш номер телефона" required>
+                                    <input id="installmentTel" class="w-50" name="Телефон" type="tel" placeholder="*Ваш номер телефона" required>
                                 </div>
 
                                 <label class="checkbox-field installment-checkbox">
                                     <input id="termsAgree" class="checkbox" name="Agree" type="checkbox">
                                     <span class="checkbox-indicator"></span>
-                                    <span class="checkbox-label">Я принимаю <a href="./politics.html" target="_blank">условия конфиденциальности сайта</a></span>
+                                    <span class="checkbox-label">*Я принимаю <a href="./politics.html" target="_blank">условия конфиденциальности сайта</a></span>
                                 </label>
+                                <div class="col-12">
+                                    <small class="text-remark">* - обязательные для заполнения поля</small>
+                                </div>
 
                                 <button id="orderKitchenInstallment" class="w-100 btn-green-flat" type="submit">Заказать кухню в рассрочку</button>
                             </form>
@@ -1068,8 +1071,8 @@
                                 <input type="hidden" name="form_subject" value="Задать вопрос">
                                 <!-- END Hidden Required Fields -->
                                 
-                                <label class="visually-hidden" for="sendQuestionName">Введите имя: </label><input id="sendQuestionName" class="w-100" name="Имя" type="text" placeholder="Ваше имя" required>
-                                <label class="visually-hidden" for="sendQuestionTel">Введите телефон: </label><input id="sendQuestionTel" class="w-100" name="Телефон" type="tel" placeholder="Ваш телефон" required>
+                                <label class="visually-hidden" for="sendQuestionName">Введите имя: </label><input id="sendQuestionName" class="w-100" name="Имя" type="text" placeholder="*Ваше имя" required>
+                                <label class="visually-hidden" for="sendQuestionTel">Введите телефон: </label><input id="sendQuestionTel" class="w-100" name="Телефон" type="tel" placeholder="*Ваш телефон" required>
                                 <label class="visually-hidden" for="sendQuestionComment">Оставьте вопрос: </label><textarea id="sendQuestionComment" name="Вопрос" rows="6" cols="4" placeholder="Ваш вопрос"></textarea>
 
                                 <p class="send-question-agree-terms">Согласен на обработку персональных данных в соответствии с <a href="./politics.html" target="_blank">политикой конфиденциальности</a></p>
@@ -1129,8 +1132,8 @@
                 <input type="hidden" name="form_subject" value="3D-проектирование кухни">
                 <!-- END Hidden Required Fields -->
                 
-                <label for="register3DProjectingName">Введите имя: </label><input id="register3DProjectingName" class="inp-grey" name="Имя" type="text" placeholder="Ваше имя" required>
-                <label for="register3DProjectingTel">Введите телефон: </label><input id="register3DProjectingTel" class="inp-grey" name="Телефон" type="tel" placeholder="Ваш телефон" required>
+                <label for="register3DProjectingName">*Введите имя: </label><input id="register3DProjectingName" class="inp-grey" name="Имя" type="text" placeholder="Ваше имя" required>
+                <label for="register3DProjectingTel">*Введите телефон: </label><input id="register3DProjectingTel" class="inp-grey" name="Телефон" type="tel" placeholder="Ваш телефон" required>
                 
                 
                 <div id="register3DProjecting_moreInputs" class="container-fluid d-flex flex-column p-0 visually-hidden">
@@ -1198,11 +1201,11 @@
                     <div class="col-md-8 col-12">
                         <div class="row">
                             <div class="col-md-6 col-12">
-                                <label for="online-conf-name" class="online-conf-label">Введите ваше имя:</label>
+                                <label for="online-conf-name" class="online-conf-label">*Введите ваше имя:</label>
                                 <input id="online-conf-name" class="modal_Inp" type="text" name="Имя" placeholder="Иван" required>
                             </div>
                             <div class="col-md-6 col-12">
-                                <label for="online-conf-tel" class="online-conf-label">Введите телефон:</label>
+                                <label for="online-conf-tel" class="online-conf-label">*Введите телефон:</label>
                                 <input id="online-conf-tel" class="modal_Inp" type="tel" name="Телефон" placeholder="+7 (999) 999 9999" minlength="18" maxlength="18" required>
                             </div>
                         </div>
@@ -1310,7 +1313,7 @@
                                         Напишите размеры Вашей кухни
                                     </div>
                                     <div class="col-12 p-0">
-                                        <small class="text-success">Если не знаете размеры, нажмите Далее</small>
+                                        <small class="text-remark">Если не знаете размеры, нажмите Далее</small>
 
                                     </div>
                                     <div class="row">
@@ -1694,7 +1697,7 @@
                             </p>
                         </div>
                         <input class="modal_Inp" type="text" name="Имя" placeholder="*Введите Ваше имя" required>
-                        <input class="modal_Inp" type="tel" name="Телефон" placeholder="Введите телефон в формате: +7 (999) 999 9999" minlength="18" maxlength="18" required>
+                        <input class="modal_Inp" type="tel" name="Телефон" placeholder="*Введите телефон в формате: +7 (999) 999 9999" minlength="18" maxlength="18" required>
                         <!-- <span class="d-flex align-items-center justify-content-start mx-4"><input name="Удобнее по Whatsapp" type="checkbox"> <a class="px-2">Мне удобнее по Whatsapp</a></span> -->
                         <input class="modal_Inp" type="text" name="Комментарий к заказу" placeholder="Комментарии">
                         <div class="col-12 p-0">

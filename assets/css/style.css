@@ -27,6 +27,13 @@ h3 {
 }
 /* Начальная настройка шрифтов - кон */
 
+.text-remark {
+    font-size: 12px;
+    margin-top: 5px; margin-bottom: 5px;
+    padding: 0;
+    
+    font-style: italic;
+}
 
 a.anchor {
     position: relative;
@@ -542,7 +549,10 @@ button#openModal3DProjecting {
     transition-property: opacity;
     transition-timing-function: ease-in-out;
     
-    min-height: 488px;
+    display: flex!important;
+    align-items: stretch;
+    
+    height: 488px;
 }
 
 .slider-promo-item.slick-slide:not(.slick-active) {
@@ -2197,6 +2207,10 @@ cursor: pointer;
         font-size: 16px;
     }
     
+    .text-remark {
+        font-size: 10px;
+    }
+    
     a.anchor {
         top: -100vh;
     }
@@ -2311,6 +2325,8 @@ cursor: pointer;
         border-radius: 15px;
         
         padding: 15px;
+        
+        height: 300px;
     }
     
     .slider-promo button.slick-arrow {
@@ -2812,6 +2828,10 @@ cursor: pointer;
 }
 
 @media (max-width: 375px) {
+    .text-remark {
+        font-size: 8px;
+    }
+    
     .promotion-pinned-desc {
         padding: 5px;
     }
@@ -2836,6 +2856,18 @@ cursor: pointer;
     
     .about-statistics-desc-3 p {
         padding: 36px;
+    }
+    
+    .fabric-birthday .promo-desc {
+        width: 100%!important;
+    }
+
+    .fabric-birthday .promo-dec span { 
+        width: 100%!important;
+    }
+    
+    .slider-promo-item.slick-slide {
+        height: 330px;
     }
 }
 
