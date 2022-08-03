@@ -39,6 +39,31 @@
 		<link rel="stylesheet" href="assets/css/style.css">
 		
 		<title>Кухни-Слон | Дизайн кухни онлайн</title>
+        <style>            
+            .main-features-section {    
+                background-image: url("assets/img/main_features_bg<?=($browser=='Safari'?'.png':'.webp')?>");
+            }
+            
+            .free-services {    
+                background-image: url("assets/img/slider_promotion_bg_1<?=($browser=='Safari'?'.png':'.webp')?>");
+            }
+            
+            .fabric-birthday {    
+                background-image: url("assets/img/slider_promotion_bg_2<?=($browser=='Safari'?'.png':'.webp')?>");
+            }
+            
+            .promotion-section-wrapper {
+                background-image: url("assets/img/installment_bg<?=($browser=='Safari'?'.png':'.webp')?>");
+            }
+            
+            .guarantee {  
+                background-image: url("assets/img/warranty_bg<?=($browser=='Safari'?'.png':'.webp')?>");
+            }
+            
+            .our-designers {
+                background-image: url("assets/img/designers_bg<?=($browser=='Safari'?'.png':'.webp')?>");
+            }
+        </style>
         
         <meta name="description" content="Купить модульные кухни в Орле от производителя по цене от 29 000 рублей. Собственное производство. Изготовление от 3 дней. Онлайн расчет стоимости кухни. Бесплатная доставка в пределах города. Гарантия на кухни 5 лет">
         

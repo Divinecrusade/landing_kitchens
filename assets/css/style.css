@@ -335,7 +335,6 @@ b.green {
     padding-top: 30px;
     padding-bottom: 100px;
     
-    background-image: url("../img/main_features_bg.png");
     background-size: cover;
     background-position: center center;
 }
@@ -453,7 +452,6 @@ button#openModal3DProjecting {
 
 .free-services {    
     background-color: #20A1FF;
-    background-image: url("../img/slider_promotion_bg_1.png");
     background-position: left top;
     background-repeat: repeat;
     background-size: cover;
@@ -483,7 +481,6 @@ button#openModal3DProjecting {
 
 .fabric-birthday {    
     background-color: #5EB863;
-    background-image: url("../img/slider_promotion_bg_2.png");
     background-position: left top;
     background-repeat: repeat;
     background-size: cover;
@@ -636,7 +633,6 @@ button#openModal3DProjecting {
 
 .promotion-section-wrapper {
     background-color: #FFF;
-    background-image: url("../img/installment_bg.png");
     background-position: center right;
     background-repeat: no-repeat;
     background-size: contain;
@@ -650,13 +646,6 @@ button#openModal3DProjecting {
     padding-top: 110px;
     padding-right: 200px;
     padding-bottom: 100px;
-    
-    /*background-color: #FFF;
-    background-image: url("../img/installment_bg.png");
-    background-position: center right;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-origin: padding-box;*/
 }
 
 .promotion-pinned-section h2 {
@@ -779,7 +768,6 @@ button#orderKitchenInstallment {
 /* Гарантия - нач */
 
 .guarantee {  
-    background-image: url("../img/warranty_bg.png");
     background-position: center center;
     background-size: cover;
     background-clip: content-box;
@@ -921,7 +909,6 @@ button#orderKitchenInstallment {
 .our-designers {
     margin-bottom: 65px;
     
-    background-image: url("../img/designers_bg.png");
     background-position: top left;
     background-size: cover;
     
