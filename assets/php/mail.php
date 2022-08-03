@@ -64,7 +64,7 @@ if ($method === 'POST' && !empty($_POST))
 
 
     // Формирование самого письма
-    $body = $form_subject . " $city";
+    $body = "Ретаргет: " . $form_subject . " $city";
     $body .= $message;
 
 

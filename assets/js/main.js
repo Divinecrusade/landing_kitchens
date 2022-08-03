@@ -13,6 +13,8 @@ jQuery(document).ready(function() {
             arrows: true,
             dots: true,
             speed: 750,
+            autoplay: true,
+            autoplaySpeed: 5000,
             mobileFirst: true
     }); 
     

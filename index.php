@@ -37,6 +37,22 @@
 		<title>Кухни-Слон | Дизайн кухни онлайн</title>
         
         <meta name="description" content="Купить модульные кухни в Орле от производителя по цене от 29 000 рублей. Собственное производство. Изготовление от 3 дней. Онлайн расчет стоимости кухни. Бесплатная доставка в пределах города. Гарантия на кухни 5 лет">
+        
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+           (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+           m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+           (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+           ym(83260594, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true
+           });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/83260594" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
 	</head>
 	<body>
         <header class="main-header">
@@ -118,19 +134,19 @@
                         <div class="col-xl-6 col-lg-6 col-12 order-xl-1 order-lg-1 order-3">
                             <ul class="main-features-list">
                                 <li>
-                                    <h3 class="main-feature">Поможем определиться с дизайном</h3>
+                                    <h3 class="main-feature">Поможем определиться <br class="break-575-on">с дизайном</h3>
                                     <p class="main-feature-desc">Сделаем проект, который будет максимально вписываться в Ваш интерьер</p>
                                 </li>
                                 <li>
-                                    <h3 class="main-feature">Рассчитаем кухню под Ваш бюджет</h3>
-                                    <p class="main-feature-desc">Дизайнер вместе с Вами выберет фасады и фурнитуру, подберем технику и материалы</p>
+                                    <h3 class="main-feature">Рассчитаем кухню под <br class="break-575-on">Ваш бюджет</h3>
+                                    <p class="main-feature-desc">Дизайнер вместе с Вами выберет фасады и фурнитуру, подберет технику и материалы</p>
                                 </li>            
                                 <li>
                                     <h3 class="main-feature">Рассчитаем стоимость кухни в трех ценовых категориях</h3>
                                     <p class="main-feature-desc">Разработаем 3 варианта проекта: стандарт, бизнес и премиум</p>
                                 </li>
                                 <li>
-                                    <h3 class="main-feature">Есть проект? Предложим свою цену!</h3>
+                                    <h3 class="main-feature">Есть проект? <br class="break-575-on">Предложим свою цену!</h3>
                                     <p class="main-feature-desc">Присылайте готовый проект - мы сделаем свой рассчет и подскажем, как сэкономить, не потеряв в качестве</p>
                                 </li>  
                             </ul>
@@ -154,7 +170,7 @@
                    
                 <h2 class="visually-hidden">Акции</h2>
 
-                <p class="promotions-desc">Только <b class="green">до конца июля</b> у нас есть специальные предложения для Вас!</p> 
+                <p class="promotions-desc">Только <b class="green">до конца июля</b> у нас есть специальные предложения <br class="break-575-on">для Вас!</p> 
                 
                 <ul class="slider-promo">
                     <li class="slider-promo-item free-services">
@@ -163,7 +179,7 @@
                                 ПОДАРКИ НАШИМ КЛИЕНТАМ
                             </h3>
                             <p class="promo-desc col-sm-6 col-12">
-                                Замер, дизайн-проект, доставка и установка
+                                Замер, доставка и установка
                             </p>
                             <div class="promo-dec col-sm-6 col-12 d-flex justify-content-end align-content-end align-self-end">
                                 <img src="assets/img/slider_promotion_gift.png" alt="Подарок">
@@ -201,8 +217,8 @@
                 </ul>
             </section>
             
-            <div class="promotion-section-wrapper container-lg container-fluid">
-                <section class="promotion-pinned-section">
+            <div class="promotion-section-wrapper container-fluid">
+                <section class="promotion-pinned-section container-lg container-fluid">
                     <div class="col-xl-10 col-12">
                         <h2><b class="green">Беспроцентная</b> рассрочка до 24 <b class="green">месяцев</b></h2>
                         
@@ -287,41 +303,26 @@
                     <div class="type-materials col-12" id="type-materials-1">
                         <p class="kitch_Type_variations">
                             <input type="radio" id="kitch_Type_1_1" name="radioSec" value="1"><label for="kitch_Type_1_1">ЛДСП</label>
-                            <input type="radio" id="kitch_Type_1_2" name="radioSec" value="2"><label for="kitch_Type_1_2">Пластик + МДФ</label>
+                            <input type="radio" id="kitch_Type_1_2" name="radioSec" value="2"><label for="kitch_Type_1_2">Пластик + ДСП</label>
                             <input type="radio" id="kitch_Type_1_3" name="radioSec" value="3"><label for="kitch_Type_1_3">Экомембрана + МДФ</label>
                             <input type="radio" id="kitch_Type_1_4" name="radioSec" value="4" checked="checked"><label for="kitch_Type_1_4">Эмаль + МДФ</label>
-                            <input type="radio" id="kitch_Type_1_5" name="radioSec" value="5"><label for="kitch_Type_1_5">Шпон</label>
-                            <input type="radio" id="kitch_Type_1_6" name="radioSec" value="6"><label for="kitch_Type_1_6">Массив дерева</label>
+                            <input type="radio" id="kitch_Type_1_4" name="radioSec" value="6"><label for="kitch_Type_1_4">Массив дерева</label>
                         </p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="type-materials col-12" id="type-materials-2">
                         <p class="kitch_Type_variations">
-                            <input type="radio" id="kitch_Type_2_1" name="radioSec" value="7" > <label for="kitch_Type_2_1">Дерево</label>
-                            <i class="fa fa-circle"></i>
-                            <input type="radio" id="kitch_Type_2_2" name="radioSec" value="8"><label for="kitch_Type_2_2">Искусственный камень</label>
-                            <i class="fa fa-circle"></i>
-                            <input type="radio" id="kitch_Type_2_3" name="radioSec" value="9"><label for="kitch_Type_2_3">Пластик+ДСП</label>
-                            <i class="fa fa-circle"></i>
-                            <input type="radio" id="kitch_Type_2_4" name="radioSec" value="10"><label for="kitch_Type_2_4">Металл</label>
+                            <input type="radio" id="kitch_Type_2_1" name="radioSec" value="8"><label for="kitch_Type_2_1">Искусственный камень</label>
+                            <input type="radio" id="kitch_Type_2_2" name="radioSec" value="9"><label for="kitch_Type_2_2">Пластик+ДСП</label>
                         </p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="type-materials col-12" id="type-materials-3">
                         <p class="kitch_Type_variations">
-                            <input type="radio" id="kitch_Type_3_1" name="radioSec" value="11" ><label  for="kitch_Type_3_1">Дерево</label>
-                            <i class="fa fa-circle"></i>
-                            <input type="radio" id="kitch_Type_3_2" name="radioSec" value="12"><label for="kitch_Type_3_2">Искусственный камень</label>
-                            <i class="fa fa-circle"></i>
-                            <input type="radio" id="kitch_Type_3_3" name="radioSec" value="13"><label for="kitch_Type_3_3">МДФ+пластик</label>
-                            <i class="fa fa-circle"></i>
-                            <input type="radio" id="kitch_Type_3_4" name="radioSec" value="14"><label for="kitch_Type_3_4">Металл </label>
-                            <i class="fa fa-circle"></i>
-                            <input type="radio" id="kitch_Type_3_5" name="radioSec" value="15"><label for="kitch_Type_3_5">Стекло</label>
-                            <i class="fa fa-circle"></i>
-                            <input type="radio" id="kitch_Type_3_6" name="radioSec" value="16"><label for="kitch_Type_3_6">ДСП и ДВП, ЛДСП</label>
+                            <input type="radio" id="kitch_Type_3_1" name="radioSec" value="13"><label for="kitch_Type_3_1">ДСП + пластик HPL</label>
+                            <input type="radio" id="kitch_Type_3_2" name="radioSec" value="16"><label for="kitch_Type_3_2">ДСП и ДВП, ЛДСП</label>
                         </p>
                     </div>
                 </div>
@@ -357,7 +358,7 @@
                                 <img src="assets/img/desc_img1_2.jpg" alt="Пластик + МДФ" />
                             </div>
                             <div class="col-12 col-md-8">
-                                <p class="desc_title">Пластик + МДФ</p>
+                                <p class="desc_title">Пластик + ДСП</p>
                                 <ul class="desc_list">
                                     <li>
                                         <span>
@@ -404,7 +405,7 @@
                                     </li>
                                     <li>
                                         <span>
-                                            Широкая выбор цветовой гаммы и фактур
+                                            Широкий выбор цветовой гаммы и фактур
                                         </span>
                                     </li>
                                     <li>
@@ -432,50 +433,17 @@
                                 <ul class="desc_list">
                                     <li>
                                         <span>
-                                            Привлекательный внешний вид за счет возможности сделать глянцевые, матовые, перламутровые поверхности или с эффектом металлик
+                                            Привлекательный внешний вид за счет возможности сделать глянцевые, матовые, перламутровые поверхности или <br class="break-575-on">с эффектом металлик
                                         </span>
                                     </li>
                                     <li>
                                         <span>
-                                            Эмаль устойчива к внешним воздействиям и долго сохраняет внешний вид
+                                            Эмаль устойчива к внешним воздействиям <br class="break-575-on">и долго сохраняет внешний вид
                                         </span>
                                     </li>
                                     <li>
                                         <span>
                                             Возможность реставрации фасадов
-                                        </span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="desc_text container col-12" id="desc_text-5">
-                        <div class="row">
-                            <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img1_5.jpg" alt="Шпон">
-                            </div>
-                            <div class="col-12 col-md-8">
-                                <p class="desc_title">Шпон</p>
-                                <ul class="desc_list">
-                                    <li>
-                                        <span>
-                                            Устойчивость к перепадам температур и влажности
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            Экологически чистый материал, не выделяет токсичных веществ
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            Кухня из шпона внешне ничем не уступает мебели из массива дерева
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            Долгий срок эксплуатации за счет покрытия шпона защитного лака
                                         </span>
                                     </li>
                                 </ul>
@@ -518,39 +486,6 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                    <div class="desc_text container col-12" id="desc_text-7">
-                        <div class="row">
-                            <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img2_1.jpg" alt="Дерево">
-                            </div>
-                            <div class="col-12 col-md-8">
-                                <p class="desc_title">Дерево</p>
-                                <ul class="desc_list">
-                                    <li>
-                                        <span>
-                                            Столешницы из деревянного массива выглядят дорого и благородно
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            Деревянные столешницы для кухни можно приобрести по средней цене
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            Легко реставрировать: можно неоднократно обновлять кухонный гарнитур простой шлифовкой
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            Отлично подходит для дизайна кухни в различных стилях
-                                        </span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
                     </div>
                     <div class="desc_text container col-12" id="desc_text-8">
                         <div class="row">
@@ -605,7 +540,7 @@
                                     </li>
                                     <li>
                                         <span>
-                                            Большой диапазон цветов и оттенков, что дает возможность воплощать разные стилистические решения.
+                                            Большой диапазон цветов и оттенков, что дает возможность воплощать разные стилистические решения
                                         </span>
                                     </li>
                                     <li>
@@ -616,38 +551,6 @@
                                     <li>
                                         <span>
                                             Долговечные цвета. Даже под воздействием ультрафиолета, столешница из пластика не выгорает
-                                        </span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="desc_text container col-12" id="desc_text-10">
-                        <div class="row">
-                            <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img2_4.jpg" alt="Металл">
-                            </div>
-                            <div class="col-12 col-md-8">
-                                <p class="desc_title">Металл</p>
-                                <ul class="desc_list">
-                                    <li>
-                                        <span>
-                                            Металлическая столешница не накапливает жир, грязь, не образуется плесень
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            Бесшовные соединения не позволяют проникать влаги
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            Металлическая столешница не деформируется от горячей посуды
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            Зеркальная поверхность красиво выглядит и визуально увеличивает пространство
                                         </span>
                                     </li>
                                 </ul>
@@ -721,7 +624,7 @@
                                 <img src="assets/img/desc_img3_3.jpg" alt="МДФ+пластик">
                             </div>
                             <div class="col-12 col-md-8">
-                                <p class="desc_title">МДФ+пластик</p>
+                                <p class="desc_title">ДСП + пластик HPL</p>
                                 <ul class="desc_list">
                                     <li>
                                         <span>
@@ -730,68 +633,7 @@
                                     </li>
                                     <li>
                                         <span>
-                                            Фартук из МДФ и пластика выполняют свою основную функцию - надежную защиту стен от брызг, одновременно притягивают к себе взгляд как элемент дизайна.
-                                        </span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="desc_text container col-12" id="desc_text-14">
-                        <div class="row">
-                            <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img3_4.jpg" alt="Металл">
-                            </div>
-                            <div class="col-12 col-md-8">
-                                <p class="desc_title">Металл</p>
-                                <ul class="desc_list">
-                                    <li>
-                                        <span>
-                                            Металлический фартук устойчив к воздействию тепла и воды
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            Пластичность металлического фартука позволяет устанавливать его в любых, даже самых проблемных местах
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            Сталь отражает свет, поэтому помещение с металлическим фартуком выглядит более просторным
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            За металлической поверхностью легко ухаживать, а так же мыть и чистить её
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            Металлический фартук может быть выполнен с различными текстурами, что немаловажно для дизайна помещения
-                                        </span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="desc_text container col-12" id="desc_text-15">
-                        <div class="row">
-                            <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img3_6.jpg" alt="Стекло">
-                            </div>
-                            <div class="col-12 col-md-8">
-                                <p class="desc_title">Стекло</p>
-                                <ul class="desc_list">
-                                    <li>
-                                        <span>
-                                            Стеклянный фартук-скинали не уступает по характеристикам плитке:  не подвержен воздействию влаги, не боится механических повреждений и высоких температур
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            Стеклянные стеновые панели могут быть как однотонными, так и с нанесенными на них различными изображениями
+                                            Фартук из МДФ и пластика выполняют свою основную функцию - надежную защиту стен от брызг, одновременно притягивают к себе взгляд как элемент дизайна
                                         </span>
                                     </li>
                                 </ul>
@@ -829,7 +671,7 @@
                     <a name="designers" class="anchor"></a>
                     <h2 class="visually-hidden">Наши дизайнеры</h2>
 
-                    <p class="our-designers-promo-text">С Вами работают <b class="green">профессионалы</b></p>
+                    <p class="our-designers-promo-text">С Вами работают <br class="break-575-on"><b class="green">профессионалы</b></p>
 
                     <ol class="our-designers-list our-designers-slider">
                         <li>
@@ -952,7 +794,7 @@
                 <a name="about" class="anchor"></a>
                 <h2 class="about-title">О нас в <b class="green">цифрах</b></h2>
                 
-                <p class="about-subtitle">Мебельная фабрика «Слон» основана в сентябре 1993 года</p>
+                <p class="about-subtitle">Мебельная фабрика «Слон» основана <br class="break-575-on">в сентябре 1993 года</p>
                 
                 <div class="about-statistics">
                     <div class="about-statistics-first-row row">
@@ -1235,7 +1077,7 @@
                     <small class="text-remark">* - обязательные для заполнения поля</small>
                 </div>
                 <button  type="submit" class="modal_Btn">Отправить заявку</button>
-                <p>Нажимая кнопку "Отправить заявку" вы даете согласие на обработку персональных данных в соответствии с <a href="./politics.html" target="_blank">политикой конфиденциальности</a></p>
+                <p>Нажимая кнопку "Отправить заявку" Вы даете согласие на обработку персональных данных в соответствии с <a href="./politics.html" target="_blank">политикой конфиденциальности</a></p>
             </form>
         </section>
         
@@ -1726,7 +1568,7 @@
         <div class="modal_Form_Offer_Call_Alert">
             <a class="top_bar_modal justify-content-end"><button class="modal-close" onclick="closeModal('modal_Form_Offer_Call_Alert')"></button></a>
 
-            <span><img src="/assets/img/paper_Plane<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Бумажный самолёт"></span>
+            <span><img src="assets/img/paper_Plane<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Бумажный самолёт"></span>
             <p class="modal_Title">Ваша заявка принята!</p>
             <p class="modal_Subtitle">Мы свяжемся с Вами в ближайшее время для уточнения деталей!</p>
         </div>
