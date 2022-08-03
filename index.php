@@ -8,6 +8,10 @@
     else $browser = "Неизвестный";
 ?>
 
+<?php
+    $assetsPath = "/";
+?>
+
 <!DOCTYPE HTML>
 <html lang="ru">
 	<head>
@@ -182,7 +186,7 @@
                                 Замер, доставка и установка
                             </p>
                             <div class="promo-dec col-sm-6 col-12 d-flex justify-content-end align-content-end align-self-end">
-                                <img src="assets/img/slider_promotion_gift.png" alt="Подарок">
+                                <img src="assets/img/slider_promotion_gift<?=($browser=='Safari'?'.png':'.webp')?>" alt="Подарок">
                             </div>
                         </div>
                     </li>
@@ -202,7 +206,7 @@
                     <li class="slider-promo-item blum-discount">
                         <div class="row">
                             <div class="promo-dec xl-order-1 order-2 col-xl-6 col-12 d-flex align-items-center">
-                                <img src="assets/img/slider_promotion_blum.png" alt="Логотип Blum">
+                                <img src="assets/img/slider_promotion_blum<?=($browser=='Safari'?'.png':'.webp')?>" alt="Логотип Blum">
                             </div>
                             <div class="xl-order-2 order-1 col-xl-6 col-12 row">
                                 <h3 class="promo-name col-12">
@@ -282,7 +286,7 @@
                             <p>Мы готовы дать гарантию 5 лет благодаря тому, что сами изготавливаем для Вас материалы кухни, столешницу, фасады и сами собираем ее из надежных комплектующих.</p>  
                         </div>
 
-                        <img class="guarantee-img" src="assets/img/warranty.png" width="409" height="462" alt="Договор">
+                        <img class="guarantee-img" src="assets/img/warranty<?=($browser=='Safari'?'.png':'.webp')?>" width="409" height="462" alt="Договор">
                     </div>
                 </div>
             </section>
@@ -330,7 +334,7 @@
                     <div class="desc_text container col-12" id="desc_text-1">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img1_1.jpg" alt="ЛДСП">
+                                <img src="assets/img/desc_img1_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="ЛДСП">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">ЛДСП</p>
@@ -355,7 +359,7 @@
                     <div class="desc_text container col-12" id="desc_text-2">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img1_2.jpg" alt="Пластик + МДФ" />
+                                <img src="assets/img/desc_img1_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Пластик + МДФ" />
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Пластик + ДСП</p>
@@ -393,7 +397,7 @@
                     <div class="desc_text container col-12" id="desc_text-3">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img1_3.jpg" alt="Экомембрана + МДФ">
+                                <img src="assets/img/desc_img1_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Экомембрана + МДФ">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Экомембрана + МДФ</p>
@@ -426,7 +430,7 @@
                     <div class="desc_text container col-12 " id="desc_text-4">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img1_4.jpg" alt="Эмаль + МДФ">
+                                <img src="assets/img/desc_img1_4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Эмаль + МДФ">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Эмаль + МДФ</p>
@@ -453,7 +457,7 @@
                     <div class="desc_text container col-12" id="desc_text-6">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img1_6.jpg" alt="Массив дерева">
+                                <img src="assets/img/desc_img1_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Массив дерева">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Массив дерева</p>
@@ -490,7 +494,7 @@
                     <div class="desc_text container col-12" id="desc_text-8">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img2_2.jpg" alt="Искусственный камень">
+                                <img src="assets/img/desc_img2_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Искусственный камень">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Искусственный камень</p>
@@ -528,7 +532,7 @@
                     <div class="desc_text container col-12" id="desc_text-9">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img2_3.jpg" alt="Пластик + ДСП">
+                                <img src="assets/img/desc_img2_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Пластик + ДСП">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Пластик + ДСП</p>
@@ -560,7 +564,7 @@
                     <div class="desc_text container col-12" id="desc_text-11">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img3_1.jpg" alt="Дерево">
+                                <img src="assets/img/desc_img3_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Дерево">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Дерево</p>
@@ -583,7 +587,7 @@
                     <div class="desc_text container col-12" id="desc_text-12">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img3_2.jpg" alt="Искусственный камень">
+                                <img src="assets/img/desc_img3_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Искусственный камень">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Искусственный камень</p>
@@ -621,7 +625,7 @@
                     <div class="desc_text container col-12" id="desc_text-13">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img3_3.jpg" alt="МДФ+пластик">
+                                <img src="assets/img/desc_img3_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="МДФ+пластик">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">ДСП + пластик HPL</p>
@@ -643,7 +647,7 @@
                     <div class="desc_text container col-12" id="desc_text-16">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img3_5.jpg" alt="ДСП и ДВП, ЛДСП">
+                                <img src="assets/img/desc_img3_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="ДСП и ДВП, ЛДСП">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">ДСП и ДВП, ЛДСП</p>
@@ -676,7 +680,7 @@
                     <ol class="our-designers-list our-designers-slider">
                         <li>
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="assets/img/specialists_1.jpg" width="255" height="368" alt="Оржанцева Наталья">
+                                <img class="our-designer-photo" src="assets/img/specialists_1<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Оржанцева Наталья">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Оржанцева Наталья
@@ -689,7 +693,7 @@
                         </li>
                         <li>
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="assets/img/specialists_2.jpg" width="255" height="368" alt="Ванифатова Людмила">
+                                <img class="our-designer-photo" src="assets/img/specialists_2<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Ванифатова Людмила">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Ванифатова Людмила
@@ -703,7 +707,7 @@
                         </li>
                         <li>
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="assets/img/specialists_3.jpg" width="255" height="368" alt="Семина Татьяна">
+                                <img class="our-designer-photo" src="assets/img/specialists_3<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Семина Татьяна">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Семина Татьяна
@@ -716,7 +720,7 @@
                         </li>
                         <li>
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="assets/img/specialists_4.jpg" width="255" height="368" alt="Заболотская Наталия">
+                                <img class="our-designer-photo" src="assets/img/specialists_4<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Заболотская Наталия">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Заболотская Наталия
@@ -733,7 +737,7 @@
                     <ol class="our-designers-list row">
                         <li class="col-lg-3 col-md-6">
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="assets/img/specialists_1.jpg" width="255" height="368" alt="Оржанцева Наталья">
+                                <img class="our-designer-photo" src="assets/img/specialists_1<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Оржанцева Наталья">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Оржанцева Наталья
@@ -746,7 +750,7 @@
                         </li>
                         <li class="col-lg-3 col-md-6">
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="assets/img/specialists_2.jpg" width="255" height="368" alt="Ванифатова Людмила">
+                                <img class="our-designer-photo" src="assets/img/specialists_2<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Ванифатова Людмила">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Ванифатова Людмила
@@ -760,7 +764,7 @@
                         </li>
                         <li class="col-lg-3 col-md-6">
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="assets/img/specialists_3.jpg" width="255" height="368" alt="Семина Татьяна">
+                                <img class="our-designer-photo" src="assets/img/specialists_3<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Семина Татьяна">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Семина Татьяна
@@ -773,7 +777,7 @@
                         </li>
                         <li class="col-lg-3 col-md-6">
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="assets/img/specialists_4.jpg" width="255" height="368" alt="Заболотская Наталия">
+                                <img class="our-designer-photo" src="assets/img/specialists_4<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Заболотская Наталия">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Заболотская Наталия
@@ -834,28 +838,28 @@
                 
                 <ul class="slider-manufacture">
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="assets/img/slider_manufacture_1.jpg" alt="С места производства 1">
+                        <img class="w-100" src="assets/img/slider_manufacture_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 1">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="assets/img/slider_manufacture_2.jpg" alt="С места производства 2">
+                        <img class="w-100" src="assets/img/slider_manufacture_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 2">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="assets/img/slider_manufacture_3.jpg" alt="С места производства 3">
+                        <img class="w-100" src="assets/img/slider_manufacture_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 3">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="assets/img/slider_manufacture_4.jpg" alt="С места производства 4">
+                        <img class="w-100" src="assets/img/slider_manufacture_4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 4">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="assets/img/slider_manufacture_5.jpg" alt="С места производства 5">
+                        <img class="w-100" src="assets/img/slider_manufacture_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 5">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="assets/img/slider_manufacture_6.jpg" alt="С места производства 6">
+                        <img class="w-100" src="assets/img/slider_manufacture_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 6">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="assets/img/slider_manufacture_7.jpg" alt="С места производства 7">
+                        <img class="w-100" src="assets/img/slider_manufacture_7<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 7">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="assets/img/slider_manufacture_8.jpg" alt="С места производства 8">
+                        <img class="w-100" src="assets/img/slider_manufacture_8<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 8">
                     </li>
                 </ul>
                 
@@ -894,7 +898,7 @@
                     </div>
                 </div>
 
-                <a class="static-map" href="https://yandex.ru/maps/-/CCUiASBV0C"><img src="assets/img/map_orel.png" height="572" alt="Адреса салонов в Орле: ул. Октябрьская, д. 24, ул. 8 Марта д. 8, ул. Комсомольская, д. 267"></a>
+                <a class="static-map" href="https://yandex.ru/maps/-/CCUiASBV0C"><img src="assets/img/map_orel<?=($browser=='Safari'?'.png':'.webp')?>" height="572" alt="Адреса салонов в Орле: ул. Октябрьская, д. 24, ул. 8 Марта д. 8, ул. Комсомольская, д. 267"></a>
 
                 <div class="contact-wrapper container-fluid">
                     <div class="container-lg container-fluid d-flex justify-content-end">
