@@ -696,7 +696,7 @@
                     <ol class="our-designers-list our-designers-slider">
                         <li>
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="<?=ASSETS_PATH?>assets/img/specialists_1<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Оржанцева Наталья">
+                                <img class="our-designer-photo" data-lazy="<?=ASSETS_PATH?>assets/img/specialists_1<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Оржанцева Наталья">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Оржанцева Наталья
@@ -709,7 +709,7 @@
                         </li>
                         <li>
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="<?=ASSETS_PATH?>assets/img/specialists_2<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Ванифатова Людмила">
+                                <img class="our-designer-photo" data-lazy="<?=ASSETS_PATH?>assets/img/specialists_2<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Ванифатова Людмила">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Ванифатова Людмила
@@ -723,7 +723,7 @@
                         </li>
                         <li>
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="<?=ASSETS_PATH?>assets/img/specialists_3<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Семина Татьяна">
+                                <img class="our-designer-photo" data-lazy="<?=ASSETS_PATH?>assets/img/specialists_3<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Семина Татьяна">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Семина Татьяна
@@ -736,7 +736,7 @@
                         </li>
                         <li>
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="<?=ASSETS_PATH?>assets/img/specialists_4<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Заболотская Наталия">
+                                <img class="our-designer-photo" data-lazy="<?=ASSETS_PATH?>assets/img/specialists_4<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Заболотская Наталия">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Заболотская Наталия
@@ -854,28 +854,28 @@
                 
                 <ul class="slider-manufacture">
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="<?=ASSETS_PATH?><?=ASSETS_PATH?>assets/img/slider_manufacture_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 1">
+                        <img class="w-100" data-lazy="<?=ASSETS_PATH?><?=ASSETS_PATH?>assets/img/slider_manufacture_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 1">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 2">
+                        <img class="w-100" data-lazy="<?=ASSETS_PATH?>assets/img/slider_manufacture_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 2">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 3">
+                        <img class="w-100" data-lazy="<?=ASSETS_PATH?>assets/img/slider_manufacture_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 3">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 4">
+                        <img class="w-100" data-lazy="<?=ASSETS_PATH?>assets/img/slider_manufacture_4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 4">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 5">
+                        <img class="w-100" data-lazy="<?=ASSETS_PATH?>assets/img/slider_manufacture_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 5">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 6">
+                        <img class="w-100" data-lazy="<?=ASSETS_PATH?>assets/img/slider_manufacture_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 6">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_7<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 7">
+                        <img class="w-100" data-lazy="<?=ASSETS_PATH?>assets/img/slider_manufacture_7<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 7">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_8<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 8">
+                        <img class="w-100" data-lazy="<?=ASSETS_PATH?>assets/img/slider_manufacture_8<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 8">
                     </li>
                 </ul>
                 
@@ -1568,7 +1568,7 @@
         <script src="<?=ASSETS_PATH?>assets/lib/slick/slick.min.js"></script>        
         <script src="<?=ASSETS_PATH?>assets/js/main.js"></script>
     
-        <link rel="stylesheet" href="assets/lib/slick/slick.css">
-        <link rel="stylesheet" href="assets/lib/slick/slick-theme.css">
+        <link rel="stylesheet" href="<?=ASSETS_PATH?>assets/lib/slick/slick.css">
+        <link rel="stylesheet" href="<?=ASSETS_PATH?>assets/lib/slick/slick-theme.css">
 	</body>
 </html>

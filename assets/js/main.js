@@ -20,6 +20,7 @@ jQuery(document).ready(function() {
     
     
     $('.slider-manufacture').slick({
+		lazyLoad: 'ondemand',
         centerMode: true,
         centerPadding: '200px',
         slidesToShow: 1,
@@ -47,6 +48,7 @@ jQuery(document).ready(function() {
     });
     
     $('.our-designers-slider').slick({
+			lazyLoad: 'ondemand',
             centerMode: true,
             centerPadding: '15%',
             slidesToShow: 1,
