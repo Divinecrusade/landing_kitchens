@@ -56,7 +56,7 @@
             }
         </style>
         
-        <meta name="description" content="Купить модульные кухни в Орле от производителя. Собственное производство. Изготовление от 3 дней. Онлайн расчет стоимости кухни. Бесплатная доставка в пределах города. Гарантия на кухни 5 лет">
+        <meta name="description" content="Купить модульные кухни в Москве от производителя. Собственное производство. Изготовление от 3 дней. Онлайн расчет стоимости кухни. Бесплатная доставка в пределах города. Гарантия на кухни 5 лет">
         
         <!-- Yandex.Metrika counter -->
         <script type="text/javascript" >
@@ -87,8 +87,8 @@
                 <div class="col-lg-4 col-md-6 col-sm-4 col-4 order-sm-2 order-3">
                     <div class="h-100 d-flex align-items-center justify-content-center">
                         <select class="city-choose" onChange="redirect()">
-                            <option value="Orel" selected>г. Орел</option>
-                            <option value="Moscow">г. Москва</option>
+                            <option value="Orel">г. Орел</option>
+                            <option value="Moscow" selected>г. Москва</option>
                         </select>
 
                         <p class="header-tel">
@@ -117,8 +117,8 @@
                     <div class="sub-option-menu col-12 justify-content-between align-items-center">
                         <div>
                             <select class="city-choose" onChange="redirect()">
-                                <option value="Orel" selected>г. Орел</option>
-                                <option value="Moscow">г. Москва</option>
+                                <option value="Orel">г. Орел</option>
+                                <option value="Moscow" selected>г. Москва</option>
                             </select>   
                         </div>
                         <div>
@@ -264,7 +264,7 @@
                                 
                                 <!-- Hidden Required Fields -->
                                 <input type="hidden" name="project_name" value="Кухни-Слон">
-                                <input type="hidden" name="city" value="Орёл">
+                                <input type="hidden" name="city" value="Москва">
 
                                 <input type="hidden" name="form_subject" value="Беспроцентная рассрочка">
                                 <!-- END Hidden Required Fields -->
@@ -892,29 +892,32 @@
 
                             <ul class="addresses-list w-100">
                                 <li>
-                                    <address>ул. Октябрьская, д. 24</address>
+                                    <address>ул. Пришвина, 26А, Москва ТЦ Миллион Мелочей, этаж 2, павильон В24</address>
                                     <p class="contacts-tel">
-                                        <a href="tel:79624775727"><span class="visually-hidden">Контактный телефон для салона по адресу ул. Октябрьская, д. 24: </span>+7 (962) 477-57-27</a>
+                                        <a href="tel:79065701444"><span class="visually-hidden">Контактный телефон для салона по адресу ул. Пришвина, 26А, Москва ТЦ Миллион Мелочей, этаж 2, павильон В24: </span>+7 (906) 570-14-44</a>
                                     </p>
                                 </li>
                                 <li>
-                                    <address>ул. 8 Марта д. 8</address>
+                                    <address>Шараповский пр., вл2с4, Мытищи МЦ Красный Кит, эт. 1</address>
                                     <p class="contacts-tel">
-                                        <a href="tel:74862780171"><span class="visually-hidden">Контактный телефон для салона по адресу ул. 8 Марта д. 8: </span>+7 (4862) 78-01-71</a>
+                                        <a href="tel:79065705444"><span class="visually-hidden">Контактный телефон для салона по адресу Шараповский пр., вл2с4, Мытищи МЦ Красный Кит, эт. 1: </span>+7 (906) 570-54-44</a>
                                     </p>  
                                 </li>
                                 <li>
-                                    <address>ул. Комсомольская, д. 267</address>
+                                    <address>Киевское шоссе, 22-й км, владение 4 стр., блок В, 3 этаж, павильон 320Б</address>
                                     <p class="contacts-tel">
-                                        <a href="tel:74862732718"><span class="visually-hidden">Контактный телефон для салона по адресу ул. Комсомольская, д. 267: </span>+7 (4862) 73-27-18</a>
+                                        <a href="tel:79616214668"><span class="visually-hidden">Контактный телефон для салона по адресу Киевское шоссе, 22-й км, владение 4 стр., блок В, 3 этаж, павильон 320Б: </span>+7 (961) 621-46-68</a>
                                     </p>
+                                </li>
+                                <li>
+                                    <address>ул. Рябиновая, д. 41, корп. 1, 2 эт.</address>
                                 </li>
                             </ul>                    
                         </div>
                     </div>
                 </div>
 
-                <a class="static-map" href="https://yandex.ru/maps/-/CCUiASBV0C"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/map_orel<?=($browser=='Safari'?'.png':'.webp')?>" height="572" alt="Адреса салонов в Орле: ул. Октябрьская, д. 24, ул. 8 Марта д. 8, ул. Комсомольская, д. 267"></a>
+                <a class="static-map" href="https://yandex.ru/maps/-/CCUuAVb9lD"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/map_moscow<?=($browser=='Safari'?'.png':'.webp')?>" height="572" alt="Адреса салонов в Москве: ул. Пришвина, 26А, Москва ТЦ Миллион Мелочей, этаж 2, павильон В24, Шараповский пр., вл2с4, Мытищи МЦ Красный Кит, эт. 1, Киевское шоссе, 22-й км, владение 4 стр., блок В, 3 этаж, павильон 320Б, ул. Рябиновая, д. 41, корп. 1, 2 эт."></a>
 
                 <div class="contact-wrapper container-fluid">
                     <div class="container-lg container-fluid d-flex justify-content-end">
@@ -929,7 +932,7 @@
                                 
                                 <!-- Hidden Required Fields -->
                                 <input type="hidden" name="project_name" value="Кухни-Слон">
-                                <input type="hidden" name="city" value="Орёл">
+                                <input type="hidden" name="city" value="Москва">
 
                                 <input type="hidden" name="form_subject" value="Задать вопрос">
                                 <!-- END Hidden Required Fields -->
@@ -994,7 +997,7 @@
                 
                 <!-- Hidden Required Fields -->
                 <input type="hidden" name="project_name" value="Кухни-Слон">
-                <input type="hidden" name="city" value="Орёл">
+                <input type="hidden" name="city" value="Москва">
 
                 <input type="hidden" name="form_subject" value="3D-проектирование кухни">
                 <!-- END Hidden Required Fields -->
@@ -1049,7 +1052,7 @@
 
                 <!-- Hidden Required Fields -->
                 <input type="hidden" name="project_name" value="Кухни-Слон">
-                <input type="hidden" name="city" value="Орёл">
+                <input type="hidden" name="city" value="Москва">
 
                 <input type="hidden" name="form_subject" value="Планирование кухни онлайн">
                 <!-- END Hidden Required Fields -->
@@ -1128,7 +1131,7 @@
 
                 <!-- Hidden Required Fields -->
                 <input type="hidden" name="project_name" value="Кухни-Слон">
-                <input type="hidden" name="city" value="Орёл">
+                <input type="hidden" name="city" value="Москва">
 
                 <input type="hidden" name="form_subject" value="Посчитать стоимость кухни">
                 <!-- END Hidden Required Fields -->
@@ -1564,7 +1567,7 @@
         
         <script>
             function redirect() {
-                window.location.replace("http://mf-slon-retarget/msk.php");
+                window.location.replace("http://mf-slon-retarget/");
             }
         </script>
         
