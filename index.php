@@ -15,7 +15,6 @@
 <!DOCTYPE HTML>
 <html lang="ru">
 	<head>
-        
         <link rel="icon" sizes="48x48" href="https://mf-slon.ru/favicon.ico" type="image/x-icon">
         <link rel="icon" sizes="32x32" href="https://mf-slon.ru/favicon32.ico" type="image/x-icon">
         <link rel="icon" sizes="16x16" href="https://mf-slon.ru/favicon16.ico" type="image/x-icon">
@@ -303,7 +302,7 @@
                             <p>Мы готовы дать гарантию 5 лет благодаря тому, что сами изготавливаем для Вас материалы кухни, столешницу, фасады и сами собираем ее из надежных комплектующих.</p>  
                         </div>
 
-                        <img class="guarantee-img" src="<?=ASSETS_PATH?>assets/img/warranty<?=($browser=='Safari'?'.png':'.webp')?>" width="409" height="462" alt="Договор">
+                        <img class="guarantee-img lazyload" data-src="<?=ASSETS_PATH?>assets/img/warranty<?=($browser=='Safari'?'.png':'.webp')?>" width="409" height="462" alt="Договор">
                     </div>
                 </div>
             </section>
@@ -327,7 +326,7 @@
                             <input type="radio" id="kitch_Type_1_2" name="radioSec" value="2"><label for="kitch_Type_1_2">Пластик + ДСП</label>
                             <input type="radio" id="kitch_Type_1_3" name="radioSec" value="3"><label for="kitch_Type_1_3">Экомембрана + МДФ</label>
                             <input type="radio" id="kitch_Type_1_4" name="radioSec" value="4" checked="checked"><label for="kitch_Type_1_4">Эмаль + МДФ</label>
-                            <input type="radio" id="kitch_Type_1_4" name="radioSec" value="6"><label for="kitch_Type_1_4">Массив дерева</label>
+                            <input type="radio" id="kitch_Type_1_5" name="radioSec" value="6"><label for="kitch_Type_1_5">Массив дерева</label>
                         </p>
                     </div>
                 </div>
@@ -351,7 +350,7 @@
                     <div class="desc_text container col-12" id="desc_text-1">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="ЛДСП">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhXwBUAIAAAP///wAAACH5BAEAAAEALAAAAABfAFQAAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGNhWAAA7" data-src="<?=ASSETS_PATH?>assets/img/desc_img1_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="ЛДСП">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">ЛДСП</p>
@@ -376,7 +375,7 @@
                     <div class="desc_text container col-12" id="desc_text-2">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Пластик + МДФ" />
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhXwBUAIAAAP///wAAACH5BAEAAAEALAAAAABfAFQAAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGNhWAAA7" data-src="<?=ASSETS_PATH?>assets/img/desc_img1_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Пластик + МДФ" />
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Пластик + ДСП</p>
@@ -414,7 +413,7 @@
                     <div class="desc_text container col-12" id="desc_text-3">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Экомембрана + МДФ">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhXwBUAIAAAP///wAAACH5BAEAAAEALAAAAABfAFQAAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGNhWAAA7" data-src="<?=ASSETS_PATH?>assets/img/desc_img1_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Экомембрана + МДФ">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Экомембрана + МДФ</p>
@@ -447,7 +446,7 @@
                     <div class="desc_text container col-12 " id="desc_text-4">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Эмаль + МДФ">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhXwBUAIAAAP///wAAACH5BAEAAAEALAAAAABfAFQAAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGNhWAAA7" data-src="<?=ASSETS_PATH?>assets/img/desc_img1_4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Эмаль + МДФ">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Эмаль + МДФ</p>
@@ -474,7 +473,7 @@
                     <div class="desc_text container col-12" id="desc_text-6">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Массив дерева">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhXwBUAIAAAP///wAAACH5BAEAAAEALAAAAABfAFQAAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGNhWAAA7" data-src="<?=ASSETS_PATH?>assets/img/desc_img1_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Массив дерева">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Массив дерева</p>
@@ -511,7 +510,7 @@
                     <div class="desc_text container col-12" id="desc_text-8">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="<?=ASSETS_PATH?>assets/img/desc_img2_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Искусственный камень">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhXwBUAIAAAP///wAAACH5BAEAAAEALAAAAABfAFQAAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGNhWAAA7" data-src="<?=ASSETS_PATH?>assets/img/desc_img2_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Искусственный камень">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Искусственный камень</p>
@@ -549,7 +548,7 @@
                     <div class="desc_text container col-12" id="desc_text-9">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="<?=ASSETS_PATH?>assets/img/desc_img2_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Пластик + ДСП">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhXwBUAIAAAP///wAAACH5BAEAAAEALAAAAABfAFQAAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGNhWAAA7" data-src="<?=ASSETS_PATH?>assets/img/desc_img2_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Пластик + ДСП">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Пластик + ДСП</p>
@@ -581,7 +580,7 @@
                     <div class="desc_text container col-12" id="desc_text-11">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="<?=ASSETS_PATH?>assets/img/desc_img3_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Дерево">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhXwBUAIAAAP///wAAACH5BAEAAAEALAAAAABfAFQAAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGNhWAAA7" data-src="<?=ASSETS_PATH?>assets/img/desc_img3_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Дерево">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Дерево</p>
@@ -604,7 +603,7 @@
                     <div class="desc_text container col-12" id="desc_text-12">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="<?=ASSETS_PATH?>assets/img/desc_img3_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Искусственный камень">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhXwBUAIAAAP///wAAACH5BAEAAAEALAAAAABfAFQAAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGNhWAAA7" data-src="<?=ASSETS_PATH?>assets/img/desc_img3_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Искусственный камень">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Искусственный камень</p>
@@ -642,7 +641,7 @@
                     <div class="desc_text container col-12" id="desc_text-13">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="<?=ASSETS_PATH?>assets/img/desc_img3_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="МДФ+пластик">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhXwBUAIAAAP///wAAACH5BAEAAAEALAAAAABfAFQAAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGNhWAAA7" data-src="<?=ASSETS_PATH?>assets/img/desc_img3_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="МДФ+пластик">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">ДСП + пластик HPL</p>
@@ -664,7 +663,7 @@
                     <div class="desc_text container col-12" id="desc_text-16">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="<?=ASSETS_PATH?>assets/img/desc_img3_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="ДСП и ДВП, ЛДСП">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhXwBUAIAAAP///wAAACH5BAEAAAEALAAAAABfAFQAAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGNhWAAA7" data-src="<?=ASSETS_PATH?>assets/img/desc_img3_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="ДСП и ДВП, ЛДСП">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">ДСП и ДВП, ЛДСП</p>
@@ -754,7 +753,7 @@
                     <ol class="our-designers-list row">
                         <li class="col-lg-3 col-md-6">
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="<?=ASSETS_PATH?>assets/img/specialists_1<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Оржанцева Наталья">
+                                <img class="our-designer-photo lazyload" data-src="<?=ASSETS_PATH?>assets/img/specialists_1<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Оржанцева Наталья">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Оржанцева Наталья
@@ -767,7 +766,7 @@
                         </li>
                         <li class="col-lg-3 col-md-6">
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="<?=ASSETS_PATH?>assets/img/specialists_2<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Ванифатова Людмила">
+                                <img class="our-designer-photo lazyload" data-src="<?=ASSETS_PATH?>assets/img/specialists_2<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Ванифатова Людмила">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Ванифатова Людмила
@@ -781,7 +780,7 @@
                         </li>
                         <li class="col-lg-3 col-md-6">
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="<?=ASSETS_PATH?>assets/img/specialists_3<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Семина Татьяна">
+                                <img class="our-designer-photo lazyload" data-src="<?=ASSETS_PATH?>assets/img/specialists_3<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Семина Татьяна">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Семина Татьяна
@@ -794,7 +793,7 @@
                         </li>
                         <li class="col-lg-3 col-md-6">
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="<?=ASSETS_PATH?>assets/img/specialists_4<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Заболотская Наталия">
+                                <img class="our-designer-photo lazyload" data-src="<?=ASSETS_PATH?>assets/img/specialists_4<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Заболотская Наталия">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Заболотская Наталия
@@ -915,7 +914,7 @@
                     </div>
                 </div>
 
-                <a class="static-map" href="https://yandex.ru/maps/-/CCUiASBV0C"><img src="<?=ASSETS_PATH?>assets/img/map_orel<?=($browser=='Safari'?'.png':'.webp')?>" height="572" alt="Адреса салонов в Орле: ул. Октябрьская, д. 24, ул. 8 Марта д. 8, ул. Комсомольская, д. 267"></a>
+                <a class="static-map" href="https://yandex.ru/maps/-/CCUiASBV0C"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/map_orel<?=($browser=='Safari'?'.png':'.webp')?>" height="572" alt="Адреса салонов в Орле: ул. Октябрьская, д. 24, ул. 8 Марта д. 8, ул. Комсомольская, д. 267"></a>
 
                 <div class="contact-wrapper container-fluid">
                     <div class="container-lg container-fluid d-flex justify-content-end">
@@ -1138,28 +1137,28 @@
                         <input id="modal_Kitch_Type-1" class="modal_Kitch_Type" value="Угловая" type="radio" name="Тип кухни" checked>
                         <label for="modal_Kitch_Type-1" class="modal_Kitch_Type col 1">
                             <div class="col-12 p-0">
-                                <img src="<?=ASSETS_PATH?>assets/img/Angler<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Угловая">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?=ASSETS_PATH?>assets/img/Angler<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Угловая">
                             </div>
                             <div class="col-12">Угловая</div>
                         </label>
                         <input id="modal_Kitch_Type-2" class="modal_Kitch_Type" value="Прямая" type="radio" name="Тип кухни" >
                         <label for="modal_Kitch_Type-2" class="modal_Kitch_Type col 2">
                             <div class="col-12  p-0">
-                                <img src="<?=ASSETS_PATH?>assets/img/Straight<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Прямая">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?=ASSETS_PATH?>assets/img/Straight<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Прямая">
                             </div>
                             <div class="col-12">Прямая</div>
                         </label>
                         <input id="modal_Kitch_Type-3" class="modal_Kitch_Type" value="П-образная" type="radio" name="Тип кухни" >
                         <label for="modal_Kitch_Type-3" class="modal_Kitch_Type col 3">
                             <div class="col-12  p-0">
-                                <img src="<?=ASSETS_PATH?>assets/img/P_style<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="П образная">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?=ASSETS_PATH?>assets/img/P_style<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="П образная">
                             </div>
                             <div class="col-12">П образная</div>
                         </label>
                         <input id="modal_Kitch_Type-4" class="modal_Kitch_Type" value="С_островом" type="radio" name="Тип кухни" >
                         <label for="modal_Kitch_Type-4" class="modal_Kitch_Type col 4">
                             <div class="col-12  p-0">
-                                <img src="<?=ASSETS_PATH?>assets/img/With_island<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С островом">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?=ASSETS_PATH?>assets/img/With_island<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С островом">
                             </div>
                             <div class="col-12">С островом</div>
                         </label>
@@ -1173,7 +1172,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-center">
-                                            <img class="modal_Kitch_Sizes_Img" src="<?=ASSETS_PATH?>assets/img/Straight_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Прямая размеры">
+                                            <img class="modal_Kitch_Sizes_Img lazyload" src="data:image/gif;base64,R0lGODlhGwAIAIAAAP///wAAACH5BAEAAAEALAAAAAAbAAgAAAINjI+py+0Po5y02otVAQA7" data-src="<?=ASSETS_PATH?>assets/img/Straight_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Прямая размеры">
                                         </div>
                                         <div class="col-12 d-flex justify-content-center">
                                             <input id="modal_Kitch_Sizes-1_1" class="modal_Inp_Sizes" type="text" name="Основная_секция" placeholder="Длина, мм" >
@@ -1192,7 +1191,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-center">
-                                            <img class="modal_Kitch_Sizes_Img" src="<?=ASSETS_PATH?>assets/img/Angler_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Угловая размеры">
+                                            <img class="modal_Kitch_Sizes_Img lazyload" src="data:image/gif;base64,R0lGODlhCQFOAIAAAP///wAAACH5BAEAAAEALAAAAAAJAU4AAAKxjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGCg4SFhoeIiYqLjI2Oj4CBkpOUlZaXmJmam5ydnp+QkaKjpKWmp6ipqqusra6voKGys7S1tre4ubq7vL2+v7CxwsPExcbHyMnKy8zNzsvFoAADs=" data-src="<?=ASSETS_PATH?>assets/img/Angler_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Угловая размеры">
                                         </div>
                                         <div class="col-12 d-flex justify-content-center">
                                             <input id="modal_Kitch_Sizes-2_1" class="modal_Inp_Sizes " type="text" name=" Левая_Секция " placeholder="Длина, мм" >
@@ -1208,7 +1207,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-center">
-                                            <img class="modal_Kitch_Sizes_Img" src="<?=ASSETS_PATH?>assets/img/P_style_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="П-образная размеры">
+                                            <img class="modal_Kitch_Sizes_Img lazyload" src="data:image/gif;base64,R0lGODlhCQOXAIAAAP///wAAACH5BAEAAAEALAAAAAAJA5cAAAL+jI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGCg4SFhoeIiYqLjI2Oj4CBkpOUlZaXmJmam5ydnp+QkaKjpKWmp6ipqqusra6voKGys7S1tre4ubq7vL2+v7CxwsPExcbHyMnKy8zNzs/AwdLT1NXW19jZ2tvc3d7f0NHi4+Tl5ufo6err7O3u7+Dh8vP09fb3+Pn6+/z9/v/w8woMCBBAsaPIgwocKFDBs6fAgxosSJFCtavIgxo8bpjRw7evwIMqTIkSRLmjyJMqXKlSxbunwJM6bMmTRr2ryJM6fOnTx7+vwJNKjQoUSLGj2KNKnSpUybOn0KNarUqVSrWr2KNavWrVy7ev0KNqzYsWTLmj2LNq3atWzbun0LN67cuXTr2r2LN6/evXz7+v0LOLDgwYQLGz6MOLHixYwbO34MObLkyZQrW76MObPmzZw7e/4MOrTo0aRLmz6NOrXq1axbu34NO7bs2bRr276NO7fu3bx7+/4NPLjw4cSLGz+OPLny5cybO38OPbr06dSrW7+OPbv27dy7e/8OPrz48eTLmz/fuwAAOw==" data-src="<?=ASSETS_PATH?>assets/img/P_style_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="П-образная размеры">
                                         </div>
                                         <div class="col-12 d-flex justify-content-center">
                                             <input id="modal_Kitch_Sizes-3_1" class="modal_Inp_Sizes" type="text" name=" Левая_Секция " placeholder="Длина, мм" >
@@ -1229,7 +1228,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-center">
-                                            <img class="modal_Kitch_Sizes_Img" src="<?=ASSETS_PATH?>assets/img/Angler_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Угловая размеры">
+                                            <img class="modal_Kitch_Sizes_Img lazyload" src="data:image/gif;base64,R0lGODlhCQFOAIAAAP///wAAACH5BAEAAAEALAAAAAAJAU4AAAKxjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGCg4SFhoeIiYqLjI2Oj4CBkpOUlZaXmJmam5ydnp+QkaKjpKWmp6ipqqusra6voKGys7S1tre4ubq7vL2+v7CxwsPExcbHyMnKy8zNzsvFoAADs=" data-src="<?=ASSETS_PATH?>assets/img/Angler_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Угловая размеры">
                                         </div>
                                         <div class="col-12 d-flex justify-content-center">
                                             <input id="modal_Kitch_Sizes-4_1" class="modal_Inp_Sizes " type="text" name="Левая__Секция_" placeholder="Длина, мм" >
@@ -1249,7 +1248,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-center">
-                                            <img class="modal_Kitch_Sizes_Img" src="<?=ASSETS_PATH?>assets/img/Angler_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Угловая размеры">
+                                            <img class="modal_Kitch_Sizes_Img lazyload" src="data:image/gif;base64,R0lGODlhCQFOAIAAAP///wAAACH5BAEAAAEALAAAAAAJAU4AAAKxjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGCg4SFhoeIiYqLjI2Oj4CBkpOUlZaXmJmam5ydnp+QkaKjpKWmp6ipqqusra6voKGys7S1tre4ubq7vL2+v7CxwsPExcbHyMnKy8zNzsvFoAADs=" data-src="<?=ASSETS_PATH?>assets/img/Angler_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Угловая размеры">
                                         </div>
                                         <div class="col-12 d-flex justify-content-center">
                                             <input id="modal_Kitch_Sizes-5_1" class="modal_Inp_Sizes " type="text" name="Левая_Секция" placeholder="Длина, мм" >
@@ -1268,7 +1267,7 @@
                         <input id="modal_Kitch_Material-1" class="modal_Kitch_Material" value="Массив_дерева" type="radio" name="Материал Фасада" checked>
                         <label for="modal_Kitch_Material-1" class="col-6 col-md-3 justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Массив_дерева">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhXwBUAIAAAP///wAAACH5BAEAAAEALAAAAABfAFQAAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGNhWAAA7" data-src="<?=ASSETS_PATH?>assets/img/desc_img1_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Массив_дерева">
                             </div>
                             <div class="col-12">Массив дерева</div>
                             <p class="cost_category">(Люкс)</p>
@@ -1276,7 +1275,7 @@
                         <input id="modal_Kitch_Material-2" class="modal_Kitch_Material" value="Шпон" type="radio" name="Материал Фасада" >
                         <label for="modal_Kitch_Material-2" class="col-6 col-md-3 justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Шпон">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhXwBUAIAAAP///wAAACH5BAEAAAEALAAAAABfAFQAAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGNhWAAA7" data-src="<?=ASSETS_PATH?>assets/img/desc_img1_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Шпон">
                             </div>
                             <div class="col-12">Шпон</div>
                             <p class="cost_category">(Люкс)</p>
@@ -1284,7 +1283,7 @@
                         <input id="modal_Kitch_Material-3" class="modal_Kitch_Material" value="МДФ_в_пленке" type="radio" name="Материал Фасада" >
                         <label for="modal_Kitch_Material-3" class="col-6 col-md-3 justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="МДФ_в_пленке">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhXwBUAIAAAP///wAAACH5BAEAAAEALAAAAABfAFQAAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGNhWAAA7" data-src="<?=ASSETS_PATH?>assets/img/desc_img1_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="МДФ_в_пленке">
                             </div>
                             <div class="col-12">МДФ + Экомембрана</div>
                             <p class="cost_category">(Стандарт)</p>
@@ -1292,7 +1291,7 @@
                         <input id="modal_Kitch_Material-4" class="modal_Kitch_Material" value="Эмаль" type="radio" name="Материал Фасада" >
                         <label for="modal_Kitch_Material-4" class="col-6 col-md-3 justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Эмаль">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhXwBUAIAAAP///wAAACH5BAEAAAEALAAAAABfAFQAAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGNhWAAA7" data-src="<?=ASSETS_PATH?>assets/img/desc_img1_4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Эмаль">
                             </div>
                             <div class="col-12">Эмаль</div>
                             <p class="cost_category">(Премиум)</p>
@@ -1300,7 +1299,7 @@
                         <input id="modal_Kitch_Material-5" class="modal_Kitch_Material" value="Акриловые_фасады" type="radio" name="Материал Фасада" >
                         <label for="modal_Kitch_Material-5" class="col-6 col-md-3 justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_7<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Акриловые_фасады">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhXwBUAIAAAP///wAAACH5BAEAAAEALAAAAABfAFQAAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGNhWAAA7" data-src="<?=ASSETS_PATH?>assets/img/desc_img1_7<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Акриловые_фасады">
                             </div>
                             <div class="col-12">Акриловые фасады</div>
                             <p class="cost_category">(Премиум)</p>
@@ -1308,7 +1307,7 @@
                         <input id="modal_Kitch_Material-6" class="modal_Kitch_Material" value="ЛДСП" type="radio" name="Материал Фасада" >
                         <label for="modal_Kitch_Material-6" class="col-6 col-md-3 justify-content-center  text-center">
                             <div class="col-12 p-0">
-                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="ЛДСП">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhXwBUAIAAAP///wAAACH5BAEAAAEALAAAAABfAFQAAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGNhWAAA7" data-src="<?=ASSETS_PATH?>assets/img/desc_img1_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="ЛДСП">
                             </div>
                             <div class="col-12">ЛДСП</div>
                             <p class="cost_category">(Стандарт)</p>
@@ -1316,7 +1315,7 @@
                         <input id="modal_Kitch_Material-7" class="modal_Kitch_Material" value="Пластик" type="radio" name="Материал Фасада" >
                         <label for="modal_Kitch_Material-7" class="col-6 col-md-3 justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Пластик">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhXwBUAIAAAP///wAAACH5BAEAAAEALAAAAABfAFQAAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGNhWAAA7" data-src="<?=ASSETS_PATH?>assets/img/desc_img1_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Пластик">
                             </div>
                             <div class="col-12">Пластик</div>
                             <p class="cost_category">(Премиум)</p>
@@ -1331,7 +1330,7 @@
                         <input id="modal_Kitch_Material_Stol-1" class="modal_Kitch_Material" value="Искусственный_камень" type="radio" name="Материал Столешницы" checked>
                         <label for="modal_Kitch_Material_Stol-1" class="col-6 col-md-3 justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="<?=ASSETS_PATH?>assets/img/desc_img2_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Искусственный_камень">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhXwBUAIAAAP///wAAACH5BAEAAAEALAAAAABfAFQAAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGNhWAAA7" data-src="<?=ASSETS_PATH?>assets/img/desc_img2_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Искусственный_камень">
                             </div>
                             <div class="col-12">Искусственный камень</div>
                             <p class="cost_category">(Люкс)</p>
@@ -1339,7 +1338,7 @@
                         <input id="modal_Kitch_Material_Stol-2" class="modal_Kitch_Material" value="Массив_дерева" type="radio" name="Материал Столешницы" >
                         <label for="modal_Kitch_Material_Stol-2" class="col-6 col-md-3 justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="<?=ASSETS_PATH?>assets/img/desc_img2_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Массив_дерева">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhXwBUAIAAAP///wAAACH5BAEAAAEALAAAAABfAFQAAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGNhWAAA7" data-src="<?=ASSETS_PATH?>assets/img/desc_img2_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Массив_дерева">
                             </div>
                             <div class="col-12">Массив дерева</div>
                             <p class="cost_category">(Премиум)</p>
@@ -1347,7 +1346,7 @@
                         <input id="modal_Kitch_Material_Stol-3" class="modal_Kitch_Material" value="ДСП_под_пластиком" type="radio" name="Материал Столешницы" >
                         <label for="modal_Kitch_Material_Stol-3" class="col-6 col-md-3 justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="<?=ASSETS_PATH?>assets/img/desc_img2_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="ДСП_под_пластиком">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhXwBUAIAAAP///wAAACH5BAEAAAEALAAAAABfAFQAAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGNhWAAA7" data-src="<?=ASSETS_PATH?>assets/img/desc_img2_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="ДСП_под_пластиком">
                             </div>
                             <div class="col-12">ДСП под пластиком</div>
                             <p class="cost_category">(Стандарт)</p>
@@ -1361,7 +1360,7 @@
                             <input id="modal_Kitch_Tech-1" class="modal_Kitch_Tech" value="Да" type="checkbox" name="Вытяжка">
                             <label for="modal_Kitch_Tech-1" class="justify-content-center text-center">
                                 <div class="col-12 p-0">
-                                    <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Вытяжка">
+                                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Вытяжка">
                                 </div>
                                 <p>Вытяжка</p>
                             </label>
@@ -1371,7 +1370,7 @@
                             <input id="modal_Kitch_Tech-2" class="modal_Kitch_Tech" value="Да" type="checkbox" name="Холодильник" >
                             <label for="modal_Kitch_Tech-2" class=" justify-content-center text-center">
                                 <div class="col-12 p-0">
-                                    <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Холодильник">
+                                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Холодильник">
                                 </div>
                                 <p>Холодильник</p>
                             </label>
@@ -1385,7 +1384,7 @@
                             <input id="modal_Kitch_Tech-3" class="modal_Kitch_Tech" value="Да" type="checkbox" name="Стиральная машина" >
                             <label for="modal_Kitch_Tech-3" class="justify-content-center text-center">
                                 <div class="col-12 p-0">
-                                    <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Стиральная машина">
+                                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Стиральная машина">
                                 </div>
                                 <p>Стиральная машина</p>
                             </label>
@@ -1400,7 +1399,7 @@
                             <input id="modal_Kitch_Tech-4" class="modal_Kitch_Tech" value="Да" type="checkbox" name="Посудомоечная машина" >
                             <label for="modal_Kitch_Tech-4" class="justify-content-center text-center">
                                 <div class="col-12 p-0">
-                                    <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Посудомоечная машина">
+                                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Посудомоечная машина">
                                 </div>
                                 <p>Посудомоечная машина</p>
                             </label>
@@ -1410,7 +1409,7 @@
                             <input id="modal_Kitch_Tech-5" class="modal_Kitch_Tech" value="Да" type="checkbox" name="Микроволновая печь" >
                             <label for="modal_Kitch_Tech-5" class=" justify-content-center text-center">
                                 <div class="col-12 p-0">
-                                    <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Микроволновая печь">
+                                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Микроволновая печь">
                                 </div>
                                 <p>Микроволновая печь</p>
                             </label>
@@ -1425,7 +1424,7 @@
                             <input id="modal_Kitch_Tech-6" class="modal_Kitch_Tech" value="Да" type="checkbox" name="Варочная поверхность" >
                             <label for="modal_Kitch_Tech-6" class="justify-content-center text-center">
                                 <div class="col-12 p-0">
-                                    <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Варочная поверхность">
+                                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Варочная поверхность">
                                 </div>
                                 <p>Варочная поверхность</p>
                             </label>
@@ -1435,7 +1434,7 @@
                             <input id="modal_Kitch_Tech-7" class="modal_Kitch_Tech" value="Да" type="checkbox" name="Духовой шкаф" >
                             <label for="modal_Kitch_Tech-7" class=" justify-content-center text-center">
                                 <div class="col-12 p-0">
-                                    <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_7<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Духовой шкаф">
+                                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_7<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Духовой шкаф">
                                 </div>
                                 <p>Духовой шкаф</p>
                             </label>
@@ -1444,7 +1443,7 @@
                             <input id="modal_Kitch_Tech-8" class="modal_Kitch_Tech" value="Ничего не нужно" type="checkbox" name="Техника на кухне" >
                             <label for="modal_Kitch_Tech-8" class=" justify-content-center text-center">
                                 <div class="col-12 p-0">
-                                    <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_8<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Ничего не нужно">
+                                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_8<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Ничего не нужно">
                                 </div>
                                 <p>Ничего не нужно</p>
                             </label>
@@ -1459,7 +1458,7 @@
                         <input id="modal_Kitch_Service-11" class="modal_Kitch_Service" value="Скидка до 30% на кухню" type="radio" name="Подарок к кухне" >
                         <label for="modal_Kitch_Service-11" class="justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Service_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Скидка до 30% на кухню">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Service_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Скидка до 30% на кухню">
                             </div>
                             <p>Скидка до 30% на кухню</p>
                         </label>
@@ -1469,7 +1468,7 @@
                         <input id="modal_Kitch_Service-21" class="modal_Kitch_Service" value="Замер, доставка и установка в подарок" type="radio" name="Подарок к кухне" checked>
                         <label for="modal_Kitch_Service-21" class="justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Service_9<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Замер, доставка и установка в подарок">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Service_9<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Замер, доставка и установка в подарок">
                             </div>
                             <p>Замер, доставка и установка в подарок</p>
                         </label>
@@ -1479,7 +1478,7 @@
                         <input id="modal_Kitch_Service-31" class="modal_Kitch_Service" value="Беспроцентная рассрочка на 24 месяца" type="radio" name="Подарок к кухне" >
                         <label for="modal_Kitch_Service-31" class="justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Service_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Беспроцентная рассрочка на 24 месяца">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Service_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Беспроцентная рассрочка на 24 месяца">
                             </div>
                             <p>Беспроцентная рассрочка на 24 месяца</p>
                         </label>
@@ -1488,7 +1487,7 @@
                         <input id="modal_Kitch_Service-41" class="modal_Kitch_Service" value="Скидка 25% на фурнитуру Blum" type="radio" name="Подарок к кухне" >
                         <label for="modal_Kitch_Service-41" class="justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Service_10<?=($browser=='Safari'?'.png':'.webp')?>" alt="Скидка 25% на 
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Service_10<?=($browser=='Safari'?'.png':'.webp')?>" alt="Скидка 25% на 
                                 фурнитуру Blum">
                             </div>
                             <p>Скидка 25% на фурнитуру Blum до 31 июля 2022</p>
@@ -1498,7 +1497,7 @@
                         <input id="modal_Kitch_Service-51" class="modal_Kitch_Service" value="Встраимваемая техника Kuppersberg в подарок" type="radio" name="Подарок к кухне" >
                         <label for="modal_Kitch_Service-51" class="justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Service_11<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Вытяжка Gorenje BHI681ES">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Service_11<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Вытяжка Gorenje BHI681ES">
                             </div>
                             <p>Встраимваемая техника Kuppersberg в подарок на сумму до 35 000р</p>
                         </label>
@@ -1507,7 +1506,7 @@
                         <input id="modal_Kitch_Service-6" class="modal_Kitch_Service" value="Ничего не нужно" type="radio" name="Подарок к кухне" >
                         <label for="modal_Kitch_Service-6" class="justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Service_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Ничего не нужно">
+                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Service_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Ничего не нужно">
                             </div>
                             <p>Ничего не нужно</p>
                         </label>
@@ -1538,7 +1537,7 @@
                         </div>
                         <input class="modal_Inp" type="text" name="Имя" placeholder="*Введите Ваше имя" required>
                         <input class="modal_Inp" type="tel" name="Телефон" placeholder="*Введите телефон в формате: +7 (999) 999 9999" minlength="18" maxlength="18" required>
-                        <!-- <span class="d-flex align-items-center justify-content-start mx-4"><input name="Удобнее по Whatsapp" type="checkbox"> <a class="px-2">Мне удобнее по Whatsapp</a></span> -->
+
                         <input class="modal_Inp" type="text" name="Комментарий к заказу" placeholder="Комментарии">
                         <div class="col-12 p-0">
                             <small class="text-success">* - обязательные для заполнения поля</small>
@@ -1555,18 +1554,21 @@
         <div class="modal_Form_Offer_Call_Alert">
             <a class="top_bar_modal justify-content-end"><button class="modal-close" onclick="closeModal('modal_Form_Offer_Call_Alert')"></button></a>
 
-            <span><img src="<?=ASSETS_PATH?>assets/img/paper_Plane<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Бумажный самолёт"></span>
+            <span><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/paper_Plane<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Бумажный самолёт"></span>
             <p class="modal_Title">Ваша заявка принята!</p>
             <p class="modal_Subtitle">Мы свяжемся с Вами в ближайшее время для уточнения деталей!</p>
         </div>
         
         <div class="overlay"></div>
         
-        <link rel="stylesheet" href="assets/lib/slick/slick.css">
-        <link rel="stylesheet" href="assets/lib/slick/slick-theme.css">
         
+        <!-- Ленивая загрузка изображений -->
         <script src="<?=ASSETS_PATH?>assets/lib/jquery/jquery-3.6.0.min.js"></script>
+        <script src="<?=ASSETS_PATH?>assets/lib/lazysizes/lazysizes.min.js"></script>
         <script src="<?=ASSETS_PATH?>assets/lib/slick/slick.min.js"></script>        
         <script src="<?=ASSETS_PATH?>assets/js/main.js"></script>
+    
+        <link rel="stylesheet" href="assets/lib/slick/slick.css">
+        <link rel="stylesheet" href="assets/lib/slick/slick-theme.css">
 	</body>
 </html>

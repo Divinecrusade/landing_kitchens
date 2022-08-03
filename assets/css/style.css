@@ -2,6 +2,17 @@
 @import url("../fonts/montserrat.css");
 /* Подключение шрифтов - кон */
 
+/* Анимация загрузки изображения */
+.lazyload,
+.lazyloading {
+  opacity: 0;
+}
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 600ms;
+}
+
 /* Начальная настройка шрифтов - нач */
 
 body {
