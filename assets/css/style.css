@@ -480,6 +480,7 @@ button#openModal3DProjecting {
 }
 
 .fabric-birthday {    
+    background-image: url("../img/slider_promotion_bg_2.png");
     background-color: #5EB863;
     background-position: left top;
     background-repeat: repeat;
@@ -632,6 +633,7 @@ button#openModal3DProjecting {
 /* Беспроцентная рассрочка - нач */
 
 .promotion-section-wrapper {
+    background-image: url("../img/installment_bg.png");
     background-color: #FFF;
     background-position: center right;
     background-repeat: no-repeat;

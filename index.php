@@ -9,7 +9,7 @@
 ?>
 
 <?php
-    $assetsPath = "/";
+    const ASSETS_PATH = "";
 ?>
 
 <!DOCTYPE HTML>
@@ -41,27 +41,19 @@
 		<title>Кухни-Слон | Дизайн кухни онлайн</title>
         <style>            
             .main-features-section {    
-                background-image: url("assets/img/main_features_bg<?=($browser=='Safari'?'.png':'.webp')?>");
+                background-image: url("<?=ASSETS_PATH?>assets/img/main_features_bg<?=($browser=='Safari'?'.png':'.webp')?>");
             }
             
             .free-services {    
-                background-image: url("assets/img/slider_promotion_bg_1<?=($browser=='Safari'?'.png':'.webp')?>");
+                background-image: url("<?=ASSETS_PATH?>assets/img/slider_promotion_bg_1<?=($browser=='Safari'?'.png':'.webp')?>");
             }
-            
-            .fabric-birthday {    
-                background-image: url("assets/img/slider_promotion_bg_2<?=($browser=='Safari'?'.png':'.webp')?>");
-            }
-            
-            .promotion-section-wrapper {
-                background-image: url("assets/img/installment_bg<?=($browser=='Safari'?'.png':'.webp')?>");
-            }
-            
+                    
             .guarantee {  
-                background-image: url("assets/img/warranty_bg<?=($browser=='Safari'?'.png':'.webp')?>");
+                background-image: url("<?=ASSETS_PATH?>assets/img/warranty_bg<?=($browser=='Safari'?'.png':'.webp')?>");
             }
             
             .our-designers {
-                background-image: url("assets/img/designers_bg<?=($browser=='Safari'?'.png':'.webp')?>");
+                background-image: url("<?=ASSETS_PATH?>assets/img/designers_bg<?=($browser=='Safari'?'.png':'.webp')?>");
             }
         </style>
         
@@ -88,7 +80,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-7 col-4 order-sm-1 d-flex align-content-center order-2">
                     <p class="header-logo d-flex flex-nowrap">
-                        <img src="assets/img/ico_logo_header.svg" alt="Логотип Кухни-Слон">
+                        <img src="<?=ASSETS_PATH?>assets/img/ico_logo_header.svg" alt="Логотип Кухни-Слон">
                         <span class="align-self-stretch">Уже 29 лет производим кухни для Вас более чем в 13 городах</span>
                     </p>
                 </div>
@@ -113,7 +105,7 @@
                         <button class="btn-green-flat" id="openCalculateCost" onclick="showInfo('modal_Form_Count_Cost')">Рассчитать стоимость Вашей кухни</button>
                         <button class="burger" id="headerToggleMenu">
                             <span class="visually-hidden">Открыть/закрыть меню сайта</span>
-                            <img src="assets/img/ico_burger_header.svg" width="40" height="30" alt="Бургер для меню сайта">
+                            <img src="<?=ASSETS_PATH?>assets/img/ico_burger_header.svg" width="40" height="30" alt="Бургер для меню сайта">
                         </button>
                     </div>
                 </div>
@@ -183,7 +175,7 @@
 
                         <div class="col-xl-6 col-lg-6 col-12 order-xl-1 order-lg-1 order-1 d-flex justify-content-end">
                             <video class="video-promo" controls autoplay muted loop>
-                                <source src="assets/video/video-promo.MP4" type="video/mp4">
+                                <source src="<?=ASSETS_PATH?>assets/video/video-promo.MP4" type="video/mp4">
                             </video>
                         </div>
                         
@@ -211,7 +203,7 @@
                                 Замер, доставка и установка
                             </p>
                             <div class="promo-dec col-sm-6 col-12 d-flex justify-content-end align-content-end align-self-end">
-                                <img src="assets/img/slider_promotion_gift<?=($browser=='Safari'?'.png':'.webp')?>" alt="Подарок">
+                                <img src="<?=ASSETS_PATH?>assets/img/slider_promotion_gift<?=($browser=='Safari'?'.png':'.webp')?>" alt="Подарок">
                             </div>
                         </div>
                     </li>
@@ -231,7 +223,7 @@
                     <li class="slider-promo-item blum-discount">
                         <div class="row">
                             <div class="promo-dec xl-order-1 order-2 col-xl-6 col-12 d-flex align-items-center">
-                                <img src="assets/img/slider_promotion_blum<?=($browser=='Safari'?'.png':'.webp')?>" alt="Логотип Blum">
+                                <img src="<?=ASSETS_PATH?>assets/img/slider_promotion_blum<?=($browser=='Safari'?'.png':'.webp')?>" alt="Логотип Blum">
                             </div>
                             <div class="xl-order-2 order-1 col-xl-6 col-12 row">
                                 <h3 class="promo-name col-12">
@@ -311,7 +303,7 @@
                             <p>Мы готовы дать гарантию 5 лет благодаря тому, что сами изготавливаем для Вас материалы кухни, столешницу, фасады и сами собираем ее из надежных комплектующих.</p>  
                         </div>
 
-                        <img class="guarantee-img" src="assets/img/warranty<?=($browser=='Safari'?'.png':'.webp')?>" width="409" height="462" alt="Договор">
+                        <img class="guarantee-img" src="<?=ASSETS_PATH?>assets/img/warranty<?=($browser=='Safari'?'.png':'.webp')?>" width="409" height="462" alt="Договор">
                     </div>
                 </div>
             </section>
@@ -359,7 +351,7 @@
                     <div class="desc_text container col-12" id="desc_text-1">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img1_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="ЛДСП">
+                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="ЛДСП">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">ЛДСП</p>
@@ -384,7 +376,7 @@
                     <div class="desc_text container col-12" id="desc_text-2">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img1_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Пластик + МДФ" />
+                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Пластик + МДФ" />
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Пластик + ДСП</p>
@@ -422,7 +414,7 @@
                     <div class="desc_text container col-12" id="desc_text-3">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img1_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Экомембрана + МДФ">
+                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Экомембрана + МДФ">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Экомембрана + МДФ</p>
@@ -455,7 +447,7 @@
                     <div class="desc_text container col-12 " id="desc_text-4">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img1_4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Эмаль + МДФ">
+                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Эмаль + МДФ">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Эмаль + МДФ</p>
@@ -482,7 +474,7 @@
                     <div class="desc_text container col-12" id="desc_text-6">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img1_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Массив дерева">
+                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Массив дерева">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Массив дерева</p>
@@ -519,7 +511,7 @@
                     <div class="desc_text container col-12" id="desc_text-8">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img2_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Искусственный камень">
+                                <img src="<?=ASSETS_PATH?>assets/img/desc_img2_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Искусственный камень">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Искусственный камень</p>
@@ -557,7 +549,7 @@
                     <div class="desc_text container col-12" id="desc_text-9">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img2_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Пластик + ДСП">
+                                <img src="<?=ASSETS_PATH?>assets/img/desc_img2_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Пластик + ДСП">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Пластик + ДСП</p>
@@ -589,7 +581,7 @@
                     <div class="desc_text container col-12" id="desc_text-11">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img3_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Дерево">
+                                <img src="<?=ASSETS_PATH?>assets/img/desc_img3_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Дерево">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Дерево</p>
@@ -612,7 +604,7 @@
                     <div class="desc_text container col-12" id="desc_text-12">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img3_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Искусственный камень">
+                                <img src="<?=ASSETS_PATH?>assets/img/desc_img3_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Искусственный камень">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">Искусственный камень</p>
@@ -650,7 +642,7 @@
                     <div class="desc_text container col-12" id="desc_text-13">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img3_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="МДФ+пластик">
+                                <img src="<?=ASSETS_PATH?>assets/img/desc_img3_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="МДФ+пластик">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">ДСП + пластик HPL</p>
@@ -672,7 +664,7 @@
                     <div class="desc_text container col-12" id="desc_text-16">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <img src="assets/img/desc_img3_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="ДСП и ДВП, ЛДСП">
+                                <img src="<?=ASSETS_PATH?>assets/img/desc_img3_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="ДСП и ДВП, ЛДСП">
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="desc_title">ДСП и ДВП, ЛДСП</p>
@@ -705,7 +697,7 @@
                     <ol class="our-designers-list our-designers-slider">
                         <li>
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="assets/img/specialists_1<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Оржанцева Наталья">
+                                <img class="our-designer-photo" src="<?=ASSETS_PATH?>assets/img/specialists_1<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Оржанцева Наталья">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Оржанцева Наталья
@@ -718,7 +710,7 @@
                         </li>
                         <li>
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="assets/img/specialists_2<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Ванифатова Людмила">
+                                <img class="our-designer-photo" src="<?=ASSETS_PATH?>assets/img/specialists_2<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Ванифатова Людмила">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Ванифатова Людмила
@@ -732,7 +724,7 @@
                         </li>
                         <li>
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="assets/img/specialists_3<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Семина Татьяна">
+                                <img class="our-designer-photo" src="<?=ASSETS_PATH?>assets/img/specialists_3<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Семина Татьяна">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Семина Татьяна
@@ -745,7 +737,7 @@
                         </li>
                         <li>
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="assets/img/specialists_4<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Заболотская Наталия">
+                                <img class="our-designer-photo" src="<?=ASSETS_PATH?>assets/img/specialists_4<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Заболотская Наталия">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Заболотская Наталия
@@ -762,7 +754,7 @@
                     <ol class="our-designers-list row">
                         <li class="col-lg-3 col-md-6">
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="assets/img/specialists_1<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Оржанцева Наталья">
+                                <img class="our-designer-photo" src="<?=ASSETS_PATH?>assets/img/specialists_1<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Оржанцева Наталья">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Оржанцева Наталья
@@ -775,7 +767,7 @@
                         </li>
                         <li class="col-lg-3 col-md-6">
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="assets/img/specialists_2<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Ванифатова Людмила">
+                                <img class="our-designer-photo" src="<?=ASSETS_PATH?>assets/img/specialists_2<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Ванифатова Людмила">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Ванифатова Людмила
@@ -789,7 +781,7 @@
                         </li>
                         <li class="col-lg-3 col-md-6">
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="assets/img/specialists_3<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Семина Татьяна">
+                                <img class="our-designer-photo" src="<?=ASSETS_PATH?>assets/img/specialists_3<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Семина Татьяна">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Семина Татьяна
@@ -802,7 +794,7 @@
                         </li>
                         <li class="col-lg-3 col-md-6">
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" src="assets/img/specialists_4<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Заболотская Наталия">
+                                <img class="our-designer-photo" src="<?=ASSETS_PATH?>assets/img/specialists_4<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Заболотская Наталия">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Заболотская Наталия
@@ -863,28 +855,28 @@
                 
                 <ul class="slider-manufacture">
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="assets/img/slider_manufacture_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 1">
+                        <img class="w-100" src="<?=ASSETS_PATH?><?=ASSETS_PATH?>assets/img/slider_manufacture_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 1">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="assets/img/slider_manufacture_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 2">
+                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 2">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="assets/img/slider_manufacture_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 3">
+                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 3">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="assets/img/slider_manufacture_4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 4">
+                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 4">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="assets/img/slider_manufacture_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 5">
+                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 5">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="assets/img/slider_manufacture_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 6">
+                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 6">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="assets/img/slider_manufacture_7<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 7">
+                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_7<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 7">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" src="assets/img/slider_manufacture_8<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 8">
+                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_8<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 8">
                     </li>
                 </ul>
                 
@@ -923,7 +915,7 @@
                     </div>
                 </div>
 
-                <a class="static-map" href="https://yandex.ru/maps/-/CCUiASBV0C"><img src="assets/img/map_orel<?=($browser=='Safari'?'.png':'.webp')?>" height="572" alt="Адреса салонов в Орле: ул. Октябрьская, д. 24, ул. 8 Марта д. 8, ул. Комсомольская, д. 267"></a>
+                <a class="static-map" href="https://yandex.ru/maps/-/CCUiASBV0C"><img src="<?=ASSETS_PATH?>assets/img/map_orel<?=($browser=='Safari'?'.png':'.webp')?>" height="572" alt="Адреса салонов в Орле: ул. Октябрьская, д. 24, ул. 8 Марта д. 8, ул. Комсомольская, д. 267"></a>
 
                 <div class="contact-wrapper container-fluid">
                     <div class="container-lg container-fluid d-flex justify-content-end">
@@ -964,7 +956,7 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-6 col-10 order-sm-1 order-2">
                     <p class="footer-logo d-flex flex-nowrap">
-                        <img src="assets/img/ico_logo_footer.svg" alt="Логотип Кухни-Слон">
+                        <img src="<?=ASSETS_PATH?>assets/img/ico_logo_footer.svg" alt="Логотип Кухни-Слон">
                         <span class="align-self-stretch">Уже 29 лет производим кухни для Вас более чем в 13 городах</span>
                     </p>
                 </div>
@@ -984,7 +976,7 @@
                     
                     <button class="burger" id="footerToggleMenu">
                         <span class="visually-hidden">Открыть/закрыть меню сайта</span>
-                        <img src="assets/img/ico_burger_footer.svg" width="40" height="30" alt="Бургер для меню сайта">
+                        <img src="<?=ASSETS_PATH?>assets/img/ico_burger_footer.svg" width="40" height="30" alt="Бургер для меню сайта">
                     </button>
                 </div>
             </div>
@@ -1146,28 +1138,28 @@
                         <input id="modal_Kitch_Type-1" class="modal_Kitch_Type" value="Угловая" type="radio" name="Тип кухни" checked>
                         <label for="modal_Kitch_Type-1" class="modal_Kitch_Type col 1">
                             <div class="col-12 p-0">
-                                <img src="assets/img/Angler<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Угловая">
+                                <img src="<?=ASSETS_PATH?>assets/img/Angler<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Угловая">
                             </div>
                             <div class="col-12">Угловая</div>
                         </label>
                         <input id="modal_Kitch_Type-2" class="modal_Kitch_Type" value="Прямая" type="radio" name="Тип кухни" >
                         <label for="modal_Kitch_Type-2" class="modal_Kitch_Type col 2">
                             <div class="col-12  p-0">
-                                <img src="assets/img/Straight<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Прямая">
+                                <img src="<?=ASSETS_PATH?>assets/img/Straight<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Прямая">
                             </div>
                             <div class="col-12">Прямая</div>
                         </label>
                         <input id="modal_Kitch_Type-3" class="modal_Kitch_Type" value="П-образная" type="radio" name="Тип кухни" >
                         <label for="modal_Kitch_Type-3" class="modal_Kitch_Type col 3">
                             <div class="col-12  p-0">
-                                <img src="assets/img/P_style<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="П образная">
+                                <img src="<?=ASSETS_PATH?>assets/img/P_style<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="П образная">
                             </div>
                             <div class="col-12">П образная</div>
                         </label>
                         <input id="modal_Kitch_Type-4" class="modal_Kitch_Type" value="С_островом" type="radio" name="Тип кухни" >
                         <label for="modal_Kitch_Type-4" class="modal_Kitch_Type col 4">
                             <div class="col-12  p-0">
-                                <img src="assets/img/With_island<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С островом">
+                                <img src="<?=ASSETS_PATH?>assets/img/With_island<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С островом">
                             </div>
                             <div class="col-12">С островом</div>
                         </label>
@@ -1181,7 +1173,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-center">
-                                            <img class="modal_Kitch_Sizes_Img" src="assets/img/Straight_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Прямая размеры">
+                                            <img class="modal_Kitch_Sizes_Img" src="<?=ASSETS_PATH?>assets/img/Straight_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Прямая размеры">
                                         </div>
                                         <div class="col-12 d-flex justify-content-center">
                                             <input id="modal_Kitch_Sizes-1_1" class="modal_Inp_Sizes" type="text" name="Основная_секция" placeholder="Длина, мм" >
@@ -1200,7 +1192,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-center">
-                                            <img class="modal_Kitch_Sizes_Img" src="assets/img/Angler_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Угловая размеры">
+                                            <img class="modal_Kitch_Sizes_Img" src="<?=ASSETS_PATH?>assets/img/Angler_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Угловая размеры">
                                         </div>
                                         <div class="col-12 d-flex justify-content-center">
                                             <input id="modal_Kitch_Sizes-2_1" class="modal_Inp_Sizes " type="text" name=" Левая_Секция " placeholder="Длина, мм" >
@@ -1216,7 +1208,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-center">
-                                            <img class="modal_Kitch_Sizes_Img" src="assets/img/P_style_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="П-образная размеры">
+                                            <img class="modal_Kitch_Sizes_Img" src="<?=ASSETS_PATH?>assets/img/P_style_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="П-образная размеры">
                                         </div>
                                         <div class="col-12 d-flex justify-content-center">
                                             <input id="modal_Kitch_Sizes-3_1" class="modal_Inp_Sizes" type="text" name=" Левая_Секция " placeholder="Длина, мм" >
@@ -1237,7 +1229,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-center">
-                                            <img class="modal_Kitch_Sizes_Img" src="assets/img/Angler_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Угловая размеры">
+                                            <img class="modal_Kitch_Sizes_Img" src="<?=ASSETS_PATH?>assets/img/Angler_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Угловая размеры">
                                         </div>
                                         <div class="col-12 d-flex justify-content-center">
                                             <input id="modal_Kitch_Sizes-4_1" class="modal_Inp_Sizes " type="text" name="Левая__Секция_" placeholder="Длина, мм" >
@@ -1257,7 +1249,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-center">
-                                            <img class="modal_Kitch_Sizes_Img" src="assets/img/Angler_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Угловая размеры">
+                                            <img class="modal_Kitch_Sizes_Img" src="<?=ASSETS_PATH?>assets/img/Angler_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Угловая размеры">
                                         </div>
                                         <div class="col-12 d-flex justify-content-center">
                                             <input id="modal_Kitch_Sizes-5_1" class="modal_Inp_Sizes " type="text" name="Левая_Секция" placeholder="Длина, мм" >
@@ -1276,7 +1268,7 @@
                         <input id="modal_Kitch_Material-1" class="modal_Kitch_Material" value="Массив_дерева" type="radio" name="Материал Фасада" checked>
                         <label for="modal_Kitch_Material-1" class="col-6 col-md-3 justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="assets/img/desc_img1_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Массив_дерева">
+                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Массив_дерева">
                             </div>
                             <div class="col-12">Массив дерева</div>
                             <p class="cost_category">(Люкс)</p>
@@ -1284,7 +1276,7 @@
                         <input id="modal_Kitch_Material-2" class="modal_Kitch_Material" value="Шпон" type="radio" name="Материал Фасада" >
                         <label for="modal_Kitch_Material-2" class="col-6 col-md-3 justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="assets/img/desc_img1_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Шпон">
+                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Шпон">
                             </div>
                             <div class="col-12">Шпон</div>
                             <p class="cost_category">(Люкс)</p>
@@ -1292,7 +1284,7 @@
                         <input id="modal_Kitch_Material-3" class="modal_Kitch_Material" value="МДФ_в_пленке" type="radio" name="Материал Фасада" >
                         <label for="modal_Kitch_Material-3" class="col-6 col-md-3 justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="assets/img/desc_img1_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="МДФ_в_пленке">
+                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="МДФ_в_пленке">
                             </div>
                             <div class="col-12">МДФ + Экомембрана</div>
                             <p class="cost_category">(Стандарт)</p>
@@ -1300,7 +1292,7 @@
                         <input id="modal_Kitch_Material-4" class="modal_Kitch_Material" value="Эмаль" type="radio" name="Материал Фасада" >
                         <label for="modal_Kitch_Material-4" class="col-6 col-md-3 justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="assets/img/desc_img1_4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Эмаль">
+                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Эмаль">
                             </div>
                             <div class="col-12">Эмаль</div>
                             <p class="cost_category">(Премиум)</p>
@@ -1308,7 +1300,7 @@
                         <input id="modal_Kitch_Material-5" class="modal_Kitch_Material" value="Акриловые_фасады" type="radio" name="Материал Фасада" >
                         <label for="modal_Kitch_Material-5" class="col-6 col-md-3 justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="assets/img/desc_img1_7<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Акриловые_фасады">
+                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_7<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Акриловые_фасады">
                             </div>
                             <div class="col-12">Акриловые фасады</div>
                             <p class="cost_category">(Премиум)</p>
@@ -1316,7 +1308,7 @@
                         <input id="modal_Kitch_Material-6" class="modal_Kitch_Material" value="ЛДСП" type="radio" name="Материал Фасада" >
                         <label for="modal_Kitch_Material-6" class="col-6 col-md-3 justify-content-center  text-center">
                             <div class="col-12 p-0">
-                                <img src="assets/img/desc_img1_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="ЛДСП">
+                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="ЛДСП">
                             </div>
                             <div class="col-12">ЛДСП</div>
                             <p class="cost_category">(Стандарт)</p>
@@ -1324,7 +1316,7 @@
                         <input id="modal_Kitch_Material-7" class="modal_Kitch_Material" value="Пластик" type="radio" name="Материал Фасада" >
                         <label for="modal_Kitch_Material-7" class="col-6 col-md-3 justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="assets/img/desc_img1_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Пластик">
+                                <img src="<?=ASSETS_PATH?>assets/img/desc_img1_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Пластик">
                             </div>
                             <div class="col-12">Пластик</div>
                             <p class="cost_category">(Премиум)</p>
@@ -1339,7 +1331,7 @@
                         <input id="modal_Kitch_Material_Stol-1" class="modal_Kitch_Material" value="Искусственный_камень" type="radio" name="Материал Столешницы" checked>
                         <label for="modal_Kitch_Material_Stol-1" class="col-6 col-md-3 justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="assets/img/desc_img2_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Искусственный_камень">
+                                <img src="<?=ASSETS_PATH?>assets/img/desc_img2_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Искусственный_камень">
                             </div>
                             <div class="col-12">Искусственный камень</div>
                             <p class="cost_category">(Люкс)</p>
@@ -1347,7 +1339,7 @@
                         <input id="modal_Kitch_Material_Stol-2" class="modal_Kitch_Material" value="Массив_дерева" type="radio" name="Материал Столешницы" >
                         <label for="modal_Kitch_Material_Stol-2" class="col-6 col-md-3 justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="assets/img/desc_img2_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Массив_дерева">
+                                <img src="<?=ASSETS_PATH?>assets/img/desc_img2_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Массив_дерева">
                             </div>
                             <div class="col-12">Массив дерева</div>
                             <p class="cost_category">(Премиум)</p>
@@ -1355,46 +1347,12 @@
                         <input id="modal_Kitch_Material_Stol-3" class="modal_Kitch_Material" value="ДСП_под_пластиком" type="radio" name="Материал Столешницы" >
                         <label for="modal_Kitch_Material_Stol-3" class="col-6 col-md-3 justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="assets/img/desc_img2_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="ДСП_под_пластиком">
+                                <img src="<?=ASSETS_PATH?>assets/img/desc_img2_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="ДСП_под_пластиком">
                             </div>
                             <div class="col-12">ДСП под пластиком</div>
                             <p class="cost_category">(Стандарт)</p>
                         </label>
                     </div>
-                    <!-- <div class="row cost ">
-                            <div class="col-12">
-                                В какой диапазон хотите уложиться
-                            </div>
-
-                            <input id="modal_Kitch_Cost-1" class="modal_Kitch_Cost" value="80-200_тыс" type="radio" name="Цена кухни" checked>
-                            <label for="modal_Kitch_Cost-1" class="col-6 col-md-3 justify-content-center text-center">
-                                <div class="col-12 p-0">
-                                    <img src="assets/img/modal_Kitch_Cost_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="80-120_тыс">
-                                </div>
-                                <div class="col-12"></div>
-                            </label>
-                            <input id="modal_Kitch_Cost-2" class="modal_Kitch_Cost" value="200-300_тыс" type="radio" name="Цена кухни" >
-                            <label for="modal_Kitch_Cost-2" class="col-6 col-md-3 justify-content-center text-center">
-                                <div class="col-12 p-0">
-                                    <img src="assets/img/modal_Kitch_Cost_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="120-200_тыс">
-                                </div>
-                                <div class="col-12"></div>
-                            </label>
-                            <input id="modal_Kitch_Cost-3" class="modal_Kitch_Cost" value="300-500_тыс" type="radio" name="Цена кухни" >
-                            <label for="modal_Kitch_Cost-3" class="col-6 col-md-3 justify-content-center text-center">
-                                <div class="col-12 p-0">
-                                    <img src="assets/img/modal_Kitch_Cost_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="200-300_тыс">
-                                </div>
-                                <div class="col-12"></div>
-                            </label>
-                            <input id="modal_Kitch_Cost-4" class="modal_Kitch_Cost" value="больше_500_тыс" type="radio" name="Цена кухни" >
-                            <label for="modal_Kitch_Cost-4" class="col-6 col-md-3 justify-content-center text-center">
-                                <div class="col-12 p-0">
-                                    <img src="assets/img/modal_Kitch_Cost_4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="больше_300_тыс">
-                                </div>
-                                <div class="col-12"></div>
-                            </label>
-                        </div> -->
                     <div class="row additional">
                         <div class="col-12">
                             Укажите, какая техника будет присутствовать в кухне
@@ -1403,7 +1361,7 @@
                             <input id="modal_Kitch_Tech-1" class="modal_Kitch_Tech" value="Да" type="checkbox" name="Вытяжка">
                             <label for="modal_Kitch_Tech-1" class="justify-content-center text-center">
                                 <div class="col-12 p-0">
-                                    <img src="assets/img/modal_Kitch_Tech_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Вытяжка">
+                                    <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Вытяжка">
                                 </div>
                                 <p>Вытяжка</p>
                             </label>
@@ -1413,7 +1371,7 @@
                             <input id="modal_Kitch_Tech-2" class="modal_Kitch_Tech" value="Да" type="checkbox" name="Холодильник" >
                             <label for="modal_Kitch_Tech-2" class=" justify-content-center text-center">
                                 <div class="col-12 p-0">
-                                    <img src="assets/img/modal_Kitch_Tech_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Холодильник">
+                                    <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Холодильник">
                                 </div>
                                 <p>Холодильник</p>
                             </label>
@@ -1427,7 +1385,7 @@
                             <input id="modal_Kitch_Tech-3" class="modal_Kitch_Tech" value="Да" type="checkbox" name="Стиральная машина" >
                             <label for="modal_Kitch_Tech-3" class="justify-content-center text-center">
                                 <div class="col-12 p-0">
-                                    <img src="assets/img/modal_Kitch_Tech_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Стиральная машина">
+                                    <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Стиральная машина">
                                 </div>
                                 <p>Стиральная машина</p>
                             </label>
@@ -1442,7 +1400,7 @@
                             <input id="modal_Kitch_Tech-4" class="modal_Kitch_Tech" value="Да" type="checkbox" name="Посудомоечная машина" >
                             <label for="modal_Kitch_Tech-4" class="justify-content-center text-center">
                                 <div class="col-12 p-0">
-                                    <img src="assets/img/modal_Kitch_Tech_4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Посудомоечная машина">
+                                    <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Посудомоечная машина">
                                 </div>
                                 <p>Посудомоечная машина</p>
                             </label>
@@ -1452,7 +1410,7 @@
                             <input id="modal_Kitch_Tech-5" class="modal_Kitch_Tech" value="Да" type="checkbox" name="Микроволновая печь" >
                             <label for="modal_Kitch_Tech-5" class=" justify-content-center text-center">
                                 <div class="col-12 p-0">
-                                    <img src="assets/img/modal_Kitch_Tech_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Микроволновая печь">
+                                    <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Микроволновая печь">
                                 </div>
                                 <p>Микроволновая печь</p>
                             </label>
@@ -1467,7 +1425,7 @@
                             <input id="modal_Kitch_Tech-6" class="modal_Kitch_Tech" value="Да" type="checkbox" name="Варочная поверхность" >
                             <label for="modal_Kitch_Tech-6" class="justify-content-center text-center">
                                 <div class="col-12 p-0">
-                                    <img src="assets/img/modal_Kitch_Tech_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Варочная поверхность">
+                                    <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Варочная поверхность">
                                 </div>
                                 <p>Варочная поверхность</p>
                             </label>
@@ -1477,7 +1435,7 @@
                             <input id="modal_Kitch_Tech-7" class="modal_Kitch_Tech" value="Да" type="checkbox" name="Духовой шкаф" >
                             <label for="modal_Kitch_Tech-7" class=" justify-content-center text-center">
                                 <div class="col-12 p-0">
-                                    <img src="assets/img/modal_Kitch_Tech_7<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Духовой шкаф">
+                                    <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_7<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Духовой шкаф">
                                 </div>
                                 <p>Духовой шкаф</p>
                             </label>
@@ -1486,7 +1444,7 @@
                             <input id="modal_Kitch_Tech-8" class="modal_Kitch_Tech" value="Ничего не нужно" type="checkbox" name="Техника на кухне" >
                             <label for="modal_Kitch_Tech-8" class=" justify-content-center text-center">
                                 <div class="col-12 p-0">
-                                    <img src="assets/img/modal_Kitch_Tech_8<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Ничего не нужно">
+                                    <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Tech_8<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Ничего не нужно">
                                 </div>
                                 <p>Ничего не нужно</p>
                             </label>
@@ -1501,7 +1459,7 @@
                         <input id="modal_Kitch_Service-11" class="modal_Kitch_Service" value="Скидка до 30% на кухню" type="radio" name="Подарок к кухне" >
                         <label for="modal_Kitch_Service-11" class="justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="assets/img/modal_Kitch_Service_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Скидка до 30% на кухню">
+                                <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Service_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Скидка до 30% на кухню">
                             </div>
                             <p>Скидка до 30% на кухню</p>
                         </label>
@@ -1511,7 +1469,7 @@
                         <input id="modal_Kitch_Service-21" class="modal_Kitch_Service" value="Замер, доставка и установка в подарок" type="radio" name="Подарок к кухне" checked>
                         <label for="modal_Kitch_Service-21" class="justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="assets/img/modal_Kitch_Service_9<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Замер, доставка и установка в подарок">
+                                <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Service_9<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Замер, доставка и установка в подарок">
                             </div>
                             <p>Замер, доставка и установка в подарок</p>
                         </label>
@@ -1521,7 +1479,7 @@
                         <input id="modal_Kitch_Service-31" class="modal_Kitch_Service" value="Беспроцентная рассрочка на 24 месяца" type="radio" name="Подарок к кухне" >
                         <label for="modal_Kitch_Service-31" class="justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="assets/img/modal_Kitch_Service_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Беспроцентная рассрочка на 24 месяца">
+                                <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Service_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Беспроцентная рассрочка на 24 месяца">
                             </div>
                             <p>Беспроцентная рассрочка на 24 месяца</p>
                         </label>
@@ -1530,7 +1488,7 @@
                         <input id="modal_Kitch_Service-41" class="modal_Kitch_Service" value="Скидка 25% на фурнитуру Blum" type="radio" name="Подарок к кухне" >
                         <label for="modal_Kitch_Service-41" class="justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="assets/img/modal_Kitch_Service_10<?=($browser=='Safari'?'.png':'.webp')?>" alt="Скидка 25% на 
+                                <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Service_10<?=($browser=='Safari'?'.png':'.webp')?>" alt="Скидка 25% на 
                                 фурнитуру Blum">
                             </div>
                             <p>Скидка 25% на фурнитуру Blum до 31 июля 2022</p>
@@ -1540,7 +1498,7 @@
                         <input id="modal_Kitch_Service-51" class="modal_Kitch_Service" value="Встраимваемая техника Kuppersberg в подарок" type="radio" name="Подарок к кухне" >
                         <label for="modal_Kitch_Service-51" class="justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="assets/img/modal_Kitch_Service_11<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Вытяжка Gorenje BHI681ES">
+                                <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Service_11<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Вытяжка Gorenje BHI681ES">
                             </div>
                             <p>Встраимваемая техника Kuppersberg в подарок на сумму до 35 000р</p>
                         </label>
@@ -1549,7 +1507,7 @@
                         <input id="modal_Kitch_Service-6" class="modal_Kitch_Service" value="Ничего не нужно" type="radio" name="Подарок к кухне" >
                         <label for="modal_Kitch_Service-6" class="justify-content-center text-center">
                             <div class="col-12 p-0">
-                                <img src="assets/img/modal_Kitch_Service_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Ничего не нужно">
+                                <img src="<?=ASSETS_PATH?>assets/img/modal_Kitch_Service_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Ничего не нужно">
                             </div>
                             <p>Ничего не нужно</p>
                         </label>
@@ -1597,7 +1555,7 @@
         <div class="modal_Form_Offer_Call_Alert">
             <a class="top_bar_modal justify-content-end"><button class="modal-close" onclick="closeModal('modal_Form_Offer_Call_Alert')"></button></a>
 
-            <span><img src="assets/img/paper_Plane<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Бумажный самолёт"></span>
+            <span><img src="<?=ASSETS_PATH?>assets/img/paper_Plane<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Бумажный самолёт"></span>
             <p class="modal_Title">Ваша заявка принята!</p>
             <p class="modal_Subtitle">Мы свяжемся с Вами в ближайшее время для уточнения деталей!</p>
         </div>
@@ -1607,8 +1565,8 @@
         <link rel="stylesheet" href="assets/lib/slick/slick.css">
         <link rel="stylesheet" href="assets/lib/slick/slick-theme.css">
         
-        <script src="assets/lib/jquery/jquery-3.6.0.min.js"></script>
-        <script src="assets/lib/slick/slick.min.js"></script>        
-        <script src="assets/js/main.js"></script>
+        <script src="<?=ASSETS_PATH?>assets/lib/jquery/jquery-3.6.0.min.js"></script>
+        <script src="<?=ASSETS_PATH?>assets/lib/slick/slick.min.js"></script>        
+        <script src="<?=ASSETS_PATH?>assets/js/main.js"></script>
 	</body>
 </html>
