@@ -156,6 +156,11 @@ jQuery(document).ready(function() {
         checkbox.prop('checked', true);
         is_shown = true;
     });
+	
+    $("#openModal3DProjectingFooter").click(function() {
+        checkbox.prop('checked', true);
+        is_shown = true;
+    });	
     
     $("#closeSidePanel").click(function() {
         checkbox.prop('checked', false);
@@ -465,19 +470,6 @@ jQuery(document).ready(function() {
     });
     return false;
   });
-  $("form.modal_Form_Online_conference_Inpunts").submit(function () {
-    var th = $(this);
-
-    closeModal("modal_Form_Online_conference");
-    $.ajax({}).done(function () {
-      showInfo("modal_Form_Offer_Call_Alert");
-
-      setTimeout(function () {
-        th.trigger("reset");
-      }, 1000);
-    });
-    return false;
-  });
 //-------------------------------------------------------------------
     
     
@@ -489,14 +481,6 @@ jQuery(document).ready(function() {
             f_name.push(" " + $(this).get(0).files[i].name);
         }
         $("#f_name").val(f_name.join(", "));
-    });
-
-    $(".modal_Inp_File-2").change(function() {
-        var f_name = [];
-        for (var i = 0; i < $(this).get(0).files.length; ++i) {
-            f_name.push(" " + $(this).get(0).files[i].name);
-        }
-        $("#f_name-2").val(f_name.join(", "));
     });
 });
 //-------------------------------------------------------------------

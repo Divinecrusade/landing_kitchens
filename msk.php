@@ -965,7 +965,7 @@
 
                 <div class="col-lg-4 col-1 order-sm-2 order-1">
                     <div class="h-100 d-flex align-items-center justify-content-center">
-                        <button class="btn-white-border" id="onlineConsultation" onclick="showInfo('modal_Form_Online_conference')">Планирование кухни онлайн</button>
+                        <button class="btn-white-border" id="openModal3DProjectingFooter">Планирование кухни онлайн</button>
                     </div>
                 </div>                        
                 
@@ -1031,76 +1031,6 @@
                     <small class="text-remark">* - обязательные для заполнения поля</small>
                 </div>
                 <button class="btn-green-flat" type="submit">Отправить заявку</button>
-            </form>
-        </section>
-        
-        
-        <!-- Планирование кухни онлайн -->
-        <section class="modal_Form_Online_conference">
-            <div class="row col-12 justify-content-end">
-                <button class="modal-close" onclick="closeModal('modal_Form_Online_conference')"></button>
-            </div>   
-            
-            <h3 class="modal_Title">Планирование кухни вместе с дизайнером онлайн</h3>
-
-            <p>Создайте проект кухни, не выходя из дома в режиме онлайн-конференции со специалистом мебельной фабрики Слон.</p>
-            <p>Выберите удобный день и время для планирования кухни.</p>
-            <p>Вам на почту придёт инструкция, как подключиться к онлайн-конференции: с её помощью вы сможете увидеть весь процесс создания проекта.</p>
-            <p>Есди у вас не получится подключиться к онлайн-конференции в назначенное время, вам позвонит специалист по планированию кухонь и поможет.</p>
-
-            <form class="modal_Form_Online_conference_Inpunts" id="offer-with-file-second" onsubmit="send(event, '<?=ASSETS_PATH?>assets/php/mail.php')" enctype="multipart/form-data" method="post">
-
-                <!-- Hidden Required Fields -->
-                <input type="hidden" name="project_name" value="Кухни-Слон">
-                <input type="hidden" name="city" value="Москва">
-
-                <input type="hidden" name="form_subject" value="Планирование кухни онлайн">
-                <!-- END Hidden Required Fields -->
-
-
-                <div class="row">
-                    <div class="col-md-4 col-12">
-                        <label for="online-conf-date" class="online-conf-label">Выберите день:</label>
-                        <input id="online-conf-date" class="modal_Inp" type="date" name="Дата">
-
-                        <label for="online-conf-time" class="online-conf-label">Выберите время:</label>
-                        <input id="online-conf-time" class="modal_Inp" type="time" name="Время">
-
-                        <label for="online-conf-email" class="online-conf-label">Введите email:</label>
-                        <input id="online-conf-email" class="modal_Inp" type="email" name="E-mail" placeholder="user-mail@mail.ru">
-                    </div>
-
-                    <div class="col-md-8 col-12">
-                        <div class="row">
-                            <div class="col-md-6 col-12">
-                                <label for="online-conf-name" class="online-conf-label">*Введите ваше имя:</label>
-                                <input id="online-conf-name" class="modal_Inp" type="text" name="Имя" placeholder="Иван" required>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <label for="online-conf-tel" class="online-conf-label">*Введите телефон:</label>
-                                <input id="online-conf-tel" class="modal_Inp" type="tel" name="Телефон" placeholder="+7 (999) 999 9999" minlength="18" maxlength="18" required>
-                            </div>
-                        </div>
-                        <div>
-                            <label for="online-conf-comm" class="online-conf-label">Оставьте комментарий:</label>
-                            <textarea id="online-conf-comm" class="modal_Inp" type="text" name="Комментарий" rows="5" placeholder="(опционально)"></textarea>
-                        </div>
-                    </div>
-
-                    <div class="col-md-12 col-12 mt-4">
-                        <input class="modal_Inp_File-2" id="modal_Inp_File-2" type="file" multiple name="form_file[]">
-                        <label id="modal_Inp_File-label-2" for="modal_Inp_File-2" class="modal_Inp_File_Label btn-pointer">План вашей кухни
-                            <input class="f_name" type="text" id="f_name-2" value="Файл не выбран." disabled />
-                        </label>
-                    </div>
-                </div>
-
-                
-                <div class="col-12">
-                    <small class="text-remark">* - обязательные для заполнения поля</small>
-                </div>
-                <button  type="submit" class="modal_Btn">Отправить заявку</button>
-                <p>Нажимая кнопку "Отправить заявку" Вы даете согласие на обработку персональных данных в соответствии с <a href="./politics.html" target="_blank">политикой конфиденциальности</a></p>
             </form>
         </section>
         
