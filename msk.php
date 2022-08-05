@@ -887,7 +887,7 @@
             
                 <div class="addresses-wrapper container-fluid">
                     <div class="container-lg container-fluid d-flex">
-                        <div class="addresses col-xl-3 col-lg-4 col-sm-5 col-12 d-flex flex-column">
+                        <div class="addresses col-xl-5 col-lg-6 col-sm-7 col-12 d-flex flex-column">
                             <p class="addresses-promo-text w-100">Мы ждем Вас в наших офисах, чтобы обсудить <br><b class="green">все детали и подробности</b></p>
 
                             <ul class="addresses-list w-100">
@@ -993,7 +993,7 @@
             <h3 class="side-title">Планирование кухни вместе с дизайнером онлайн</h3>
             <p class="side-text"><b class="green">Заполните заявку</b><br>на бесплатный 3D-проект Вашей кухни в 3 клика!</p>
             
-            <form class="container col-sm-8 col-10 d-flex flex-column register3DProjecting" id="offer-with-file" enctype="multipart/form-data" method="post" onsubmit="send(event, 'assets/php/mail.php')">
+            <form class="container col-sm-8 col-10 d-flex flex-column register3DProjecting" id="offer-with-file" enctype="multipart/form-data" method="post" onsubmit="send(event, '<?=ASSETS_PATH?>assets/php/mail.php')">
                 
                 <!-- Hidden Required Fields -->
                 <input type="hidden" name="project_name" value="Кухни-Слон">
@@ -1048,7 +1048,7 @@
             <p>Вам на почту придёт инструкция, как подключиться к онлайн-конференции: с её помощью вы сможете увидеть весь процесс создания проекта.</p>
             <p>Есди у вас не получится подключиться к онлайн-конференции в назначенное время, вам позвонит специалист по планированию кухонь и поможет.</p>
 
-            <form class="modal_Form_Online_conference_Inpunts" id="offer-with-file-second" onsubmit="send(event, 'assets/php/mail.php')" enctype="multipart/form-data" method="post">
+            <form class="modal_Form_Online_conference_Inpunts" id="offer-with-file-second" onsubmit="send(event, '<?=ASSETS_PATH?>assets/php/mail.php')" enctype="multipart/form-data" method="post">
 
                 <!-- Hidden Required Fields -->
                 <input type="hidden" name="project_name" value="Кухни-Слон">
