@@ -1,4 +1,4 @@
-<img align="center" src="./readme_assets/favicon.svg" width="64" height="64">
+<p align="center"><img src="./readme_assets/favicon.svg" width="64" height="64"></p>
 <h1 align="center">Кухни-слон | Онлайн проектирование</h1>
 
 ## Расположение
