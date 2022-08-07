@@ -1,4 +1,4 @@
-<p align="center"><img src="./readme_assets/favicon.svg"></p>
+<img align="center" src="./readme_assets/favicon.svg" width="64" height="64">
 <h1 align="center">Кухни-слон | Онлайн проектирование</h1>
 
 ## Расположение
@@ -34,8 +34,13 @@
 
 ## Скриншоты
 
-<img src="./readme_assets/screen_main.png" width="100%">
-<img src="./readme_assets/screen_main.png" width="100%">
-<img src="./readme_assets/screen_main.png" width="100%">
-<img src="./readme_assets/screen_main.png" width="100%">
-<img src="./readme_assets/screen_main.png" width="100%">
+Открыта всплывающая панель справа (Desktop 1920x1080 px):
+<img src="./readme_assets/screen_panel.png" width="100%">
+
+Орловская и московская версии лендинга (Desktop 1920px):
+<img src="./readme_assets/orel_screen_fullsize.png" width="100%">
+<img src="./readme_assets/moscow_screen_fullsize.png" width="100%">
+
+Орловская и московская версии лендинга (Mobile 360px):
+<img src="./readme_assets/orel_screen_fullsize_mobile.png" width="100%">
+<img src="./readme_assets/moscow_screen_fullsize_mobile.png" width="100%">
