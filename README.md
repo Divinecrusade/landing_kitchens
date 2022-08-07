@@ -3,9 +3,9 @@
 
 ## Расположение
 
-Страница лендинга расположена на домене <a href="https://mf-slon.ru" target="_blank
-">mf-slon.ru: <a href="https://mf-slon.ru/online-design" target="_blank
-">орловская</a> и <a href="https://mf-slon.ru/online-design-msk" target="_blank
+Страница лендинга расположена на домене <a href="https://mf-slon.ru" target="__blank
+">mf-slon.ru: <a href="https://mf-slon.ru/design-online" target="__blank
+">орловская</a> и <a href="https://mf-slon.ru/design-online-msk" target="__blank
 ">московская</a> версии.
 
 ## Описание задачи
@@ -23,13 +23,13 @@
 
 ## Комментарии к лендингу
 
-Выполнена адаптивная вёрстка с использованием <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank
+Выполнена адаптивная вёрстка с использованием <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="__blank
 ">Bootstrap 5.0</a> и, как правило, с соблюдением сетки данного фреймворка. Изображения сжаты до оптимального соотношения качество/вес. Файлы стилей и скриптов минифицированы. Добавлена маска для полей ввода телефона, а также js-валидация форм (нельзя отправить форму, пока не заполнены необходимые поля). Подключена Яндекс-метрика. Было уделено внимание валидности и доступности вёрстки.
-Слайдеры были выполнены с помощью плагина <a href="https://kenwheeler.github.io/slick/" target="_blank
+Слайдеры были выполнены с помощью плагина <a href="https://kenwheeler.github.io/slick/" target="__blank
 ">Slick Slider</a>.
 Часть js-кода написана на <a href="https://jquery.com/" target="_blank
 ">JQuery</a>.
-Отправка писем реализована средствами <a href="https://github.com/PHPMailer/PHPMailer" target="_blank
+Отправка писем реализована средствами <a href="https://github.com/PHPMailer/PHPMailer" target="__blank
 ">PHPMailer</a>.
 
 ## Скриншоты
@@ -37,10 +37,13 @@
 Открыта всплывающая панель справа (Desktop 1920x1080 px):
 <img src="./readme_assets/screen_panel.png" width="100%">
 
+Открыто меню (Mobile 360x740 px):
+<p align="center"><img src="./readme_assets/screen_menu_mobile.png" width="360"></p>
+
 Орловская и московская версии лендинга (Desktop 1920px):
 <img src="./readme_assets/orel_screen_fullsize.png" width="100%">
 <img src="./readme_assets/moscow_screen_fullsize.png" width="100%">
 
 Орловская и московская версии лендинга (Mobile 360px):
-<img src="./readme_assets/orel_screen_fullsize_mobile.png" width="100%">
-<img src="./readme_assets/moscow_screen_fullsize_mobile.png" width="100%">
+<p align="center"><img src="./readme_assets/orel_screen_fullsize_mobile.png" width="360"></p>
+<p align="center"><img src="./readme_assets/moscow_screen_fullsize_mobile.png" width="360"></p>
