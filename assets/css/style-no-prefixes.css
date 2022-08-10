@@ -2306,7 +2306,7 @@ cursor: pointer;
     }
     
     .slider-promo button.slick-arrow {
-        width: 40px; height: 40px;
+        width: 40; height: 40;
         background: rgba(2, 135, 27, 0.75);
     }
     
