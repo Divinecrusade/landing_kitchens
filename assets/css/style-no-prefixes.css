@@ -168,7 +168,7 @@ a.anchor {
     text-decoration: none;
     
     font-size: 20px;
-    line-height: 25px;
+    line-height: 24px;
 }
 
 .header-tel > a {
@@ -197,6 +197,28 @@ a.anchor {
 
 .footer-tel > a::before {
     background-image: url("../img/ico_phone_white.svg");
+}
+
+.footer-vk > a {
+    display: block;
+    width: 34px; height: 20px;
+
+    position: relative;
+    text-decoration: none;
+}
+
+.footer-vk > a::before{
+    content:"";
+
+    position: absolute;
+
+    background-image: url("../img/ico_vk.svg");
+
+    background-position: top left;
+    background-repeat: no-repeat;
+
+    width: 34px; height: 20px;
+    top: 0; left: 0;
 }
 
 button.btn-green-flat {
@@ -353,17 +375,17 @@ b.green {
 .main-offer {
     text-align: center;
     
-    font-size: 56px;
-    font-weight: 800;
-    line-height: 64px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
 }
 
 .main-offer-suptext {
     text-align: center;
     
-    font-size: 26px;
+    font-size: 40px;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 48px;
     
     margin-bottom: 40px;
 }
@@ -385,7 +407,7 @@ b.green {
     
     padding-left: 50px;
     
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .main-features-list li:last-child {
@@ -402,6 +424,9 @@ b.green {
 }
 
 .main-feature-desc {
+    font-size: 16px;
+    line-height: 20px;
+
     margin-bottom: 0;
 }
 
@@ -412,6 +437,7 @@ button#openModal3DProjecting {
     padding-bottom: 30px;
     font-size: 24px;
     font-weight: 600;
+    line-height: 29px;
 }
 
 .project-btn-wrapper {
@@ -421,7 +447,7 @@ button#openModal3DProjecting {
 .video-promo {
     max-width: fit-content;
     background-color: #000;
-    max-height: 515px;
+    max-height: 450px;
 }
 /* Преимущества компании - кон */
 
@@ -434,9 +460,9 @@ button#openModal3DProjecting {
 .promotions-desc {
     text-align: center;
     
-    font-size: 56px;
+    font-size: 48px;
     font-weight: 700;
-    line-height: 65px;
+    line-height: 58px;
     
     margin-bottom: 45px;    
 }
@@ -664,9 +690,9 @@ button#openModal3DProjecting {
 .promotion-pinned-section h2 {
     margin-bottom: 75px;
     
-    font-size: 56px;
+    font-size: 48px;
     font-weight: 700;
-    line-height: 64px;
+    line-height: 59px;
 }
 
 .promotion-pinned-desc {
@@ -802,9 +828,9 @@ button#orderKitchenInstallment {
 .guarantee-desc h2 {
     margin-bottom: 30px;
     
-    font-size: 64px;
+    font-size: 48px;
     font-weight: 700;
-    line-height: 78px;
+    line-height: 59px;
     
     color: #FFF;
 }
@@ -941,7 +967,7 @@ button#orderKitchenInstallment {
 }
 
 .our-designers-list.row {
-    display: auto!important;
+    display: flex!important;
     
     padding: 0; margin: 0;
     
@@ -983,7 +1009,7 @@ button#orderKitchenInstallment {
 
 .our-designer-experience {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 24px;
     
     color: #000000;
@@ -1053,23 +1079,6 @@ button#orderKitchenInstallment {
   background-position: center center;
   background-size: cover;
   height: 200px;
-}
-
-
-.about-statistics-desc-1{
-    background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6) 0%), url('../img/about_Statistics_1.jpg');
-}
-.about-statistics-desc-2{
-    background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6) 0%), url('../img/about_Statistics_2.jpg');
-}
-.about-statistics-desc-3{
-    background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6) 0%), url('../img/about_Statistics_3.jpg');
-}
-.about-statistics-desc-4{
-    background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6) 0%), url('../img/about_Statistics_4.jpg');
-}
-.about-statistics-desc-5{
-    background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6) 0%), url('../img/about_Statistics_5.jpg');
 }
 
 .about-statistics-first-row {
@@ -2706,10 +2715,6 @@ cursor: pointer;
     form#sendQuestion button {
         font-size: 18px;
         line-height: 22px;
-    }
-    
-    .footer-logo {
-        justify-content: center;
     }
     
     .footer-logo img {

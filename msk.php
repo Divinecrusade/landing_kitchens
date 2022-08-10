@@ -54,6 +54,22 @@
             .our-designers {
                 background-image: url("<?=ASSETS_PATH?>assets/img/designers_bg<?=($browser=='Safari'?'.png':'.webp')?>");
             }
+
+            .about-statistics-desc-1{
+                background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6) 0%), url("<?=ASSETS_PATH?>assets/img/about_Statistics_1<?=($browser=='Safari'?'.jpg':'.webp')?>");
+            }
+            .about-statistics-desc-2{
+                background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6) 0%), url("<?=ASSETS_PATH?>assets/img/about_Statistics_2<?=($browser=='Safari'?'.jpg':'.webp')?>");
+            }
+            .about-statistics-desc-3{
+                background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6) 0%), url("<?=ASSETS_PATH?>assets/img/about_Statistics_3<?=($browser=='Safari'?'.jpg':'.webp')?>");
+            }
+            .about-statistics-desc-4{
+                background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6) 0%), url("<?=ASSETS_PATH?>assets/img/about_Statistics_4<?=($browser=='Safari'?'.jpg':'.webp')?>");
+            }
+            .about-statistics-desc-5{
+                background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6) 0%), url("<?=ASSETS_PATH?>assets/img/about_Statistics_5<?=($browser=='Safari'?'.jpg':'.webp')?>");
+            }
         </style>
         
         <meta name="description" content="Купить модульные кухни в Москве от производителя. Собственное производство. Изготовление от 3 дней. Онлайн расчет стоимости кухни. Бесплатная доставка в пределах города. Гарантия на кухни 5 лет">
@@ -174,7 +190,7 @@
 
                         <div class="col-xl-6 col-lg-6 col-12 order-xl-1 order-lg-1 order-1 d-flex justify-content-end">
                             <video class="video-promo" controls autoplay muted loop>
-                                <source src="<?=ASSETS_PATH?>assets/video/video-promo.MP4" type="video/mp4">
+                                <source src="<?=ASSETS_PATH?>assets/video/video-promo.mp4" type="video/mp4">
                             </video>
                         </div>
                         
@@ -956,23 +972,28 @@
         </main>
         <footer class="main-footer container-fluid">
             <div class="row">
-                <div class="col-lg-4 col-sm-6 col-10 order-sm-1 order-2">
+                <div class="col-lg-4 col-sm-6 col-6 order-sm-1 order-2">
                     <p class="footer-logo d-flex flex-nowrap">
                         <img src="<?=ASSETS_PATH?>assets/img/ico_logo_footer.svg" alt="Логотип Кухни-Слон">
                         <span class="align-self-stretch">Уже 29 лет производим кухни для Вас более чем в 13 городах</span>
                     </p>
                 </div>
 
-                <div class="col-lg-4 col-1 order-sm-2 order-1">
+                <div class="col-lg-4 col-sm-1 col-0 order-sm-2 order-1">
                     <div class="h-100 d-flex align-items-center justify-content-center">
                         <button class="btn-white-border" id="openModal3DProjectingFooter">Планирование кухни онлайн</button>
                     </div>
                 </div>                        
                 
-                <div class="col-lg-4 col-sm-5 col-1 order-sm-3 order-3 d-flex justify-content-between align-items-center">
+                <div class="col-lg-4 col-sm-5 col-6 order-sm-3 order-3 d-flex justify-content-sm-between justify-content-end align-items-center">
                     <p class="footer-tel">
                         <a href="tel:79624775727">
                             <span class="visually-hidden">Контактный телефон: </span><span>+7 (962) 477-57-27</span>
+                        </a>
+                    </p>
+                    <p class="footer-vk">
+                        <a href="https://vk.com/mf_slon" target="_blank">
+                            <span class="visually-hidden">Группа во ВКонтакте</span>
                         </a>
                     </p>
                     
