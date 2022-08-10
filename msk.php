@@ -73,22 +73,8 @@
         </style>
         
         <meta name="description" content="Купить модульные кухни в Москве от производителя. Собственное производство. Изготовление от 3 дней. Онлайн расчет стоимости кухни. Бесплатная доставка в пределах города. Гарантия на кухни 5 лет">
-        
-        <!-- Yandex.Metrika counter -->
-        <script type="text/javascript" >
-           (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-           m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-           (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-           ym(83260594, "init", {
-                clickmap:true,
-                trackLinks:true,
-                accurateTrackBounce:true,
-                webvisor:true
-           });
-        </script>
-        <noscript><div><img src="https://mc.yandex.ru/watch/83260594" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-        <!-- /Yandex.Metrika counter -->
+        <? include_once './metrics.php' ?>
 	</head>
 	<body>
         <header class="main-header">
@@ -1527,6 +1513,9 @@
         <script src="<?=ASSETS_PATH?>assets/lib/lazysizes/lazysizes.min.js"></script>
         <script src="<?=ASSETS_PATH?>assets/lib/slick/slick.min.js"></script>        
         <script src="<?=ASSETS_PATH?>assets/js/main.min.js"></script>
+
+        <!-- ВК Пиксель -->
+        <? include_once './VKPixelConf.php' ?>
     
         <link rel="stylesheet" href="<?=ASSETS_PATH?>assets/lib/slick/slick.css">
         <link rel="stylesheet" href="<?=ASSETS_PATH?>assets/lib/slick/slick-theme.css">

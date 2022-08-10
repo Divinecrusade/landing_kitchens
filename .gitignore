@@ -6,3 +6,6 @@
 
 # Игнорировать метрику
 metrics.php
+
+# Игнорировать настройки VK Pixel
+VKPixelConf.php

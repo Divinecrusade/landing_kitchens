@@ -1505,11 +1505,15 @@
                 window.location.replace("http://mf-slon-retarget/msk.php");
             }
         </script>
-        
+
+        <!-- Ленивая загрузка изображений -->
         <script src="<?=ASSETS_PATH?>assets/lib/jquery/jquery-3.6.0.min.js"></script>
         <script src="<?=ASSETS_PATH?>assets/lib/lazysizes/lazysizes.min.js"></script>
         <script src="<?=ASSETS_PATH?>assets/lib/slick/slick.min.js"></script>        
         <script src="<?=ASSETS_PATH?>assets/js/main.min.js"></script>
+
+        <!-- ВК Пиксель -->
+        <? include_once './VKPixelConf.php' ?>
     
         <link rel="stylesheet" href="<?=ASSETS_PATH?>assets/lib/slick/slick.css">
         <link rel="stylesheet" href="<?=ASSETS_PATH?>assets/lib/slick/slick-theme.css">
