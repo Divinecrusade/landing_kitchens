@@ -1595,7 +1595,7 @@ form.register3DProjecting .modal_Inp_File_Label {
 .modal_Form_Count_Cost::-webkit-scrollbar-thumb {
   border-radius: 100px;
   background-image: linear-gradient(180deg, #479cf1 0%, #a6c7ff 99%);
-  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+  box-shadow: inset 2px 2px 5px 0 rgba(255, 255, 255, 0.5);
 }
 
 .modal_Form_Count_Cost {
@@ -2306,7 +2306,7 @@ cursor: pointer;
     }
     
     .slider-promo button.slick-arrow {
-        width: 40; height: 40;
+        width: 40px; height: 40px;
         background: rgba(2, 135, 27, 0.75);
     }
     
