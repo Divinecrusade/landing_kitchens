@@ -803,7 +803,11 @@ button#orderKitchenInstallment {
 }
 
 .checkbox-field:hover .checkbox-label {
-    color: #663d15;
+    color: #5EB863;
+}
+.checkbox-field:hover .checkbox-label a {
+    color: #5EB863;
+    text-decoration: none;
 }
 /* Беспроцентная рассрочка - кон */
 
@@ -2219,15 +2223,15 @@ cursor: pointer;
     }
     
     .main-offer {
-        font-size: 28px;
-        line-height: 34px;
+        font-size: 32px;
+        line-height: 38px;
         
         margin-bottom: 12px;
     }
     
     .main-offer-suptext {
-        font-size: 16px;
-        line-height: 18px;
+        font-size: 24px;
+        line-height: 28px;
         
         margin-bottom: 20px;
     }
@@ -2247,16 +2251,17 @@ cursor: pointer;
         margin-top: 0;
     }
     
-    #openModal3DProjecting {
+    button#openModal3DProjecting {
         font-size: 18px;
         line-height: 22px;
         
-        padding-left: 20px;
-        padding-top: 25px;
-        padding-right: 20px;
-        padding-bottom: 25px;
+        padding-left: 10px;
+        padding-top: 0;
+        padding-right: 10px;
+        padding-bottom: 0;
         
         margin-bottom: 32px;
+        width: 100%;
     }
         
     .checkbox-indicator {
@@ -2355,7 +2360,7 @@ cursor: pointer;
     
     .promotion-pinned-section {
         padding-top: 20px; padding-bottom: 0;
-        padding-left: 20px; padding-right: 20px;
+        padding-left: 0; padding-right: 0;
     }
     
     .promotion-pinned-section h2 {
@@ -2371,7 +2376,7 @@ cursor: pointer;
         margin-bottom: 32px;
         padding: 10px;
         background: #5EB863;
-        border-radius: 15px 0px 15px 0px;
+        border-radius: 0 0 0 0;
         
         color: #FFF;
     }
@@ -2385,6 +2390,10 @@ cursor: pointer;
         font-size: 16px;
         line-height: 20px;
     }
+
+    #installment {
+        padding-left: 20px; padding-right: 20px;
+    }
     
     .installment-inputs #installmentName,
     .installment-inputs #installmentTel{
@@ -2394,7 +2403,13 @@ cursor: pointer;
     .installment-inputs #installmentName {
         margin-bottom: 16px;
     }
-    
+
+    button#orderKitchenInstallment {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
     #orderKitchenInstallment {
     width: 100%!important;
     }
@@ -2419,6 +2434,7 @@ cursor: pointer;
     
     .guarantee-desc p {
         font-size: 16px;
+        font-weight: 500;
         line-height: 20px;
     }
     
@@ -2449,8 +2465,8 @@ cursor: pointer;
     }
     
     .kitch_Type_Btn {
-        font-size: 16px;
-        line-height: 20px;       
+        font-size: 14px;
+        line-height: 17px;
     }
     
     .desc_text {        
@@ -2646,6 +2662,25 @@ cursor: pointer;
     .about-statistics-first-row {
         margin-bottom: 0;
     }
+
+    .about-statistics-desc-1 p {
+        padding-left: 15px; padding-right: 12px;
+    }
+    .about-statistics-desc-2 p {
+        text-align: right;
+        padding-left: 12px; padding-right: 10px;
+    }
+    .about-statistics-desc-3 p {
+        text-align: center;
+        padding-left: 15px; padding-right: 12px;
+    }
+    .about-statistics-desc-4 p {
+        padding-left: 15px; padding-right: 12px;
+    }
+    .about-statistics-desc-5 p {
+        text-align: right;
+        padding-left: 12px; padding-right: 10px;
+    }
     
     .about-section {
         margin-bottom: 32px;
@@ -2707,6 +2742,8 @@ cursor: pointer;
         padding-left: 0px;
         padding-top: 20px;
         padding-bottom: 20px;
+
+        font-size: 16px;
     }
     
     .contact-form {
