@@ -149,8 +149,8 @@
                 <h2 class="visually-hidden">Преимущества компании</h2>
 
                 <div class="container">
-                    <p class="main-offer">Создайте <b class="green">3D-проект</b> <br class="break-575-on">Вашей кухни, <b class="green"><br>не выходя из дома</b></p>
-                    <p class="main-offer-suptext">в режиме онлайн-конференции <br>со специалистом <br class="break-575-on">мебельной фабрики Слон</p>
+                    <p class="main-offer">Создайте <b class="green">3D&#8209;проект</b> <br class="break-575-on">Вашей кухни, <b class="green"><br>не выходя из дома</b></p>
+                    <p class="main-offer-suptext">в режиме онлайн&#8209;конференции <br>со специалистом <br class="break-575-on">мебельной фабрики Слон</p>
 
                     <div class="main-features-block row">
                         <div class="col-xl-6 col-lg-6 col-12 order-xl-1 order-lg-1 order-3">
@@ -181,7 +181,7 @@
                         </div>
                         
                         <div class="project-btn-wrapper col-12 text-center order-xl-2 order-lg-2 order-2">
-                            <button class="btn-green-flat" id="openModal3DProjecting">Записаться на <br class="break-575-on">3D-проект кухни</button>
+                            <button class="btn-green-flat" id="openModal3DProjecting">Записаться на 3D&#8209;проект кухни</button>
                         </div>
                     </div>
                 </div>
@@ -997,7 +997,7 @@
             <h3 class="side-title">Планирование кухни вместе с дизайнером онлайн</h3>
             <p class="side-text"><b class="green">Заполните заявку</b><br>на бесплатный 3D-проект Вашей кухни в 3 клика!</p>
             
-            <form class="container col-sm-8 col-10 d-flex flex-column register3DProjecting" id="offer-with-file" enctype="multipart/form-data" method="post" onsubmit="send(event, '<?=ASSETS_PATH?>assets/php/mail.php')">
+            <form class="container col-sm-8 col-11 d-flex flex-column register3DProjecting" id="offer-with-file" enctype="multipart/form-data" method="post" onsubmit="send(event, '<?=ASSETS_PATH?>assets/php/mail.php')">
                 
                 <!-- Hidden Required Fields -->
                 <input type="hidden" name="project_name" value="Кухни-Слон">
@@ -1012,10 +1012,10 @@
                 
                 <div id="register3DProjecting_moreInputs" class="container-fluid d-flex flex-column p-0 visually-hidden">
                     <label for="register3DProjectingDate">Выберите день:</label>
-                    <input id="register3DProjectingDate" class="inp-grey" type="date" name="Дата">
+                    <input id="register3DProjectingDate" class="inp-grey w-100" type="date" name="Дата">
 
                     <label for="register3DProjectingTime">Выберите время:</label>
-                    <input id="register3DProjectingTime" class="inp-grey" type="time" name="Время">
+                    <input id="register3DProjectingTime" class="inp-grey w-100" type="time" name="Время">
                     
                     <div class="col-md-12 col-12">
                         <input class="modal_Inp_File" id="modal_Inp_File" type="file" multiple name="form_file[]">
@@ -1028,13 +1028,14 @@
                 </div>
                 
                 <div id="register3DProjectingShowMore"><span id="showMoreText">Дополнительно +</span><span id="hideText" class="visually-hidden">Скрыть доп. поля</span></div>
-                
-                <p class="register-3D-projecting-agree-terms">Согласен на обработку персональных данных в соответствии с <a href="./politics.html" target="_blank">политикой конфиденциальности</a></p>
 
                 <div class="col-12">
                     <small class="text-remark">* - обязательные для заполнения поля</small>
                 </div>
+
                 <button class="btn-green-flat" type="submit">Отправить заявку</button>
+
+                <p class="register-3D-projecting-agree-terms">Согласен на обработку персональных данных в соответствии с <a href="./politics.html" target="_blank">политикой конфиденциальности</a></p>
             </form>
         </section>
         

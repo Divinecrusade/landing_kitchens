@@ -224,6 +224,8 @@ a.anchor {
 }
 
 button.btn-green-flat {
+    position: relative;
+
     background-color: #5EB863;
 
     border-style: solid;
@@ -240,6 +242,27 @@ button.btn-green-flat {
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+
+    -webkit-transition-duration: 0.2s;
+
+    transition-duration: 0.2s;
+    -webkit-transition-property: background, box-shadow;
+    transition-property: background, box-shadow;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+
+button.btn-green-flat:hover,
+button.btn-green-flat:focus
+{
+    background: #0BAF29;
+    box-shadow: 0 0 6px #0BAF29;
+}
+
+button.btn-green-flat:active
+{
+    background: #0C8E24;
+    box-shadow: 0 0 6px #0C8E24;
 }
 
 button.btn-white-border {
@@ -256,6 +279,31 @@ button.btn-white-border {
     color: #FFF;
 
     background: none;
+
+    -webkit-transition-duration: 0.2s;
+
+    transition-duration: 0.2s;
+    -webkit-transition-property: background, box-shadow, color;
+    transition-property: background, box-shadow, color;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+
+button.btn-white-border:hover,
+button.btn-white-border:focus
+{
+    background: #FFF;
+    box-shadow: 0 0 6px #FFF;
+
+    color: #0BAF29;
+}
+
+button.btn-white-border:active
+{
+    background: #0C8E24;
+    box-shadow: 0 0 6px #d9ffdb;
+
+    color: #FFF;
 }
 
 button.burger {
@@ -895,6 +943,7 @@ button#orderKitchenInstallment {
 
     margin-left: 5px; margin-right: 5px;
 }
+
 .kitch_Type {
     margin-left: 0;
     padding-left: 0;
@@ -931,7 +980,30 @@ button#orderKitchenInstallment {
     font-weight: 500;
     font-size: 18px;
     line-height: 120%;
+
+    -webkit-transition-duration: 0.2s;
+
+    transition-duration: 0.2s;
+    -webkit-transition-property: background, box-shadow, color;
+    transition-property: background, box-shadow, color;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
 }
+
+.kitch_Type_Btn:hover,
+.kitch_Type_Btn:focus
+{
+    background: #0BAF29;
+    box-shadow: 0 0 6px #0BAF29;
+    color: #ffffff;
+}
+
+.kitch_Type_Btn:active
+{
+    background: #0C8E24;
+    box-shadow: 0 0 6px #0C8E24;
+}
+
 .desc_text {
     margin-top: 45px;
 }
@@ -1485,7 +1557,7 @@ input.modal_Inp_File {
     line-height: 120%;
     text-align: center;
     width: 100%;
-    padding: 10px 0;
+    padding: 10px 20px;
 }
 
 #f_name {
@@ -1621,11 +1693,15 @@ div#register3DProjectingShowMore {
 }
 
 .register-3D-projecting-agree-terms {
-    margin-bottom: 20px;
+    margin-top: 20px;
 
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
+
+    text-align: center;
+
+    color: #969696;
 }
 
 form.register3DProjecting .modal_Inp_File_Label {
@@ -2034,6 +2110,11 @@ input.included[type="checkbox"]:checked + label:after {
     .header-tel {
         margin-left: 20px;
     }
+
+    .side-panel {
+        right: -50vw;
+        width: 50vw;
+    }
 }
 
 @media (max-width: 1240px) {
@@ -2070,6 +2151,33 @@ input.included[type="checkbox"]:checked + label:after {
     .header-tel > a {
         width: 56px; height: 56px;
         display: block;
+        border-radius: 100%;
+        -webkit-animation: pulse 3s infinite;
+        animation: pulse 3s infinite;
+    }
+
+    @-webkit-keyframes pulse {
+        0% {
+            box-shadow: 0 0 0 0 rgba(11, 175, 41, 0.4);
+        }
+        70% {
+            box-shadow: 0 0 0 20px rgba(11, 175, 41, 0);
+        }
+        100% {
+            box-shadow: 0 0 0 0 rgba(11, 175, 41, 0);
+        }
+    }
+
+    @keyframes pulse {
+        0% {
+            box-shadow: 0 0 0 0 rgba(11, 175, 41, 0.4);
+        }
+        70% {
+            box-shadow: 0 0 0 20px rgba(11, 175, 41, 0);
+        }
+        100% {
+            box-shadow: 0 0 0 0 rgba(11, 175, 41, 0);
+        }
     }
 
     .header-tel > a::before {
@@ -2080,6 +2188,7 @@ input.included[type="checkbox"]:checked + label:after {
         background-image: url("../img/ico_PhoneButton.svg");
         background-size: contain;
     }
+
 
     .fabric-birthday .promo-desc {
         font-size: 30px;
@@ -2108,6 +2217,11 @@ input.included[type="checkbox"]:checked + label:after {
 }
 
 @media (max-width: 991px) {
+    .side-panel {
+        right: -60vw;
+        width: 60vw;
+    }
+
     .main-header, .main-footer {
         padding-left: 15px;
         padding-top: 15px;
@@ -2355,10 +2469,10 @@ input.included[type="checkbox"]:checked + label:after {
         font-size: 18px;
         line-height: 22px;
 
-        padding-left: 10px;
-        padding-top: 0;
-        padding-right: 10px;
-        padding-bottom: 0;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 20px;
+        padding-bottom: 15px;
 
         margin-bottom: 32px;
         width: 100%;
@@ -2884,12 +2998,15 @@ input.included[type="checkbox"]:checked + label:after {
         right: -100vw;
         background: #FFF;
         width: 100vw;
+
+        padding-top: 15px;
     }
 
     .side-title {
         font-size: 32px;
         line-height: 39px;
 
+        margin-top: 10px;
         margin-bottom: 24px;
     }
 
@@ -2931,6 +3048,13 @@ input.included[type="checkbox"]:checked + label:after {
 
         margin-top: 12px;
         margin-bottom: 85px;
+    }
+
+    #menu > div a,
+    #menu > div a:not(:last-of-type),
+    #menu > div a:last-of-type {
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .sub-option-menu-bot {
