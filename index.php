@@ -192,11 +192,11 @@
                    
                 <h2 class="visually-hidden">Акции</h2>
 
-                <p class="promotions-desc">Только <b class="green">до конца июля</b> у нас есть специальные предложения <br class="break-575-on">для Вас!</p> 
+                <p class="promotions-desc">Только <b class="green">до конца августа</b> у нас есть специальные предложения <br class="break-575-on">для Вас!</p> 
                 
                 <ul class="slider-promo">
                     <li class="slider-promo-item fabric-birthday row">
-                        <div class="d-flex flex-column col-sm-7 col-12 sm-order-1 order-2 justify-content-end align-content-end align-items-end">
+                        <div class="d-flex flex-column col-lg-8 col-12 order-lg-2 order-1 justify-content-center">
                             <h3 class="promo-name">
                                 Скидки до 30% на кухни
                             </h3>
@@ -205,25 +205,26 @@
                                 дня рождения нашей фабрики
                             </p>
                         </div>
-                        <div class="promo-dec col-sm-5 col-12 sm-order-2 order-1 d-flex justify-content-center align-content-end align-items-end">
+                        <div class="promo-dec col-lg-4 col-12 order-lg-1 order-2 d-flex justify-content-center align-content-end align-items-end">
                             <img src="<?=ASSETS_PATH?>assets/img/slider_fabric-birthday<?=($browser=='Safari'?'.png':'.webp')?>" width="256" height="320" alt="Скидки">
                         </div>
                     </li>
-                    <li class="slider-promo-item blum-discount row">
-                        <div class="d-flex flex-column xl-order-1 order-2 col-xl-6 col-12 justify-content-end align-content-end align-items-end">
-                            <h3 class="promo-name">
+                    <li class="slider-promo-item blum-discount">
+                        <div class="row d-flex flex-lg-row flex-column">
+                            <h3 class="promo-name col-12 order-0">
                                 Скидка 25% на фурнитуру BLUM до 31 августа
                             </h3>
-                            <p class="promo-desc">
+                            <p class="promo-desc order-1 order-lg-2 col-lg-7 col-12">
                                 Получи скидку на австрийскую фурнитуру Blum при заказе кухни. Гарантия 25 лет
                             </p>
-                        </div>
-                        <div class="promo-dec xl-order-2 order-1 col-xl-6 col-12 d-flex justify-content-center align-content-center align-items-center">
-                            <img src="<?=ASSETS_PATH?>assets/img/slider_promotion_blum<?=($browser=='Safari'?'.png':'.webp')?>" width="422" height="152" alt="Логотип Blum">
+
+                            <div class="promo-dec order-lg-1 order-2 col-lg-5 col-12 d-flex justify-content-center align-content-center align-items-center">
+                                <img src="<?=ASSETS_PATH?>assets/img/slider_promotion_blum<?=($browser=='Safari'?'.png':'.webp')?>" alt="Логотип Blum">
+                            </div>
                         </div>
                     </li>
                     <li class="slider-promo-item free-services row">
-                        <div class="col-sm-6 col-12 d-flex flex-column sm-order-1 order-2 justify-content-end align-content-end align-items-end ">
+                        <div class="col-lg-7 col-12 d-flex flex-column order-lg-2 order-1 justify-content-center">
                             <h3 class="promo-name">
                                 Получите бесплатно
                             </h3>
@@ -231,7 +232,7 @@
                                 Замер, доставка и установка за наш счёт
                             </p>
                         </div>
-                        <div class="promo-dec col-sm-6 col-12 d-flex justify-content-center align-content-end align-items-end">
+                        <div class="promo-dec col-lg-5 col-12 order-lg-1 order-2 d-flex justify-content-center align-content-end align-items-end">
                             <img src="<?=ASSETS_PATH?>assets/img/slider_promotion_gift<?=($browser=='Safari'?'.png':'.webp')?>" width="272" height="320" alt="Подарки">
                         </div>
                     </li>

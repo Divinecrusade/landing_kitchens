@@ -518,17 +518,27 @@ button#openModal3DProjecting {
 
 .slider-promo-item {
     padding-left: 45px;
-    padding-top: 50px;
     padding-right: 45px;
-    padding-bottom: 0;
 }
 
 .promo-name, .promo-desc {
     margin-bottom: 0;
+    text-align: end;
 }
 
-.free-services .promo-name, .fabric-birthday .promo-name, .blum-discount .promo-name {
-    margin-bottom: 10px;
+.promo-name {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    margin-bottom: 15px;
+    
+    color: #FFF;
+}
+
+.promo-desc {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
 }
 
 .free-services {    
@@ -538,26 +548,14 @@ button#openModal3DProjecting {
     background-size: cover;
 }
 
-.free-services .promo-name {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 48px;
-    
-    color: #FFF;
-}
-
 .free-services .promo-desc {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 36px;
-    
-    color: #FFF;
+    color: #fff;
 }
 
 .free-services .promo-dec img {    
     width: 100%;
     object-fit: contain;
-    object-position: right bottom;
+    object-position: bottom;
 }
 
 .fabric-birthday {    
@@ -568,51 +566,8 @@ button#openModal3DProjecting {
     background-size: cover;
 }
 
-.fabric-birthday .promo-name {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 58px;
-    
-    color: #FFF;
-}
-
-.fabric-birthday .promo-desc {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 50px;
-}
-
-.fabric-birthday .promo-dec span {        
-    font-size: 196px;
-    font-weight: 700;
-    line-height: 240px;
-    
-    color: #fff;
-}
-
 .blum-discount {    
-    padding-bottom: 40px;
     background-color: #FF521D;
-}
-
-.blum-discount .promo-name {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 58px;
-    
-    text-align: right;
-    
-    color: #FFF;
-}
-
-.blum-discount .promo-desc {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 49px;
-    
-    text-align: right;
-    
-    color: #1F1F1F;
 }
 
 .blum-discount .promo-dec img {
@@ -631,7 +586,7 @@ button#openModal3DProjecting {
     display: flex!important;
     align-items: stretch;
     
-    height: 488px;
+    height: 320px;
 }
 
 .slider-promo-item.slick-slide:not(.slick-active) {
@@ -2003,6 +1958,10 @@ cursor: pointer;
         right: -50vw;
         width: 50vw;
     }
+    
+    .slider-promo-item.slick-slide {
+        height: 360px;
+    }
 }
 
 @media (max-width: 1240px) {   
@@ -2020,6 +1979,22 @@ cursor: pointer;
     
     .main-features-block {
         margin-left: 0; margin-right: 0;
+    }
+    
+    .slider-promo-item.slick-slide {
+        height: 520px;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(11, 175, 41, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 20px rgba(11, 175, 41, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(11, 175, 41, 0);
     }
 }
 
@@ -2042,18 +2017,6 @@ cursor: pointer;
         border-radius: 100%;
         animation: pulse 3s infinite;
     }
-
-    @keyframes pulse {
-        0% {
-            box-shadow: 0 0 0 0 rgba(11, 175, 41, 0.4);
-        }
-        70% {
-            box-shadow: 0 0 0 20px rgba(11, 175, 41, 0);
-        }
-        100% {
-            box-shadow: 0 0 0 0 rgba(11, 175, 41, 0);
-        }
-    }
     
     .header-tel > a::before {
         width: 56px; height: 56px;
@@ -2065,18 +2028,11 @@ cursor: pointer;
     }
 
     
-    .fabric-birthday .promo-desc {
-        font-size: 30px;
-    }
-    
     .fabric-birthday .promo-dec span {        
         font-size: 140px;
         line-height: 200px;
     }
     
-    /*.promotion-pinned-section {
-        background-position: 200%;
-    }*/
     
     .promotion-section-wrapper {
         background-position: 140%;
@@ -2134,6 +2090,10 @@ cursor: pointer;
         margin-bottom: 20px;
     }
     
+    .slider-promo-item.slick-slide {
+        height: 600px;
+    }
+    
     .promotion-section-wrapper {
         padding-left: 0; padding-right: 0;
     }
@@ -2184,12 +2144,6 @@ cursor: pointer;
     .header-tel {
         margin-left: 0px;
     }
-    
-    /*.promotion-pinned-section {
-        padding-right: 100px;
-        
-        background-position: 300%;
-    }*/
     
     .promotion-section-wrapper {
         padding-right: 100px;
@@ -2391,7 +2345,7 @@ cursor: pointer;
         
         padding: 15px;
         
-        height: 300px;
+        height: 600px;
     }
     
     .slider-promo button.slick-arrow {
@@ -2407,40 +2361,36 @@ cursor: pointer;
         margin-left: 50px;
     }
     
-    .fabric-birthday .promo-name, .fabric-birthday .promo-desc {
+    .promo-name {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        text-align: center;
+    }
+    
+    .promo-desc {
         font-size: 24px;
+        font-weight: 700;
         line-height: 29px;
+        text-align: center;
     }
     
-    .fabric-birthday .promo-dec span {
-        font-size: 64px;
-        line-height: 78px;
+    .fabric-birthday,
+    .free-services {
+        background-size: contain;
     }
     
-    .slider-promo-item.free-services {
+    .blum-discount .promo-desc {
+        color: #fff;
+    }
+    
+    .blum-discount .promo-dec {
+        margin-top: auto; margin-bottom: auto;
+    }
+        
+    .slider-promo-item.free-services,
+    .slider-promo-item.fabric-birthday {
         padding-bottom: 0;
-    }
-    
-    .free-services .promo-name, .free-services .promo-desc {
-        font-size: 24px;
-        line-height: 29px;
-    }
-    
-    .free-services .promo-dec {
-        max-height: 110px;
-    }
-    
-    .free-services .promo-dec img {
-        max-height: 100%;
-    }
-    
-    .slider-promo-item.blum-discount {
-        padding-bottom: 0;
-    }
-    
-    .blum-discount .promo-name, .blum-discount .promo-desc {
-        font-size: 24px;
-        line-height: 29px;
     }
     
     .promotions-section {
@@ -2961,16 +2911,18 @@ cursor: pointer;
         padding: 36px;
     }
     
-    .fabric-birthday .promo-desc {
-        width: 100%!important;
-    }
-
-    .fabric-birthday .promo-dec span { 
-        width: 100%!important;
+    .blum-discount .promo-dec img {
+        width: 70%;
     }
     
-    .slider-promo-item.slick-slide {
-        height: 330px;
+    .blum-discount .promo-dec {
+        margin-left: 0;
+    }
+    
+    .fabric-birthday .promo-dec img {
+        object-fit: contain;
+        width: 100%;
+        object-position: top;
     }
 }
 
