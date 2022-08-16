@@ -279,7 +279,7 @@
                                 </div>
 
                                 <label class="checkbox-field installment-checkbox">
-                                    <input id="termsAgree" class="checkbox" name="Agree" type="checkbox">
+                                    <input id="termsAgree" class="checkbox" name="Agree" type="checkbox" checked>
                                     <span class="checkbox-indicator"></span>
                                     <span class="checkbox-label">*Я принимаю <a href="./politics.html" target="_blank">условия конфиденциальности сайта</a></span>
                                 </label>
