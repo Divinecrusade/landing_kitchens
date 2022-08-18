@@ -1520,5 +1520,14 @@
     
         <link rel="stylesheet" href="<?=ASSETS_PATH?>assets/lib/slick/slick.css">
         <link rel="stylesheet" href="<?=ASSETS_PATH?>assets/lib/slick/slick-theme.css">
+        
+        <!-- Куки -->
+        <script src="<?=ASSETS_PATH?>assets/js/cookiechoices.js"></script>
+        <script>
+            cookieChoices.showCookieBar({
+                linkHref: './politics.html',
+                language: 'ru'
+            });
+        </script>
 	</body>
 </html>
