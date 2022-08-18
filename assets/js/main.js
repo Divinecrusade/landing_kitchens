@@ -167,13 +167,18 @@ jQuery(document).ready(function() {
         is_shown = false;
     });
     
+    setTimeout(function() { 
+        checkbox.prop('checked', true);
+        is_shown = true;
+    }, 20000);
+    
     $(document).mouseup( function(e){
         if (is_shown && !panel.is(e.target) && panel.has(e.target).length === 0) 
         {
             checkbox.prop('checked', false);
         }
     });
-
+    
     let buttonShowMore = $('#register3DProjectingShowMore');
     let is_shownMore = false;
     let hidden_inps = $('#register3DProjecting_moreInputs');
