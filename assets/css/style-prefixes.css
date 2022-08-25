@@ -2270,6 +2270,10 @@ cursor: pointer;
         margin-left: 0px;
     }
     
+	.step_percentage {
+		margin-left: 85px;
+	}
+	
     .promotion-section-wrapper {
         padding-right: 100px;
         
@@ -3016,6 +3020,27 @@ cursor: pointer;
 
         display: flex;
     }
+	
+	.Quiz_Title {
+		font-size: 18px;
+        line-height: 22px;
+	}
+	
+	.Quiz_Subtitle {
+		font-size: 16px;
+        line-height: 20px;
+	}
+	
+	.Quiz_Step_Name {
+		font-size: 14px;
+		line-height: 16px;
+	}
+	
+	.modal_Quiz_Btn_Back,
+	.modal_Quiz_Btn	{
+		font-size: 16px!important;
+        line-height: 20px!important;
+	}
 }
 
 @media (max-width: 375px) {
