@@ -166,12 +166,7 @@ jQuery(document).ready(function() {
         checkbox.prop('checked', false);
         is_shown = false;
     });
-    
-    setTimeout(function() { 
-        checkbox.prop('checked', true);
-        is_shown = true;
-    }, 20000);
-    
+        
     $(document).mouseup( function(e){
         if (is_shown && !panel.is(e.target) && panel.has(e.target).length === 0) 
         {
@@ -401,6 +396,17 @@ jQuery(document).ready(function() {
       $(".modal_Type_Kitchen div.row").hide(0);
       target.fadeIn(500);
     });
+	
+	
+    // Автопоказ квиза
+  
+    function showQuiz()
+    {
+	    showInfo('modal_Form_Count_Cost');
+    }
+	  
+	  
+    setTimeout(showQuiz, 30000);
  //-------------------------------------------------------------------   
     
   // Ajax-обработка почты
