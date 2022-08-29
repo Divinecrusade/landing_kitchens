@@ -35,7 +35,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 		
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-		<link rel="stylesheet" href="assets/css/style.min.css">
+		<link rel="stylesheet" href="assets/css/style-no-prefixes.css">
 		
 		<title>Кухни-Слон | Дизайн кухни онлайн</title>
         <style>            
@@ -186,6 +186,407 @@
                     </div>
                 </div>
             </section>
+            
+            <section class="examples container">
+                <div class="row col-12 mx-0">
+                    <a name="examples_anchor"></a>
+                    <div class="container">
+                        <a name="examples"></a>
+                        <div class="examples_Title retarget mx-0 col-12 row">
+                            <h2>Выберите стиль оформления Вашей будущей кухни</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="examples_main_retarget row">
+                    <div class="col-12 col-lg-4 examples_main_retarget_type">
+                        <div class="col-12">
+                            <img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_main_retarget_type-1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="">
+                        </div>
+                        <div onclick="showMoreExamplesRetarget('high-tech')" class="more_images_retarget Btn-pointer">
+                            <a class="col-12" href="#examples_anchor">Современный хай-тек</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 examples_main_retarget_type">
+                        <div class="col-12">
+                            <img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_main_retarget_type-2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="">
+                        </div>
+                        <div onclick="showMoreExamplesRetarget('classic')" class="more_images_retarget Btn-pointer">
+                            <a class="col-12" href="#examples_anchor">Классика</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 examples_main_retarget_type">
+                        <div class="col-12">
+                            <img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_main_retarget_type-3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="">
+                        </div>
+                        <div onclick="showMoreExamplesRetarget('provans')" class="more_images_retarget Btn-pointer">
+                            <a class="col-12" href="#examples_anchor">Прованс</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 examples_main_retarget_type">
+                        <div class="col-12">
+                            <img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_main_retarget_type-4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="">
+                        </div>
+                        <div onclick="showMoreExamplesRetarget('minimal')" class="more_images_retarget Btn-pointer">
+                            <a class="col-12" href="#examples_anchor">Минимализм </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 examples_main_retarget_type">
+                        <div class="col-12">
+                            <img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_main_retarget_type-5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="">
+                        </div>
+                        <div  onclick="showMoreExamplesRetarget('neoclassic')" class="more_images_retarget Btn-pointer">
+                            <a class="col-12" href="#examples_anchor">Неоклассика</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 examples_main_retarget_type">
+                        <div class="col-12">
+                            <img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_main_retarget_type-6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="">
+                        </div>
+                        <div onclick="showMoreExamplesRetarget('modern')" class="more_images_retarget Btn-pointer">
+                            <a class="col-12" href="#examples_anchor">Модерн</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        <div class="container-fluid">
+        <!-- Classic -->
+        <div class="row examples_style_retarget d-none" id="classic">
+            <div class="col-12  examples_style_retarget-title">
+                <span>Кухни в классическом стиле</span>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 examples_style_retarget-photos">
+                        <!-- <p class="examples_style_retarget-subtitle">Каждая кухня индивидуальна и неповторима</p> -->
+                        <div class="col-12 m-0 row start_retarget">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-1-1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-1-2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row start_retarget">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-1-3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-1-4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row start_retarget">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-1-5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-1-6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row d-none">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-1-7<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-1-8<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row d-none">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-1-9<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-1-10<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row d-none">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-1-11<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-1-12<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row d-none">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-1-13<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-1-14<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row d-none">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-1-15<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-1-16<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row d-none">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-1-17<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-1-18<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+
+                        <div class="row m-0 col-12">
+                            <div onclick="hideMoreExamplesRetarget('classic')" class="col-12 col-lg-4 Btn-pointer">
+                                <p class="examples_style_retarget_back">
+                                    <a href="#examples_anchor"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>Выбрать другой стиль</a>
+                                </p>
+                            </div>
+                            <div onclick="showAllExamplesRetarget()" class="col-12 col-lg-4 Btn-pointer">
+                                <p class="examples_style_retarget_more">
+                                    <a>Показать больше фото</a>
+                                </p>
+                            </div>
+                            <div onclick="showInfo('modal_Form_Count_Cost')" class="col-12 col-lg-4 Btn-pointer">
+                                <p class="examples_style_retarget_count">
+                                    <a>Рассчитать кухню</a>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- High-tech -->
+        <div class="row examples_style_retarget d-none" id="high-tech">
+            <div class="col-12 examples_style_retarget-title">
+                <span>Кухни в стиле хай-тек</span>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 examples_style_retarget-photos">
+                        <!-- <p class="examples_style_retarget-subtitle">Каждая кухня индивидуальна и неповторима</p> -->
+                        <div class="col-12 m-0 row start_retarget">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-2-1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-2-2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row start_retarget">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-2-3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-2-4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row start_retarget">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-2-5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-2-6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row d-none">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-2-7<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-2-8<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row d-none">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-2-9<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-2-10<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row d-none">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-2-11<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-2-12<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row d-none">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-2-13<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-2-14<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="row m-0 col-12">
+                            <div onclick="hideMoreExamplesRetarget('high-tech')" class="col-12 col-lg-4 Btn-pointer">
+                                <p class="examples_style_retarget_back">
+                                    <a href="#examples_anchor"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>Выбрать другой стиль</a>
+                                </p>
+                            </div>
+                            <div class="col-12 col-lg-4 ">
+                                <p onclick="showAllExamplesRetarget()" class="examples_style_retarget_more Btn-pointer">
+                                    <a>Показать больше фото</a>
+                                </p>
+                            </div>
+                            <div onclick="showInfo('modal_Form_Count_Cost')" class="col-12 col-lg-4 Btn-pointer">
+                                <p class="examples_style_retarget_count">
+                                    <a>Рассчитать кухню</a>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Provans -->
+        <div class="row examples_style_retarget d-none" id="provans">
+            <div class="col-12 examples_style_retarget-title">
+                <span>Кухни в стиле прованс</span>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 examples_style_retarget-photos">
+                        <!-- <p class="examples_style_retarget-subtitle">Каждая кухня индивидуальна и неповторима</p> -->
+                        <div class="col-12 m-0 row start_retarget">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-3-1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-3-2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row start_retarget">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-3-3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-3-4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+
+                        <div class="row m-0 col-12">
+                            <div onclick="hideMoreExamplesRetarget('provans')" class="col-12 col-lg-4 Btn-pointer">
+                                <p class="examples_style_retarget_back">
+                                    <a href="#examples_anchor"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>Выбрать другой стиль</a>
+                                </p>
+                            </div>
+                            <div class="col-12 col-lg-4 ">
+                                <!-- <p class="examples_style_retarget_more"> -->
+                                <!-- <a onclick="showAllExamplesRetarget()">Показать больше фото</a> -->
+                                <!-- </p> -->
+                            </div>
+                            <div class="col-12 col-lg-4 ">
+                                <p onclick="showInfo('modal_Form_Count_Cost')" class="examples_style_retarget_count Btn-pointer">
+                                    <a>Рассчитать кухню</a>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Minimal -->
+        <div class="row examples_style_retarget d-none" id="minimal">
+            <div class="col-12  examples_style_retarget-title">
+                <span>Кухни в стиле минимализм</span>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 examples_style_retarget-photos">
+                        <!-- <p class="examples_style_retarget-subtitle">Каждая кухня индивидуальна и неповторима</p> -->
+                        <div class="col-12 m-0 row start_retarget">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-4-1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-4-2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row start_retarget">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-4-3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-4-4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row start_retarget">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-4-5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-4-6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row d-none">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-4-7<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-4-8<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row d-none">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-4-9<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-4-10<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row d-none">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-4-11<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-4-12<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row d-none">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-4-13<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-4-14<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row d-none">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-4-15<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+
+                        <div class="row m-0 col-12">
+                            <div onclick="hideMoreExamplesRetarget('minimal')" class="col-12 col-lg-4 Btn-pointer">
+                                <p class="examples_style_retarget_back">
+                                    <a href="#examples_anchor"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>Выбрать другой стиль</a>
+                                </p>
+                            </div>
+                            <div onclick="showAllExamplesRetarget()" class="col-12 col-lg-4 Btn-pointer">
+                                <p class="examples_style_retarget_more">
+                                    <a>Показать больше фото</a>
+                                </p>
+                            </div>
+                            <div  onclick="showInfo('modal_Form_Count_Cost')" class="col-12 col-lg-4 Btn-pointer">
+                                <p class="examples_style_retarget_count">
+                                    <a>Рассчитать кухню</a>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- neoclassic -->
+        <div class="row examples_style_retarget d-none" id="neoclassic">
+            <div class="col-12  examples_style_retarget-title">
+                <span>Кухни в стиле неоклассики</span>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 examples_style_retarget-photos">
+                        <!-- <p class="examples_style_retarget-subtitle">Каждая кухня индивидуальна и неповторима</p> -->
+                        <div class="col-12 m-0 row start_retarget">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-5-1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-5-2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row start_retarget">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-5-3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-5-4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row start_retarget">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-5-5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-5-6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row d-none">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-5-7<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-5-8<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row d-none">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-5-9<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-5-10<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row d-none">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-5-11<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-5-12<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="col-12 m-0 row d-none">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-5-13<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+
+                        <div class="row m-0 col-12">
+                            <div onclick="hideMoreExamplesRetarget('neoclassic')" class="col-12 col-lg-4 Btn-pointer">
+                                <p class="examples_style_retarget_back">
+                                    <a href="#examples_anchor"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>Выбрать другой стиль</a>
+                                </p>
+                            </div>
+                            <div onclick="showAllExamplesRetarget()" class="col-12 col-lg-4 Btn-pointer">
+                                <p class="examples_style_retarget_more">
+                                    <a>Показать больше фото</a>
+                                </p>
+                            </div>
+                            <div onclick="showInfo('modal_Form_Count_Cost')" class="col-12 col-lg-4 Btn-pointer">
+                                <p class="examples_style_retarget_count">
+                                    <a>Рассчитать кухню</a>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modern -->
+        <div class="row examples_style_retarget d-none" id="modern">
+            <div class="col-12  examples_style_retarget-title">
+                <span>Кухни в стиле модерн</span>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 examples_style_retarget-photos">
+                        <!-- <p class="examples_style_retarget-subtitle">Каждая кухня индивидуальна и неповторима</p> -->
+                        <div class="col-12 m-0 row start_retarget">
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-6-1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                            <div class="col-12 col-lg-6 examples_style_retarget-photos-img"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_style_retarget-photos-img-6-2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt=""></div>
+                        </div>
+                        <div class="row m-0 col-12">
+                            <div onclick="hideMoreExamplesRetarget('modern')" class="col-12 col-lg-4 Btn-pointer">
+                                <p class="examples_style_retarget_back">
+                                    <a href="#examples_anchor"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>Выбрать другой стиль</a>
+                                </p>
+                            </div>
+                            <div class="col-12 col-lg-4 ">
+                                <!-- <p class="examples_style_retarget_more"> -->
+                                <!-- <a onclick="showAllExamplesRetarget()">Показать больше фото</a> -->
+                                <!-- </p> -->
+                            </div>
+                            <div onclick="showInfo('modal_Form_Count_Cost')" class="col-12 col-lg-4 Btn-pointer">
+                                <p class="examples_style_retarget_count">
+                                    <a>Рассчитать кухню</a>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            
             
             <a name="promo" class="anchor"></a>
             <section class="promotions-section container-lg container-fluid">
@@ -1521,6 +1922,8 @@
         
         <!-- Куки -->
         <script src="<?=ASSETS_PATH?>assets/js/cookiechoices.js"></script>
+        <script src="<?=ASSETS_PATH?>assets/js/showMore.js"></script>
+        <script src="<?=ASSETS_PATH?>assets/js/showMoreRetarget.js"></script>
         <script>
             cookieChoices.showCookieBar({
                 linkHref: './politics.html',
