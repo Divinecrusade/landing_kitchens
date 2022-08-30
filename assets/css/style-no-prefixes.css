@@ -1281,6 +1281,34 @@ button#orderKitchenInstallment {
     color: #5EB863;
     text-decoration: none;
 }
+
+.promotion-pinned-content tbody td {
+    position: relative;
+}
+
+.rubs::after {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 156px;
+    content: "руб.";
+    position: absolute;
+}
+
+.percentages::after {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 156px;
+    content: "%";
+    position: absolute;
+}
+
+.months::after {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 156px;
+    content: "мес.";
+    position: absolute;    
+}
 /* Беспроцентная рассрочка - кон */
 
 
@@ -1320,6 +1348,8 @@ button#orderKitchenInstallment {
     font-weight: 700;
     line-height: 29px;
 }
+
+
 /* Гарантия - кон */
 
 
@@ -1703,11 +1733,12 @@ button#orderKitchenInstallment {
     position: relative;
 }
 
-.static-map {
+/*.static-map {
     display: block;
     height: 572px;
     margin-bottom: 0;
 }
+
 
 .static-map img {
     object-fit: cover;
@@ -1715,16 +1746,30 @@ button#orderKitchenInstallment {
     height: 100%;
     max-height: 100%;
     object-position: center center;
+}*/
+
+/*.static-map {
+    width: 100%;  
+}*/
+
+.static-map {
+    z-index: 1;
 }
 
-.contacts-section {
-    position: relative;
-}
-
-.addresses-wrapper,
-.contact-wrapper {
+.addresses,
+.contact-form {
     top: 5%;
     position: absolute;
+}
+
+.addresses {
+    left: 10vw;
+    z-index: 2;
+}
+
+.contact-form {
+    right: 10vw;
+    z-index: 2;
 }
 
 .addresses {   
@@ -1734,6 +1779,8 @@ button#orderKitchenInstallment {
     border-color: #5EB863;
     border-width: 2px;
     border-radius: 15px;
+    
+    max-width: 600px;
 }
 
 
@@ -1788,6 +1835,8 @@ button#orderKitchenInstallment {
     border-color: #5EB863;
     border-width: 2px;
     border-radius: 15px;
+    
+    max-width: 500px;
 }
 
 .contact-promo-text {
@@ -2598,10 +2647,13 @@ cursor: pointer;
     .slider-manufacture button.slick-arrow.slick-next {
         margin-right: 180px;
     }
-    
-    .contact-wrapper,
-    .addresses-wrapper {
-        padding-left: 0; padding-right: 0;
+        
+    .addresses {
+        left: 0;
+    }
+
+    .contact-form {
+        right: 0;
     }
     
     .footer-logo {
@@ -2903,6 +2955,13 @@ cursor: pointer;
     
     .promotion-pinned-desc td {
         font-size: 65px;
+        line-height: 78px;
+    }
+    
+    .rubs::after,
+    .percentages::after,
+    .months::after {
+        font-size: 16px;
         line-height: 78px;
     }
     
@@ -3230,18 +3289,12 @@ cursor: pointer;
         width: 20px; height: 20px;
     }
     
-    .addresses-wrapper, .contact-wrapper {
-        padding-left: 0; padding-right: 0;
-        
+    .addresses, .contact-form {   
+        max-width: 100%;
         top: 0;
         position: static;
     }
-    
-    .addresses-wrapper > .container-lg,
-    .contact-wrapper > .container-lg {
-        padding-left: 0; padding-right: 0;
-    }
-    
+        
     .addresses {
         border: none;
         border-radius: 0;

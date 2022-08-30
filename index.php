@@ -683,9 +683,9 @@
                                 </thead>
                                 <tbody class="w-100">
                                     <tr class="row">
-                                        <td class="col-4">0</td>
-                                        <td class="col-4">0</td>
-                                        <td class="col-4">24</td>
+                                        <td class="col-4 rubs">0</td>
+                                        <td class="col-4 percentages">0</td>
+                                        <td class="col-4 months">24</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -1314,70 +1314,67 @@
             <section class="contacts-section container-fluid">   
                 <a name="contacts" class="anchor"></a>
                 <h2 class="visually-hidden">Контакты</h2>
-            
-                <div class="addresses-wrapper container-fluid">
-                    <div class="container-lg container-fluid d-flex">
-                        <div class="addresses col-xl-3 col-lg-4 col-sm-5 col-12 d-flex flex-column">
-                            <p class="addresses-promo-text w-100">Мы ждем Вас в наших офисах, чтобы обсудить <br><b class="green">все детали и подробности</b></p>
+                            
+                                    
+                <div class="addresses col-xl-3 col-lg-4 col-sm-5 col-12 d-flex flex-column">
+                    <p class="addresses-promo-text w-100">Мы ждем Вас в наших офисах, чтобы обсудить <br><b class="green">все детали и подробности</b></p>
 
-                            <ul class="addresses-list w-100">
-                                <li>
-                                    <address>ул. Октябрьская, д. 24</address>
-                                    <p class="contacts-tel">
-                                        <a href="tel:79624775727"><span class="visually-hidden">Контактный телефон для салона по адресу ул. Октябрьская, д. 24: </span>+7 (962) 477-57-27</a>
-                                    </p>
-                                </li>
-                                <li>
-                                    <address>ул. 8 Марта д. 8</address>
-                                    <p class="contacts-tel">
-                                        <a href="tel:74862780171"><span class="visually-hidden">Контактный телефон для салона по адресу ул. 8 Марта д. 8: </span>+7 (4862) 78-01-71</a>
-                                    </p>  
-                                </li>
-                                <li>
-                                    <address>ул. Комсомольская, д. 267</address>
-                                    <p class="contacts-tel">
-                                        <a href="tel:74862732718"><span class="visually-hidden">Контактный телефон для салона по адресу ул. Комсомольская, д. 267: </span>+7 (4862) 73-27-18</a>
-                                    </p>
-                                </li>
-                            </ul>                    
-                        </div>
-                    </div>
+                    <ul class="addresses-list w-100">
+                        <li>
+                            <address>ул. Октябрьская, д. 24</address>
+                            <p class="contacts-tel">
+                                <a href="tel:79624775727"><span class="visually-hidden">Контактный телефон для салона по адресу ул. Октябрьская, д. 24: </span>+7 (962) 477-57-27</a>
+                            </p>
+                        </li>
+                        <li>
+                            <address>ул. 8 Марта д. 8</address>
+                            <p class="contacts-tel">
+                                <a href="tel:74862780171"><span class="visually-hidden">Контактный телефон для салона по адресу ул. 8 Марта д. 8: </span>+7 (4862) 78-01-71</a>
+                            </p>  
+                        </li>
+                        <li>
+                            <address>ул. Комсомольская, д. 267</address>
+                            <p class="contacts-tel">
+                                <a href="tel:74862732718"><span class="visually-hidden">Контактный телефон для салона по адресу ул. Комсомольская, д. 267: </span>+7 (4862) 73-27-18</a>
+                            </p>
+                        </li>
+                    </ul>                    
                 </div>
 
-                <a class="static-map" href="https://yandex.ru/maps/-/CCUiASBV0C"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/map_orel<?=($browser=='Safari'?'.png':'.webp')?>" height="572" alt="Адреса салонов в Орле: ул. Октябрьская, д. 24, ул. 8 Марта д. 8, ул. Комсомольская, д. 267"></a>
+                <div class="static-map" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/slon/1025234049/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Слон</a><a href="https://yandex.ru/maps/10/orel/category/custom_made_furniture/184107879/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Мебель на заказ в Орле</a><iframe class="w-100" src="https://yandex.ru/map-widget/v1/-/CCUVQMWy8B" height="572" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
 
-                <div class="contact-wrapper container-fluid">
-                    <div class="container-lg container-fluid d-flex justify-content-end">
+
+                <!--<a class="static-map" href="https://yandex.ru/maps/-/CCUiASBV0C"><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/map_orel<?=($browser=='Safari'?'.png':'.webp')?>" height="572" alt="Адреса салонов в Орле: ул. Октябрьская, д. 24, ул. 8 Марта д. 8, ул. Комсомольская, д. 267"></a>-->
+
+
                         
-                        <div class="contact-form col-xl-4 col-lg-5 col-sm-6 col-12">
-                            <a name="question" class="anchor"></a>
-                            <h3 class="visually-hidden">Контактная форма</h3>
+                <div class="contact-form col-xl-4 col-lg-5 col-sm-6 col-12">
+                    <a name="question" class="anchor"></a>
+                    <h3 class="visually-hidden">Контактная форма</h3>
 
-                            <p class="contact-promo-text">Остались вопросы?</p>
+                    <p class="contact-promo-text">Остались вопросы?</p>
 
-                            <form id="sendQuestion" class="d-flex flex-column modal_Form_Send_Question">
-                                
-                                <!-- Hidden Required Fields -->
-                                <input type="hidden" name="project_name" value="Кухни-Слон">
-                                <input type="hidden" name="city" value="Орёл">
+                    <form id="sendQuestion" class="d-flex flex-column modal_Form_Send_Question">
 
-                                <input type="hidden" name="form_subject" value="Задать вопрос">
-                                <!-- END Hidden Required Fields -->
-                                
-                                <label class="visually-hidden" for="sendQuestionName">Введите имя: </label><input id="sendQuestionName" class="w-100" name="Имя" type="text" placeholder="*Ваше имя" required>
-                                <label class="visually-hidden" for="sendQuestionTel">Введите телефон: </label><input id="sendQuestionTel" class="w-100" name="Телефон" type="tel" placeholder="*Ваш телефон" required>
-                                <label class="visually-hidden" for="sendQuestionComment">Оставьте вопрос: </label><textarea id="sendQuestionComment" name="Вопрос" rows="6" cols="4" placeholder="Ваш вопрос"></textarea>
+                        <!-- Hidden Required Fields -->
+                        <input type="hidden" name="project_name" value="Кухни-Слон">
+                        <input type="hidden" name="city" value="Орёл">
 
-                                <p class="send-question-agree-terms">Согласен на обработку персональных данных в соответствии с <a href="./politics.html" target="_blank">политикой конфиденциальности</a></p>
+                        <input type="hidden" name="form_subject" value="Задать вопрос">
+                        <!-- END Hidden Required Fields -->
 
-                                
-                                <div class="col-12">
-                                    <small class="text-remark">* - обязательные для заполнения поля</small>
-                                </div>
-                                <button class="btn-green-flat" type="submit">Отправить заявку</button>
-                            </form>
+                        <label class="visually-hidden" for="sendQuestionName">Введите имя: </label><input id="sendQuestionName" class="w-100" name="Имя" type="text" placeholder="*Ваше имя" required>
+                        <label class="visually-hidden" for="sendQuestionTel">Введите телефон: </label><input id="sendQuestionTel" class="w-100" name="Телефон" type="tel" placeholder="*Ваш телефон" required>
+                        <label class="visually-hidden" for="sendQuestionComment">Оставьте вопрос: </label><textarea id="sendQuestionComment" name="Вопрос" rows="6" cols="4" placeholder="Ваш вопрос"></textarea>
+
+                        <p class="send-question-agree-terms">Согласен на обработку персональных данных в соответствии с <a href="./politics.html" target="_blank">политикой конфиденциальности</a></p>
+
+
+                        <div class="col-12">
+                            <small class="text-remark">* - обязательные для заполнения поля</small>
                         </div>
-                    </div>
+                        <button class="btn-green-flat" type="submit">Отправить заявку</button>
+                    </form>
                 </div>
             </section>
         </main>
