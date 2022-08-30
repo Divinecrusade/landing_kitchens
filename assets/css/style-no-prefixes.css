@@ -798,6 +798,180 @@ a.offers_Text_Subtitle.retarget:hover {
 /* Примеры работ - кон */
 
 
+/* Не нашли нужной кухни - нач */
+
+.personal_kitch-size {
+  margin-top: 30px;
+  margin-bottom: 88px;
+  padding: 24px 0px;
+}
+.personal_kitch_Text_SubText {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.personal_kitch_Text_Title {
+  margin-bottom: 30px;
+}
+a.personal_kitch_Text_Subtitle:active,
+a.personal_kitch_Text_Subtitle:visited,
+a.personal_kitch_Text_Subtitle:focus,
+a.personal_kitch_Text_Subtitle:hover {
+  text-decoration: none;
+  color: inherit;
+  cursor: default;
+}
+.personal_kitch_back {
+  background-position: center center;
+  background-size: cover;
+}
+.personal_kitch_back {
+  margin-top: 80px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.personal_kitch_Text_Title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 120%;
+  margin-top: 80px;
+  color: white;
+}
+.personal_kitch_Text_Title a {
+  color: #40ac46;
+}
+.personal_kitch_Text_SubText {
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.modal_Form_Personal-Design,
+.modal_Form_Personal-Design-second {
+  position: fixed;
+  top: 15%;
+  left: 35%;
+  display: none;
+  width: 30%;
+  height: max-content;
+  overflow: hidden;
+  outline: 0;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+  background-color: white;
+  color: #000000;
+  padding: 2%;
+
+  z-index: 6;
+}
+.modal_Form_Personal-Design-Input-Desc {
+  margin: 10px 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  color: #444444;
+  margin-bottom: 15px;
+}
+
+input.modal_Inp_File-2 {
+    display: none;
+}
+
+#f_name-2 {
+  background: transparent;
+  border: 0;
+  display: inline-block;
+  height: 30px;
+  padding: 0 8px;
+  width: 150px;
+}
+
+.modal_Form_Offer_Designer_Alert {
+  position: fixed;
+  top: 25%;
+  left: 35%;
+  display: none;
+  width: 30%;
+  height: max-content;
+  overflow: hidden;
+  outline: 0;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+  background-color: white;
+  color: #000000;
+  padding: 2%;
+
+  z-index: 6;
+}
+
+.modal_Form_Offer_Designer_Alert a {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5px;
+}
+
+.modal_Form_Offer_Designer_Alert > span {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin: 15px 0;
+}
+
+@media (max-height: 750px) {
+  .modal_Form_Personal-Design,
+  .modal_Form_Personal-Design-second {
+    max-height: 100%;
+    height: 100%;
+    top: 0;
+    overflow: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .modal_Form_Personal-Design,
+  .modal_Form_Personal-Design-second {
+    left: 0;
+    width: 100%;
+    top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .modal_Form_Offer_Designer_Alert {
+    width: 100%;
+    height: 60%;
+    top: 20%;
+    left: 0;
+  }
+}
+@media (max-width: 576px) {
+  .personal_kitch_Text {
+    text-align: center;
+  }
+  .personal_kitch_Text_Title {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .personal_kitch_Text_SubText {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+/* Не нашли нужной кухни - кон */
+
 /* Акции - нач */
 
 .promotions-section {

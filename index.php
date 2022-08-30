@@ -50,7 +50,11 @@
             .examples_style_retarget-title{
                 background-image: url('<?=ASSETS_PATH?>assets/img/examples_style_retarget-title-img<?=($browser=='Safari'?'.jpg':'.webp')?>');
             }
-                    
+            
+            .personal_kitch_back {
+                background-image: url('<?=ASSETS_PATH?>assets/img/offers-bg-retarget<?=($browser=='Safari'?'.jpg':'.webp')?>');
+            }
+            
             .guarantee {  
                 background-image: url("<?=ASSETS_PATH?>assets/img/warranty_bg<?=($browser=='Safari'?'.png':'.webp')?>");
             }
@@ -191,6 +195,8 @@
                 </div>
             </section>
             
+            <!-- Примеры кухонь -->
+            <!-- Полностью перенесено с другого лендинга компании -->
             <section class="examples container">
                 <div class="row col-12 mx-0">
                     <a name="examples_anchor"></a>
@@ -252,7 +258,7 @@
                 </div>
             </section>
             
-        <div class="container-fluid p-0">
+            <div class="container-fluid p-0">
         <!-- Classic -->
         <div class="examples_style_retarget d-none" id="classic">
             <div class="col-12  examples_style_retarget-title">
@@ -587,7 +593,27 @@
             </div>
         </div>
     </div>
-            
+        
+            <!-- Не нашли нужной кухни -->
+            <!-- Полностью перенесено с другого лендинга компании -->
+            <div class="personal_kitch_back container-fluid">
+                <div class="personal_kitch container">
+                    <div class="row">
+                        <div class="personal_kitch_Img  d-none d-lg-block col-lg-5">
+
+                        </div>
+                        <div class="personal_kitch_Text col-12">
+                            <p class="personal_kitch_Text_Title retarget">Не нашли у нас кухню своей мечты?</p>
+                            <p class="personal_kitch_Text_SubText retarget">Если Вы не нашли кухню своей мечты в наших проектах - мы разработаем Вам индивидуальный дизайн!</p>
+                            <p class="personal_kitch_Text_SubText retarget">Оставьте заявку на разработку дизайна кухни по вашим пожеланиям, фото примера или эскизу, который вам нравится!</p>
+                            <p class="personal_kitch_Text_SubText retarget">Благодаря собственному производству, огромному ассортименту материалов и цветов мы можем делать любые кухни!</p>
+                        </div>
+                        <button onclick="showInfo('modal_Form_Personal-Design')" class="col-12 col-lg-4 ml-lg-2 personal_kitch-size btn-green-flat vk-Btn">
+                            Заказать проект по фото или эскизу
+                        </button>
+                    </div>
+                </div>
+            </div>    
             
             <a name="promo" class="anchor"></a>
             <section class="promotions-section container-lg container-fluid">
@@ -1892,12 +1918,52 @@
         </div>
         
         <!-- Полностью перенесено с другого лендинга компании -->
+        <!-- Не нашли нужной кухни -->
+        <div class="modal_Form_Personal-Design">
+            <p class="w-100 d-flex justify-content-end"><a class="top_bar_modal justify-content-end" onclick="closeModal('modal_Form_Personal-Design')"><i class="fa fa-close"></i></a></p>
+            <p class="modal_Title">Загрузите фотографию или эскиз той кухни, которая Вам понравилась и мы рассчитаем стоимость её изготовления&nbspу&nbspнас!</p>
+            <!--и дополнительно сертификат на 10&nbsp000р!-->
+
+            <form class="modal_Form_Personal-Design_Inpunts" id="offer-with-file-first" onsubmit="send(event, 'mail.php')" enctype="multipart/form-data" method="post">
+
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="Кухни-Слон">
+                <input type="hidden" name="city" value="Орёл">
+
+                <input type="hidden" name="form_subject" value="Заказ дизайна кухни по образу из файла ">
+                <!-- END Hidden Required Fields -->
+                <input class="modal_Inp" type="text" name="Имя" placeholder="Введите Ваше имя" required>
+                <input class="modal_Inp" type="tel" name="Телефон" placeholder="Введите телефон в формате: +7 (999) 999 9999" minlength="18" maxlength="18" required>
+                <!-- <span class="d-flex align-items-center justify-content-start ml-3"><input  name="Удобнее по Whatsapp" type="checkbox"> <a class="ml-2">Мне удобнее по Whatsapp</a></span> -->
+
+                <input class="modal_Inp" type="text" name="Комментарий к заказу" placeholder="Комментарии">
+                <p class="modal_Form_Personal-Design-Input-Desc">Прикрепите фото образца кухни—мечты или проект</p>
+                <input class="modal_Inp_File" id="modal_Inp_File" type="file" multiple name="form_file[]">
+                <label id="modal_Inp_File-label"for="modal_Inp_File" class="modal_Inp_File_Label Btn-pointer">Прикрепить файл
+                    <input class="f_name" type="text" id="f_name" value="Файл не выбран." disabled />
+                </label>
+
+                <button  type="submit" class="modal_Btn">Отправить заявку</button>
+                <p>Нажимая кнопку "Отправить заявку" вы даете согласие на обработку персональных данных в соответствии с <a href="./politics.html" target="_blank">политикой конфиденциальности</a></p>
+            </form>
+
+        </div>
+        
+        <!-- Полностью перенесено с другого лендинга компании -->
         <div class="modal_Form_Offer_Call_Alert">
             <a class="top_bar_modal justify-content-end"><button class="modal-close" onclick="closeModal('modal_Form_Offer_Call_Alert')"></button></a>
 
             <span><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/paper_Plane<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Бумажный самолёт"></span>
             <p class="modal_Title">Ваша заявка принята!</p>
             <p class="modal_Subtitle">Мы свяжемся с Вами в ближайшее время для уточнения деталей!</p>
+        </div>
+
+        <!-- Полностью перенесено с другого лендинга компании -->
+        <div class="modal_Form_Offer_Designer_Alert">
+            <a class="top_bar_modal justify-content-end" onclick="closeModal('modal_Form_Offer_Designer_Alert')"><i class="fa fa-close"></i></a>
+            <span><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/paper_Plane<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Бумажный самолёт"></span>
+            <p class="modal_Title">Ваша заявка уже летит к нашему дизайнеру-технологу!</p>
+            <p class="modal_Subtitle">Мы перезвоним Вам в ближайшее время</p>
         </div>
         
         <div class="overlay"></div>
