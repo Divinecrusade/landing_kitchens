@@ -493,6 +493,14 @@ jQuery(document).ready(function() {
         }
         $("#f_name").val(f_name.join(", "));
     });
+	
+	$(".modal_Inp_File-2").change(function() {
+        var f_name = [];
+        for (var i = 0; i < $(this).get(0).files.length; ++i) {
+            f_name.push(" " + $(this).get(0).files[i].name);
+        }
+        $("#f_name-2").val(f_name.join(", "));
+    });
 });
 //-------------------------------------------------------------------
 

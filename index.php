@@ -96,10 +96,10 @@
                 
                 <div class="col-lg-4 col-md-6 col-sm-4 col-4 order-sm-2 order-3">
                     <div class="h-100 d-flex align-items-center justify-content-center">
-                        <select class="city-choose" onChange="redirect()">
+                        <!--<select class="city-choose" onChange="redirect()">
                             <option value="Orel" selected>г. Орел</option>
                             <option value="Moscow">г. Москва</option>
-                        </select>
+                        </select>-->
 
                         <p class="header-tel">
                             <a href="tel:79624775727">
@@ -124,7 +124,7 @@
         <nav class="menu-wrapper container-fluid">
             <div class="container-fluid" id="menu">
                 <div class="d-flex justify-content-around flex-wrap">
-                    <div class="sub-option-menu col-12 justify-content-between align-items-center">
+                    <!--<div class="sub-option-menu col-12 justify-content-between align-items-center">
                         <div>
                             <select class="city-choose" onChange="redirect()">
                                 <option value="Orel" selected>г. Орел</option>
@@ -134,7 +134,7 @@
                         <div>
                             <button id="closeMenu" class="modal-close"></button>
                         </div>
-                    </div>
+                    </div>-->
                     
                     <a href="#promo">Специальные предложения</a>
                     <a href="#guarantee">Гарантия</a>
@@ -1938,9 +1938,9 @@
 
                 <input class="modal_Inp" type="text" name="Комментарий к заказу" placeholder="Комментарии">
                 <p class="modal_Form_Personal-Design-Input-Desc">Прикрепите фото образца кухни—мечты или проект</p>
-                <input class="modal_Inp_File" id="modal_Inp_File" type="file" multiple name="form_file[]">
-                <label id="modal_Inp_File-label"for="modal_Inp_File" class="modal_Inp_File_Label Btn-pointer">Прикрепить файл
-                    <input class="f_name" type="text" id="f_name" value="Файл не выбран." disabled />
+                <input class="modal_Inp_File" id="modal_Inp_File-2" type="file" multiple name="form_file[]">
+                <label id="modal_Inp_File-label-2"for="modal_Inp_File-2" class="modal_Inp_File_Label Btn-pointer">Прикрепить файл
+                    <input class="f_name" type="text" id="f_name-2" value="Файл не выбран." disabled />
                 </label>
 
                 <button  type="submit" class="modal_Btn">Отправить заявку</button>
@@ -1979,7 +1979,7 @@
         <script src="<?=ASSETS_PATH?>assets/lib/jquery/jquery-3.6.0.min.js"></script>
         <script src="<?=ASSETS_PATH?>assets/lib/lazysizes/lazysizes.min.js"></script>
         <script src="<?=ASSETS_PATH?>assets/lib/slick/slick.min.js"></script>        
-        <script src="<?=ASSETS_PATH?>assets/js/main.min.js"></script>
+        <script src="<?=ASSETS_PATH?>assets/js/main.js"></script>
 
         <!-- ВК Пиксель -->
         <? include_once './VKPixelConf.php' ?>
