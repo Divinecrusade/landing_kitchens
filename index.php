@@ -46,6 +46,10 @@
             .free-services {    
                 background-image: url("<?=ASSETS_PATH?>assets/img/slider_promotion_bg_1<?=($browser=='Safari'?'.png':'.webp')?>");
             }
+            
+            .examples_style_retarget-title{
+                background-image: url('<?=ASSETS_PATH?>assets/img/examples_style_retarget-title-img<?=($browser=='Safari'?'.jpg':'.webp')?>');
+            }
                     
             .guarantee {  
                 background-image: url("<?=ASSETS_PATH?>assets/img/warranty_bg<?=($browser=='Safari'?'.png':'.webp')?>");
@@ -248,7 +252,7 @@
                 </div>
             </section>
             
-        <div class="container-fluid">
+        <div class="container-fluid p-0">
         <!-- Classic -->
         <div class="examples_style_retarget d-none" id="classic">
             <div class="col-12  examples_style_retarget-title">
@@ -298,7 +302,7 @@
                         <div class="row m-0 col-12">
                             <div onclick="hideMoreExamplesRetarget('classic')" class="col-12 col-lg-4 Btn-pointer">
                                 <p class="examples_style_retarget_back">
-                                    <a href="#examples_anchor"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>Выбрать другой стиль</a>
+                                    <a href="#examples_anchor">Выбрать другой стиль</a>
                                 </p>
                             </div>
                             <div onclick="showAllExamplesRetarget()" class="col-12 col-lg-4 Btn-pointer">
@@ -359,7 +363,7 @@
                         <div class="row m-0 col-12">
                             <div onclick="hideMoreExamplesRetarget('high-tech')" class="col-12 col-lg-4 Btn-pointer">
                                 <p class="examples_style_retarget_back">
-                                    <a href="#examples_anchor"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>Выбрать другой стиль</a>
+                                    <a href="#examples_anchor">Выбрать другой стиль</a>
                                 </p>
                             </div>
                             <div class="col-12 col-lg-4 ">
@@ -403,7 +407,7 @@
                         <div class="row m-0 col-12">
                             <div onclick="hideMoreExamplesRetarget('provans')" class="col-12 col-lg-4 Btn-pointer">
                                 <p class="examples_style_retarget_back">
-                                    <a href="#examples_anchor"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>Выбрать другой стиль</a>
+                                    <a href="#examples_anchor">Выбрать другой стиль</a>
                                 </p>
                             </div>
                             <div class="col-12 col-lg-4 ">
@@ -467,7 +471,7 @@
                         <div class="row m-0 col-12">
                             <div onclick="hideMoreExamplesRetarget('minimal')" class="col-12 col-lg-4 Btn-pointer">
                                 <p class="examples_style_retarget_back">
-                                    <a href="#examples_anchor"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>Выбрать другой стиль</a>
+                                    <a href="#examples_anchor">Выбрать другой стиль</a>
                                 </p>
                             </div>
                             <div onclick="showAllExamplesRetarget()" class="col-12 col-lg-4 Btn-pointer">
@@ -527,7 +531,7 @@
                         <div class="row m-0 col-12">
                             <div onclick="hideMoreExamplesRetarget('neoclassic')" class="col-12 col-lg-4 Btn-pointer">
                                 <p class="examples_style_retarget_back">
-                                    <a href="#examples_anchor"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>Выбрать другой стиль</a>
+                                    <a href="#examples_anchor">Выбрать другой стиль</a>
                                 </p>
                             </div>
                             <div onclick="showAllExamplesRetarget()" class="col-12 col-lg-4 Btn-pointer">
@@ -563,7 +567,7 @@
                         <div class="row m-0 col-12">
                             <div onclick="hideMoreExamplesRetarget('modern')" class="col-12 col-lg-4 Btn-pointer">
                                 <p class="examples_style_retarget_back">
-                                    <a href="#examples_anchor"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>Выбрать другой стиль</a>
+                                    <a href="#examples_anchor">Выбрать другой стиль</a>
                                 </p>
                             </div>
                             <div class="col-12 col-lg-4 ">
