@@ -191,10 +191,7 @@
                 <div class="row col-12 mx-0">
                     <a name="examples_anchor"></a>
                     <div class="container">
-                        <a name="examples"></a>
-                        <div class="examples_Title retarget mx-0 col-12 row">
-                            <h2>Выберите стиль оформления Вашей будущей кухни</h2>
-                        </div>
+                        <h2 class="promotions-desc">Выберите стиль оформления Вашей будущей кухни</h2>
                     </div>
                 </div>
 
@@ -253,7 +250,7 @@
             
         <div class="container-fluid">
         <!-- Classic -->
-        <div class="row examples_style_retarget d-none" id="classic">
+        <div class="examples_style_retarget d-none" id="classic">
             <div class="col-12  examples_style_retarget-title">
                 <span>Кухни в классическом стиле</span>
             </div>
@@ -323,7 +320,7 @@
         </div>
 
         <!-- High-tech -->
-        <div class="row examples_style_retarget d-none" id="high-tech">
+        <div class="examples_style_retarget d-none" id="high-tech">
             <div class="col-12 examples_style_retarget-title">
                 <span>Кухни в стиле хай-тек</span>
             </div>
@@ -386,7 +383,7 @@
 
 
         <!-- Provans -->
-        <div class="row examples_style_retarget d-none" id="provans">
+        <div class="examples_style_retarget d-none" id="provans">
             <div class="col-12 examples_style_retarget-title">
                 <span>Кухни в стиле прованс</span>
             </div>
@@ -427,7 +424,7 @@
         </div>
 
         <!-- Minimal -->
-        <div class="row examples_style_retarget d-none" id="minimal">
+        <div class="examples_style_retarget d-none" id="minimal">
             <div class="col-12  examples_style_retarget-title">
                 <span>Кухни в стиле минимализм</span>
             </div>
@@ -491,7 +488,7 @@
         </div>
 
         <!-- neoclassic -->
-        <div class="row examples_style_retarget d-none" id="neoclassic">
+        <div class="examples_style_retarget d-none" id="neoclassic">
             <div class="col-12  examples_style_retarget-title">
                 <span>Кухни в стиле неоклассики</span>
             </div>
@@ -551,7 +548,7 @@
         </div>
 
         <!-- Modern -->
-        <div class="row examples_style_retarget d-none" id="modern">
+        <div class="examples_style_retarget d-none" id="modern">
             <div class="col-12  examples_style_retarget-title">
                 <span>Кухни в стиле модерн</span>
             </div>

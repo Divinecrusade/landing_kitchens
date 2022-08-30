@@ -585,6 +585,19 @@ button#openModal3DProjecting {
   max-height: 100%;
 }
 
+.examples_style_retarget-photos-img:nth-of-type(2n) {
+    display: flex;
+    justify-content: end;
+}
+
+@media (max-width: 992px) {
+    .examples_style_retarget-photos-img,
+    .examples_style_retarget-photos-img:nth-of-type(2n) {
+        display: flex;
+        justify-content: center;
+    }
+}
+
 .examples_style_retarget_back {
   border: 1px solid #40ac46;
   box-sizing: border-box;
@@ -660,6 +673,125 @@ a.offers_Text_Subtitle.retarget:hover {
   .offers_Text_Title.retarget,
   .free_Services_Offer_Retarget {
     text-align: center;
+  }
+    
+  .examples div div {
+    text-align: center;
+    justify-content: center;
+  }
+  .examples_Title {
+    width: 100%;
+  }
+  .examples_Photos {
+    margin: 0;
+  }
+  .examples_Photos div {
+    margin: 20px 0;
+    padding: 0;
+  }
+  .examples_Photos div img {
+    width: 100%;
+  }
+  .our_Projects_Example_Card {
+    margin-bottom: 80px;
+  }
+  .our_Projects_3D_Spec {
+    padding: 10px 0;
+  }
+  .our_Projects_Examples {
+    margin-bottom: 0;
+  }
+  .more_Projects {
+    margin: 20px 0 20px 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .step_percentage {
+    margin-left: 85px;
+  }
+  .examples_style_retarget-title {
+    font-size: 20px;
+    padding: 50px 0;
+  }
+  .examples_Title.retarget {
+    margin-bottom: 20px;
+  }
+  #close-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .how_Much_Cost_Examples div.row,
+  .how_Much_Cost_Example,
+  .benefits.row.gx-5.col-12.col-md-10.offset-md-1,
+  .design_Offer,
+  .more_Projects.row.col-12.col-md-6.col-lg-4.offset-md-6.offset-lg-8.p-0.align-items-center.justify-content-end.text-center,
+  .about > div > div > div.row.col-12 {
+    padding: 0;
+    margin: 0;
+  }
+    
+  .examples_Title h1 {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .examples_Text h1 {
+    font-size: 14px;
+    line-height: 120%;
+    margin-bottom: 0;
+  }
+  .more_Works.row.col-12.col-md-4.offset-md-8.align-items-center.justify-content-center.text-center {
+    padding-right: 0;
+  }
+  .more_Works a {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .our_Projects_Title h1 {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 120%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .our_Projects_Cost {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+  }
+  .our_Projects_3D_Spec {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+  }
+  .more_Projects {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .how_Much_Cost_Title h1 {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 120%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .how_Much_Cost_Example_Cost {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .how_Much_Cost_Example_Show_Full {
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
   }
 }
 
