@@ -1,5 +1,5 @@
 /* Подключение шрифтов - нач */
-@import url("../fonts/montserrat.css");
+/*@import url("../fonts/montserrat.css");*/
 /* Подключение шрифтов - кон */
 
 /* Анимация загрузки изображения */
@@ -825,7 +825,8 @@ a.personal_kitch_Text_Subtitle:hover {
   background-size: cover;
 }
 .personal_kitch_back {
-  margin-top: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   background-position: center center;
   background-size: cover;
 }
@@ -849,6 +850,10 @@ a.personal_kitch_Text_Subtitle:hover {
   line-height: 150%;
   color: white;
   margin-bottom: 40px;
+}
+
+.personal_kitch .btn-green-flat {
+    padding-top: 20px; padding-bottom: 20px;
 }
 
 .modal_Form_Personal-Design,
@@ -912,6 +917,9 @@ input.modal_Inp_File-2 {
   padding: 2%;
 
   z-index: 6;
+    
+  align-items: center;
+  text-align: center;
 }
 
 .modal_Form_Offer_Designer_Alert a {
@@ -1102,13 +1110,13 @@ input.modal_Inp_File-2 {
 .slider-promo button.slick-arrow.slick-prev {
     margin-left: 90px;
     
-    z-index: 100;
+    z-index: 1;
 }
 
 .slider-promo button.slick-arrow.slick-next {
     margin-right: 90px;
     
-    z-index: 100;
+    z-index: 1;
 }
 
 .slider-promo button.slick-arrow.slick-prev::before {
@@ -1685,13 +1693,13 @@ button#orderKitchenInstallment {
 .slider-manufacture button.slick-arrow.slick-prev {
     margin-left: 240px;
     
-    z-index: 100;
+    z-index: 1;
 }
 
 .slider-manufacture button.slick-arrow.slick-next {
     margin-right: 240px;
     
-    z-index: 100;
+    z-index: 1;
 }
 
 .slider-manufacture button.slick-arrow.slick-prev::before {
@@ -2839,6 +2847,10 @@ cursor: pointer;
         margin-bottom: 32px;
         width: 100%;
     }
+    
+    .examples {
+        margin-top: 40px;
+    }
         
     .checkbox-indicator {
         margin-top: 0;
@@ -2956,6 +2968,12 @@ cursor: pointer;
     .promotion-pinned-desc td {
         font-size: 65px;
         line-height: 78px;
+    }
+    
+    .examples_style_retarget_back,
+    .examples_style_retarget_more,
+    .examples_style_retarget_count {
+        padding-top: 16px; padding-bottom: 16px;
     }
     
     .rubs::after,
@@ -3143,7 +3161,7 @@ cursor: pointer;
         
         margin-left: 65px;
 
-        z-index: 100;
+        z-index: 1;
     }
 
     .our-designers-slider button.slick-arrow.slick-next {
@@ -3151,7 +3169,7 @@ cursor: pointer;
         
         margin-right: 65px;
 
-        z-index: 100;
+        z-index: 1;
     }
 
     .our-designers-slider button.slick-arrow.slick-prev::before {
@@ -3397,7 +3415,7 @@ cursor: pointer;
         display: flex;
         
         margin-top: 12px;
-        margin-bottom: 85px;
+        margin-bottom: 30px;
     }
 
     #menu > div a,

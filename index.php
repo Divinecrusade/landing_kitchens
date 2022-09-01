@@ -37,6 +37,9 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/style-no-prefixes.css">
 		
+		<link rel="preload" href="<?=ASSETS_PATH?>assets/fonts/montserrat.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+		<noscript><link rel="stylesheet" href="<?=ASSETS_PATH?>assets/fonts/montserrat.css"></noscript>
+		
 		<title>Кухни-Слон | Дизайн кухни онлайн</title>
         <style>            
             .main-features-section {    
@@ -124,18 +127,19 @@
         <nav class="menu-wrapper container-fluid">
             <div class="container-fluid" id="menu">
                 <div class="d-flex justify-content-around flex-wrap">
-                    <!--<div class="sub-option-menu col-12 justify-content-between align-items-center">
-                        <div>
+                    <div class="sub-option-menu col-12 justify-content-between align-items-center">
+                        <!--<div>
                             <select class="city-choose" onChange="redirect()">
                                 <option value="Orel" selected>г. Орел</option>
                                 <option value="Moscow">г. Москва</option>
                             </select>   
-                        </div>
+                        </div>-->
                         <div>
                             <button id="closeMenu" class="modal-close"></button>
                         </div>
-                    </div>-->
+                    </div>
                     
+                    <a href="#our-works">Наши работы</a>
                     <a href="#promo">Специальные предложения</a>
                     <a href="#guarantee">Гарантия</a>
                     <a href="#materials">Материалы</a>
@@ -198,8 +202,8 @@
             <!-- Примеры кухонь -->
             <!-- Полностью перенесено с другого лендинга компании -->
             <section class="examples container">
+                <a name="our-works" class="anchor"></a>
                 <div class="row col-12 mx-0">
-                    <a name="examples_anchor"></a>
                     <div class="container">
                         <h2 class="promotions-desc">Выберите стиль оформления Вашей будущей кухни</h2>
                     </div>
@@ -257,7 +261,7 @@
                     </div>
                 </div>
             </section>
-            
+            <!-- Полностью перенесено с другого лендинга компании -->
             <div class="container-fluid p-0">
         <!-- Classic -->
         <div class="examples_style_retarget d-none" id="classic">
@@ -1917,11 +1921,11 @@
         <!-- Полностью перенесено с другого лендинга компании -->
         <!-- Не нашли нужной кухни -->
         <div class="modal_Form_Personal-Design">
-            <p class="w-100 d-flex justify-content-end"><a class="top_bar_modal justify-content-end" onclick="closeModal('modal_Form_Personal-Design')"><i class="fa fa-close"></i></a></p>
+            <p class="w-100 d-flex justify-content-end"><a class="top_bar_modal justify-content-end"><button class="modal-close" onclick="closeModal('modal_Form_Personal-Design')"></button></a></p>
             <p class="modal_Title">Загрузите фотографию или эскиз той кухни, которая Вам понравилась и мы рассчитаем стоимость её изготовления&nbspу&nbspнас!</p>
             <!--и дополнительно сертификат на 10&nbsp000р!-->
 
-            <form class="modal_Form_Personal-Design_Inpunts" id="offer-with-file-first" onsubmit="send(event, 'mail.php')" enctype="multipart/form-data" method="post">
+            <form class="modal_Form_Personal-Design_Inpunts" id="offer-with-file-first" onsubmit="send(event, '<?=ASSETS_PATH?>assets/php/mail.php')" enctype="multipart/form-data" method="post">
 
                 <!-- Hidden Required Fields -->
                 <input type="hidden" name="project_name" value="Кухни-Слон">
@@ -1957,7 +1961,7 @@
 
         <!-- Полностью перенесено с другого лендинга компании -->
         <div class="modal_Form_Offer_Designer_Alert">
-            <a class="top_bar_modal justify-content-end" onclick="closeModal('modal_Form_Offer_Designer_Alert')"><i class="fa fa-close"></i></a>
+            <a class="top_bar_modal justify-content-end" onclick="closeModal('modal_Form_Offer_Designer_Alert')"><button class="modal-close" onclick="closeModal('modal_Form_Offer_Designer_Alert')"></button></a>
             <span><img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/paper_Plane<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="Бумажный самолёт"></span>
             <p class="modal_Title">Ваша заявка уже летит к нашему дизайнеру-технологу!</p>
             <p class="modal_Subtitle">Мы перезвоним Вам в ближайшее время</p>
@@ -1966,11 +1970,11 @@
         <div class="overlay"></div>
         
         
-        <script>
+        <!--<script>
             function redirect() {
                 window.location.replace("http://mf-slon-retarget/msk.php");
             }
-        </script>
+        </script>-->
 
         <!-- Ленивая загрузка изображений -->
         <script src="<?=ASSETS_PATH?>assets/lib/jquery/jquery-3.6.0.min.js"></script>

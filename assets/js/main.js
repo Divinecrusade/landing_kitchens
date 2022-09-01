@@ -481,12 +481,26 @@ jQuery(document).ready(function() {
     });
     return false;
   });
+  $("form.modal_Form_Personal-Design_Inpunts").submit(function () {
+    var th = $(this);
+      
+    closeModal("modal_Form_Personal-Design");
+	  
+    $.ajax({}).done(function () {
+      showInfo("modal_Form_Offer_Designer_Alert");
+
+      setTimeout(function () {
+        th.trigger("reset");
+      }, 1000);
+    });
+    return false;
+  });
 //-------------------------------------------------------------------
     
     
     // Прикрепление файлов к письму
     
-    $(".modal_Inp_File").change(function() {
+    $("#modal_Inp_File").change(function() {
         var f_name = [];
         for (var i = 0; i < $(this).get(0).files.length; ++i) {
             f_name.push(" " + $(this).get(0).files[i].name);
@@ -494,7 +508,7 @@ jQuery(document).ready(function() {
         $("#f_name").val(f_name.join(", "));
     });
 	
-	$(".modal_Inp_File-2").change(function() {
+	$("#modal_Inp_File-2").change(function() {
         var f_name = [];
         for (var i = 0; i < $(this).get(0).files.length; ++i) {
             f_name.push(" " + $(this).get(0).files[i].name);
