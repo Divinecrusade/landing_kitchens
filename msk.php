@@ -688,9 +688,9 @@
                                 </thead>
                                 <tbody class="w-100">
                                     <tr class="row">
-                                        <td class="col-4">0</td>
-                                        <td class="col-4">0</td>
-                                        <td class="col-4">24</td>
+                                        <td class="col-4 rubs">0</td>
+                                        <td class="col-4 percentages">0</td>
+                                        <td class="col-4 months">24</td>
                                     </tr>
                                 </tbody>
                             </table>
