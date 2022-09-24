@@ -212,7 +212,7 @@
                 <div class="examples_main_retarget row">
                     <div class="col-12 col-lg-4 examples_main_retarget_type">
                         <div class="col-12">
-                            <img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_main_retarget_type-1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="">
+                            <img class="lazyload" src="data:image/gif;base64,R0lGODlhIwAhAIAAAP///wAAACH5BAEAAAEALAAAAAAjACEAAAIgjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fy/BUAOw==" data-src="<?=ASSETS_PATH?>assets/img/examples_main_retarget_type-1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="">
                         </div>
                         <div onclick="showMoreExamplesRetarget('high-tech')" class="more_images_retarget Btn-pointer">
                             <a class="col-12" href="#examples_anchor">Современный хай-тек</a>
@@ -220,7 +220,7 @@
                     </div>
                     <div class="col-12 col-lg-4 examples_main_retarget_type">
                         <div class="col-12">
-                            <img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_main_retarget_type-2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="">
+                            <img class="lazyload" src="data:image/gif;base64,R0lGODlhIwAhAIAAAP///wAAACH5BAEAAAEALAAAAAAjACEAAAIgjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fy/BUAOw==" data-src="<?=ASSETS_PATH?>assets/img/examples_main_retarget_type-2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="">
                         </div>
                         <div onclick="showMoreExamplesRetarget('classic')" class="more_images_retarget Btn-pointer">
                             <a class="col-12" href="#examples_anchor">Классика</a>
@@ -228,7 +228,7 @@
                     </div>
                     <div class="col-12 col-lg-4 examples_main_retarget_type">
                         <div class="col-12">
-                            <img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_main_retarget_type-3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="">
+                            <img class="lazyload" src="data:image/gif;base64,R0lGODlhIwAhAIAAAP///wAAACH5BAEAAAEALAAAAAAjACEAAAIgjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fy/BUAOw==" data-src="<?=ASSETS_PATH?>assets/img/examples_main_retarget_type-3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="">
                         </div>
                         <div onclick="showMoreExamplesRetarget('provans')" class="more_images_retarget Btn-pointer">
                             <a class="col-12" href="#examples_anchor">Прованс</a>
@@ -237,7 +237,7 @@
 
                     <div class="col-12 col-lg-4 examples_main_retarget_type">
                         <div class="col-12">
-                            <img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_main_retarget_type-4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="">
+                            <img class="lazyload" src="data:image/gif;base64,R0lGODlhIwAhAIAAAP///wAAACH5BAEAAAEALAAAAAAjACEAAAIgjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fy/BUAOw==" data-src="<?=ASSETS_PATH?>assets/img/examples_main_retarget_type-4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="">
                         </div>
                         <div onclick="showMoreExamplesRetarget('minimal')" class="more_images_retarget Btn-pointer">
                             <a class="col-12" href="#examples_anchor">Минимализм </a>
@@ -245,7 +245,7 @@
                     </div>
                     <div class="col-12 col-lg-4 examples_main_retarget_type">
                         <div class="col-12">
-                            <img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_main_retarget_type-5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="">
+                            <img class="lazyload" src="data:image/gif;base64,R0lGODlhIwAhAIAAAP///wAAACH5BAEAAAEALAAAAAAjACEAAAIgjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fy/BUAOw==" data-src="<?=ASSETS_PATH?>assets/img/examples_main_retarget_type-5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="">
                         </div>
                         <div  onclick="showMoreExamplesRetarget('neoclassic')" class="more_images_retarget Btn-pointer">
                             <a class="col-12" href="#examples_anchor">Неоклассика</a>
@@ -253,7 +253,7 @@
                     </div>
                     <div class="col-12 col-lg-4 examples_main_retarget_type">
                         <div class="col-12">
-                            <img class="lazyload" data-src="<?=ASSETS_PATH?>assets/img/examples_main_retarget_type-6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="">
+                            <img class="lazyload" src="data:image/gif;base64,R0lGODlhIwAhAIAAAP///wAAACH5BAEAAAEALAAAAAAjACEAAAIgjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fy/BUAOw==" data-src="<?=ASSETS_PATH?>assets/img/examples_main_retarget_type-6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="">
                         </div>
                         <div onclick="showMoreExamplesRetarget('modern')" class="more_images_retarget Btn-pointer">
                             <a class="col-12" href="#examples_anchor">Модерн</a>
@@ -1130,7 +1130,7 @@
                     <ol class="our-designers-list our-designers-slider">
                         <li>
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" data-lazy="<?=ASSETS_PATH?>assets/img/specialists_1<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Оржанцева Наталья">
+                                <img class="our-designer-photo" src="<?=ASSETS_PATH?>assets/img/specialists_1<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Оржанцева Наталья">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Оржанцева Наталья
@@ -1143,7 +1143,7 @@
                         </li>
                         <li>
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" data-lazy="<?=ASSETS_PATH?>assets/img/specialists_2<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Ванифатова Людмила">
+                                <img class="our-designer-photo" src="<?=ASSETS_PATH?>assets/img/specialists_2<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Ванифатова Людмила">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Ванифатова Людмила
@@ -1157,7 +1157,7 @@
                         </li>
                         <li>
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" data-lazy="<?=ASSETS_PATH?>assets/img/specialists_3<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Семина Татьяна">
+                                <img class="our-designer-photo" src="<?=ASSETS_PATH?>assets/img/specialists_3<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Семина Татьяна">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Семина Татьяна
@@ -1170,7 +1170,7 @@
                         </li>
                         <li>
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo" data-lazy="<?=ASSETS_PATH?>assets/img/specialists_4<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Заболотская Наталия">
+                                <img class="our-designer-photo" src="<?=ASSETS_PATH?>assets/img/specialists_4<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Заболотская Наталия">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Заболотская Наталия
@@ -1187,7 +1187,7 @@
                     <ol class="our-designers-list row">
                         <li class="col-lg-3 col-md-6">
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo lazyload" data-src="<?=ASSETS_PATH?>assets/img/specialists_1<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Оржанцева Наталья">
+                                <img class="our-designer-photo lazyload" src="data:image/gif;base64,R0lGODlh9QBwAYAAAP///wAAACH5BAEAAAEALAAAAAD1AHABAAL+jI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGCg4SFhoeIiYqLjI2Oj4CBkpOUlZaXmJmam5ydnp+QkaKjpKWmp6ipqqusra6voKGys7S1tre4ubq7vL2+v7CxwsPExcbHyMnKy8zNzs/AwdLT1NXW19jZ2tvc3d7f0NHi4+Tl5ufo6err7O3u7+Dh8vP09fb3+Pn6+/z9/v/w8woMCBBAsaPIgwocKFDBs6fAgxosSJFCtavIgxo8anjRw7evwIMqTIkSRLmjyJMqXKlSxbunwJM6bMmTRr2ryJM6fOnTx7+vwJNKjQoUSLGj2KNKnSpUybOn0KNarUqVSrWr2KNavWrVy7ev0KNqzYsWTLmj2LNq3atWzbun0LN67cuXTr2r2LN6/evXz7+v0LOLDgwYQLGz6MOLHixYwbO34MObLkyZQrW76MObPmzZw7e/4MOrTo0aRLmz6NOrXq1ayBFAAAOw==" data-src="<?=ASSETS_PATH?>assets/img/specialists_1<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Оржанцева Наталья">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Оржанцева Наталья
@@ -1200,7 +1200,7 @@
                         </li>
                         <li class="col-lg-3 col-md-6">
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo lazyload" data-src="<?=ASSETS_PATH?>assets/img/specialists_2<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Ванифатова Людмила">
+                                <img class="our-designer-photo lazyload" src="data:image/gif;base64,R0lGODlh9QBwAYAAAP///wAAACH5BAEAAAEALAAAAAD1AHABAAL+jI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGCg4SFhoeIiYqLjI2Oj4CBkpOUlZaXmJmam5ydnp+QkaKjpKWmp6ipqqusra6voKGys7S1tre4ubq7vL2+v7CxwsPExcbHyMnKy8zNzs/AwdLT1NXW19jZ2tvc3d7f0NHi4+Tl5ufo6err7O3u7+Dh8vP09fb3+Pn6+/z9/v/w8woMCBBAsaPIgwocKFDBs6fAgxosSJFCtavIgxo8anjRw7evwIMqTIkSRLmjyJMqXKlSxbunwJM6bMmTRr2ryJM6fOnTx7+vwJNKjQoUSLGj2KNKnSpUybOn0KNarUqVSrWr2KNavWrVy7ev0KNqzYsWTLmj2LNq3atWzbun0LN67cuXTr2r2LN6/evXz7+v0LOLDgwYQLGz6MOLHixYwbO34MObLkyZQrW76MObPmzZw7e/4MOrTo0aRLmz6NOrXq1ayBFAAAOw==" data-src="<?=ASSETS_PATH?>assets/img/specialists_2<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Ванифатова Людмила">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Ванифатова Людмила
@@ -1214,7 +1214,7 @@
                         </li>
                         <li class="col-lg-3 col-md-6">
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo lazyload" data-src="<?=ASSETS_PATH?>assets/img/specialists_3<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Семина Татьяна">
+                                <img class="our-designer-photo lazyload" src="data:image/gif;base64,R0lGODlh9QBwAYAAAP///wAAACH5BAEAAAEALAAAAAD1AHABAAL+jI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGCg4SFhoeIiYqLjI2Oj4CBkpOUlZaXmJmam5ydnp+QkaKjpKWmp6ipqqusra6voKGys7S1tre4ubq7vL2+v7CxwsPExcbHyMnKy8zNzs/AwdLT1NXW19jZ2tvc3d7f0NHi4+Tl5ufo6err7O3u7+Dh8vP09fb3+Pn6+/z9/v/w8woMCBBAsaPIgwocKFDBs6fAgxosSJFCtavIgxo8anjRw7evwIMqTIkSRLmjyJMqXKlSxbunwJM6bMmTRr2ryJM6fOnTx7+vwJNKjQoUSLGj2KNKnSpUybOn0KNarUqVSrWr2KNavWrVy7ev0KNqzYsWTLmj2LNq3atWzbun0LN67cuXTr2r2LN6/evXz7+v0LOLDgwYQLGz6MOLHixYwbO34MObLkyZQrW76MObPmzZw7e/4MOrTo0aRLmz6NOrXq1ayBFAAAOw==" data-src="<?=ASSETS_PATH?>assets/img/specialists_3<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Семина Татьяна">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Семина Татьяна
@@ -1227,7 +1227,7 @@
                         </li>
                         <li class="col-lg-3 col-md-6">
                             <figure class="our-designer d-flex flex-column align-items-center">
-                                <img class="our-designer-photo lazyload" data-src="<?=ASSETS_PATH?>assets/img/specialists_4<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Заболотская Наталия">
+                                <img class="our-designer-photo lazyload" src="data:image/gif;base64,R0lGODlh9QBwAYAAAP///wAAACH5BAEAAAEALAAAAAD1AHABAAL+jI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGCg4SFhoeIiYqLjI2Oj4CBkpOUlZaXmJmam5ydnp+QkaKjpKWmp6ipqqusra6voKGys7S1tre4ubq7vL2+v7CxwsPExcbHyMnKy8zNzs/AwdLT1NXW19jZ2tvc3d7f0NHi4+Tl5ufo6err7O3u7+Dh8vP09fb3+Pn6+/z9/v/w8woMCBBAsaPIgwocKFDBs6fAgxosSJFCtavIgxo8anjRw7evwIMqTIkSRLmjyJMqXKlSxbunwJM6bMmTRr2ryJM6fOnTx7+vwJNKjQoUSLGj2KNKnSpUybOn0KNarUqVSrWr2KNavWrVy7ev0KNqzYsWTLmj2LNq3atWzbun0LN67cuXTr2r2LN6/evXz7+v0LOLDgwYQLGz6MOLHixYwbO34MObLkyZQrW76MObPmzZw7e/4MOrTo0aRLmz6NOrXq1ayBFAAAOw==" data-src="<?=ASSETS_PATH?>assets/img/specialists_4<?=($browser=='Safari'?'.jpg':'.webp')?>" width="255" height="368" alt="Заболотская Наталия">
                                 <figcaption class="our-designer-info d-flex flex-column align-items-center w-100">
                                     <p class="our-designer-name w-100">
                                         Заболотская Наталия
@@ -1288,28 +1288,28 @@
                 
                 <ul class="slider-manufacture">
                     <li class="slider-manufacture-item">
-                        <img class="w-100" data-lazy="<?=ASSETS_PATH?><?=ASSETS_PATH?>assets/img/slider_manufacture_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 1">
+                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_1<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 1">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" data-lazy="<?=ASSETS_PATH?>assets/img/slider_manufacture_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 2">
+                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_2<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 2">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" data-lazy="<?=ASSETS_PATH?>assets/img/slider_manufacture_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 3">
+                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_3<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 3">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" data-lazy="<?=ASSETS_PATH?>assets/img/slider_manufacture_4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 4">
+                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_4<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 4">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" data-lazy="<?=ASSETS_PATH?>assets/img/slider_manufacture_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 5">
+                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_5<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 5">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" data-lazy="<?=ASSETS_PATH?>assets/img/slider_manufacture_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 6">
+                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_6<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 6">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" data-lazy="<?=ASSETS_PATH?>assets/img/slider_manufacture_7<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 7">
+                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_7<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 7">
                     </li>
                     <li class="slider-manufacture-item">
-                        <img class="w-100" data-lazy="<?=ASSETS_PATH?>assets/img/slider_manufacture_8<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 8">
+                        <img class="w-100" src="<?=ASSETS_PATH?>assets/img/slider_manufacture_8<?=($browser=='Safari'?'.jpg':'.webp')?>" alt="С места производства 8">
                     </li>
                 </ul>
                 
