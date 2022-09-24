@@ -35,12 +35,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 		
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-		<link rel="stylesheet" href="assets/css/style-no-prefixes.css">
+		<link rel="stylesheet" href="<?=ASSETS_PATH?>assets/css/style.min.css">
 		
 		<link rel="preload" href="<?=ASSETS_PATH?>assets/fonts/montserrat.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 		<noscript><link rel="stylesheet" href="<?=ASSETS_PATH?>assets/fonts/montserrat.css"></noscript>
 		
-		<title>Кухни-Слон | Дизайн кухни онлайн</title>
+		<title>Кухни на заказ | Мебельная Фабрика Слон | Дизайн кухни онлайн</title>
         <style>            
             .main-features-section {    
                 background-image: url("<?=ASSETS_PATH?>assets/img/main_features_bg<?=($browser=='Safari'?'.png':'.webp')?>");

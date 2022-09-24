@@ -1,5 +1,5 @@
 /* Подключение шрифтов - нач */
-@import url("../fonts/montserrat.css");
+/*@import url("../fonts/montserrat.css");*/
 /* Подключение шрифтов - кон */
 
 /* Анимация загрузки изображения */
@@ -508,6 +508,532 @@ button#openModal3DProjecting {
 }
 /* Преимущества компании - кон */
 
+/* Примеры работ - нач */
+
+.examples {
+  margin-top: 70px;
+}
+.examples_Title h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 120%;
+  color: #444444;
+}
+.examples_Text h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 120%;
+  margin-bottom: 40px;
+}
+.examples_Photos {
+  margin-bottom: 25px;
+}
+.examples_Photos img {
+  width: 100%;
+  height: 362px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.more_Works {
+  padding: 0;
+  position: relative;
+  right: -10px;
+}
+.more_Works a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  border: 1px solid #40ac46;
+  box-sizing: border-box;
+  border-radius: 77px;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.more_images_retarget {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  border: 1px solid #40ac46;
+  box-sizing: border-box;
+  border-radius: 77px;
+
+  padding: 20px 0;
+}
+.examples_main_retarget_type img {
+  max-width: 100%;
+  width: 100%;
+}
+.more_images_retarget {
+  margin: 20px 15px;
+  text-align: center;
+}
+.examples_Title.retarget {
+  margin-bottom: 40px;
+}
+
+.examples_style_retarget-title {
+  padding: 100px 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.examples_style_retarget-subtitle {
+  margin: 100px 0 30px 0;
+  padding-left: 15px;
+}
+.examples_style_retarget-photos-img {
+  margin: 15px 0;
+}
+.examples_style_retarget-photos-img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.examples_style_retarget-photos-img:nth-of-type(2n) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+}
+
+@media (max-width: 992px) {
+    .examples_style_retarget-photos-img,
+    .examples_style_retarget-photos-img:nth-of-type(2n) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+}
+
+.examples_style_retarget_back {
+  border: 1px solid #40ac46;
+  box-sizing: border-box;
+  border-radius: 77px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  padding: 24px 0;
+}
+.examples_style_retarget_back a:active,
+.examples_style_retarget_back a:visited,
+.examples_style_retarget_back a:focus,
+.examples_style_retarget_back a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+.more_images_retarget a:link,
+.more_images_retarget a:active,
+.more_images_retarget a:visited,
+.more_images_retarget a:focus,
+.more_images_retarget a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+a.offers_Text_Subtitle.retarget:active,
+a.offers_Text_Subtitle.retarget:visited,
+a.offers_Text_Subtitle.retarget:focus,
+a.offers_Text_Subtitle.retarget:hover {
+  text-decoration: none;
+  color: inherit;
+  cursor: default;
+}
+.examples_style_retarget_back i {
+  margin-right: 10px;
+}
+.examples_style_retarget_more {
+  border: 1px solid #40ac46;
+  box-sizing: border-box;
+  border-radius: 77px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  padding: 24px 0;
+}
+.examples_style_retarget_count {
+  background: #40ac46;
+  box-sizing: border-box;
+  border-radius: 77px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: white;
+  padding: 24px 0;
+}
+
+@media (max-width: 991px){
+  .more_images_retarget {
+    font-size: 14px;
+  }
+    
+  .examples_Title.retarget,
+  .offers_Text_Title.retarget,
+  .free_Services_Offer_Retarget {
+    text-align: center;
+  }
+    
+  .examples div div {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .examples_Title {
+    width: 100%;
+  }
+  .examples_Photos {
+    margin: 0;
+  }
+  .examples_Photos div {
+    margin: 20px 0;
+    padding: 0;
+  }
+  .examples_Photos div img {
+    width: 100%;
+  }
+  .our_Projects_Example_Card {
+    margin-bottom: 80px;
+  }
+  .our_Projects_3D_Spec {
+    padding: 10px 0;
+  }
+  .our_Projects_Examples {
+    margin-bottom: 0;
+  }
+  .more_Projects {
+    margin: 20px 0 20px 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .step_percentage {
+    margin-left: 85px;
+  }
+  .examples_style_retarget-title {
+    font-size: 20px;
+    padding: 50px 0;
+  }
+  .examples_Title.retarget {
+    margin-bottom: 20px;
+  }
+  #close-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .how_Much_Cost_Examples div.row,
+  .how_Much_Cost_Example,
+  .benefits.row.gx-5.col-12.col-md-10.offset-md-1,
+  .design_Offer,
+  .more_Projects.row.col-12.col-md-6.col-lg-4.offset-md-6.offset-lg-8.p-0.align-items-center.justify-content-end.text-center,
+  .about > div > div > div.row.col-12 {
+    padding: 0;
+    margin: 0;
+  }
+    
+  .examples_Title h1 {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .examples_Text h1 {
+    font-size: 14px;
+    line-height: 120%;
+    margin-bottom: 0;
+  }
+  .more_Works.row.col-12.col-md-4.offset-md-8.align-items-center.justify-content-center.text-center {
+    padding-right: 0;
+  }
+  .more_Works a {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .our_Projects_Title h1 {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 120%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .our_Projects_Cost {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+  }
+  .our_Projects_3D_Spec {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+  }
+  .more_Projects {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .how_Much_Cost_Title h1 {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 120%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .how_Much_Cost_Example_Cost {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .how_Much_Cost_Example_Show_Full {
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+/* Примеры работ - кон */
+
+
+/* Не нашли нужной кухни - нач */
+
+.personal_kitch-size {
+  margin-top: 30px;
+  margin-bottom: 88px;
+  padding: 24px 0px;
+}
+.personal_kitch_Text_SubText {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.personal_kitch_Text_Title {
+  margin-bottom: 30px;
+}
+a.personal_kitch_Text_Subtitle:active,
+a.personal_kitch_Text_Subtitle:visited,
+a.personal_kitch_Text_Subtitle:focus,
+a.personal_kitch_Text_Subtitle:hover {
+  text-decoration: none;
+  color: inherit;
+  cursor: default;
+}
+.personal_kitch_back {
+  background-position: center center;
+  background-size: cover;
+}
+.personal_kitch_back {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.personal_kitch_Text_Title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 120%;
+  margin-top: 80px;
+  color: white;
+}
+.personal_kitch_Text_Title a {
+  color: #40ac46;
+}
+.personal_kitch_Text_SubText {
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.personal_kitch .btn-green-flat {
+    padding-top: 20px; padding-bottom: 20px;
+}
+
+.modal_Form_Personal-Design,
+.modal_Form_Personal-Design-second {
+  position: fixed;
+  top: 15%;
+  left: 35%;
+  display: none;
+  width: 30%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  overflow: hidden;
+  outline: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  color: #000000;
+  padding: 2%;
+
+  z-index: 6;
+}
+.modal_Form_Personal-Design-Input-Desc {
+  margin: 10px 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  color: #444444;
+  margin-bottom: 15px;
+}
+
+input.modal_Inp_File-2 {
+    display: none;
+}
+
+#f_name-2 {
+  background: transparent;
+  border: 0;
+  display: inline-block;
+  height: 30px;
+  padding: 0 8px;
+  width: 150px;
+}
+
+.modal_Form_Offer_Designer_Alert {
+  position: fixed;
+  top: 25%;
+  left: 35%;
+  display: none;
+  width: 30%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  overflow: hidden;
+  outline: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  color: #000000;
+  padding: 2%;
+
+  z-index: 6;
+    
+  -webkit-box-align: center;
+    
+      -ms-flex-align: center;
+    
+          align-items: center;
+  text-align: center;
+}
+
+.modal_Form_Offer_Designer_Alert a {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 5px;
+}
+
+.modal_Form_Offer_Designer_Alert > span {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 0;
+}
+
+@media (max-height: 750px) {
+  .modal_Form_Personal-Design,
+  .modal_Form_Personal-Design-second {
+    max-height: 100%;
+    height: 100%;
+    top: 0;
+    overflow: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .modal_Form_Personal-Design,
+  .modal_Form_Personal-Design-second {
+    left: 0;
+    width: 100%;
+    top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .modal_Form_Offer_Designer_Alert {
+    width: 100%;
+    height: 60%;
+    top: 20%;
+    left: 0;
+  }
+}
+@media (max-width: 576px) {
+  .personal_kitch_Text {
+    text-align: center;
+  }
+  .personal_kitch_Text_Title {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .personal_kitch_Text_SubText {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+/* Не нашли нужной кухни - кон */
+
 /* Акции - нач */
 
 .promotions-section {
@@ -652,13 +1178,13 @@ button#openModal3DProjecting {
 .slider-promo button.slick-arrow.slick-prev {
     margin-left: 90px;
     
-    z-index: 100;
+    z-index: 1;
 }
 
 .slider-promo button.slick-arrow.slick-next {
     margin-right: 90px;
     
-    z-index: 100;
+    z-index: 1;
 }
 
 .slider-promo button.slick-arrow.slick-prev::before {
@@ -831,6 +1357,34 @@ button#orderKitchenInstallment {
     color: #5EB863;
     text-decoration: none;
 }
+
+.promotion-pinned-content tbody td {
+    position: relative;
+}
+
+.rubs::after {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 156px;
+    content: "руб.";
+    position: absolute;
+}
+
+.percentages::after {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 156px;
+    content: "%";
+    position: absolute;
+}
+
+.months::after {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 156px;
+    content: "мес.";
+    position: absolute;    
+}
 /* Беспроцентная рассрочка - кон */
 
 
@@ -870,6 +1424,8 @@ button#orderKitchenInstallment {
     font-weight: 700;
     line-height: 29px;
 }
+
+
 /* Гарантия - кон */
 
 
@@ -1222,13 +1778,13 @@ button#orderKitchenInstallment {
 .slider-manufacture button.slick-arrow.slick-prev {
     margin-left: 240px;
     
-    z-index: 100;
+    z-index: 1;
 }
 
 .slider-manufacture button.slick-arrow.slick-next {
     margin-right: 240px;
     
-    z-index: 100;
+    z-index: 1;
 }
 
 .slider-manufacture button.slick-arrow.slick-prev::before {
@@ -1270,30 +1826,43 @@ button#orderKitchenInstallment {
     position: relative;
 }
 
-.static-map {
+/*.static-map {
     display: block;
     height: 572px;
     margin-bottom: 0;
 }
 
+
 .static-map img {
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     width: 100%;
     height: 100%;
     max-height: 100%;
-    -o-object-position: center center;
-       object-position: center center;
+    object-position: center center;
+}*/
+
+/*.static-map {
+    width: 100%;  
+}*/
+
+.static-map {
+    z-index: 1;
 }
 
-.contacts-section {
-    position: relative;
-}
-
-.addresses-wrapper,
-.contact-wrapper {
+.addresses,
+.contact-form {
     top: 5%;
     position: absolute;
+}
+
+.addresses {
+    left: 10vw;
+    z-index: 2;
+}
+
+.contact-form {
+    right: 10vw;
+    z-index: 2;
 }
 
 .addresses {   
@@ -1303,6 +1872,8 @@ button#orderKitchenInstallment {
     border-color: #5EB863;
     border-width: 2px;
     border-radius: 15px;
+    
+    max-width: 600px;
 }
 
 
@@ -1357,6 +1928,8 @@ button#orderKitchenInstallment {
     border-color: #5EB863;
     border-width: 2px;
     border-radius: 15px;
+    
+    max-width: 500px;
 }
 
 .contact-promo-text {
@@ -2246,10 +2819,13 @@ cursor: pointer;
     .slider-manufacture button.slick-arrow.slick-next {
         margin-right: 180px;
     }
-    
-    .contact-wrapper,
-    .addresses-wrapper {
-        padding-left: 0; padding-right: 0;
+        
+    .addresses {
+        left: 0;
+    }
+
+    .contact-form {
+        right: 0;
     }
     
     .footer-logo {
@@ -2435,6 +3011,10 @@ cursor: pointer;
         margin-bottom: 32px;
         width: 100%;
     }
+    
+    .examples {
+        margin-top: 40px;
+    }
         
     .checkbox-indicator {
         margin-top: 0;
@@ -2551,6 +3131,19 @@ cursor: pointer;
     
     .promotion-pinned-desc td {
         font-size: 65px;
+        line-height: 78px;
+    }
+    
+    .examples_style_retarget_back,
+    .examples_style_retarget_more,
+    .examples_style_retarget_count {
+        padding-top: 16px; padding-bottom: 16px;
+    }
+    
+    .rubs::after,
+    .percentages::after,
+    .months::after {
+        font-size: 16px;
         line-height: 78px;
     }
     
@@ -2736,7 +3329,7 @@ cursor: pointer;
         
         margin-left: 65px;
 
-        z-index: 100;
+        z-index: 1;
     }
 
     .our-designers-slider button.slick-arrow.slick-next {
@@ -2744,7 +3337,7 @@ cursor: pointer;
         
         margin-right: 65px;
 
-        z-index: 100;
+        z-index: 1;
     }
 
     .our-designers-slider button.slick-arrow.slick-prev::before {
@@ -2882,18 +3475,12 @@ cursor: pointer;
         width: 20px; height: 20px;
     }
     
-    .addresses-wrapper, .contact-wrapper {
-        padding-left: 0; padding-right: 0;
-        
+    .addresses, .contact-form {   
+        max-width: 100%;
         top: 0;
         position: static;
     }
-    
-    .addresses-wrapper > .container-lg,
-    .contact-wrapper > .container-lg {
-        padding-left: 0; padding-right: 0;
-    }
-    
+        
     .addresses {
         border: none;
         border-radius: 0;
@@ -3001,7 +3588,7 @@ cursor: pointer;
         display: flex;
         
         margin-top: 12px;
-        margin-bottom: 85px;
+        margin-bottom: 30px;
     }
 
     #menu > div a,
