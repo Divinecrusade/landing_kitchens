@@ -1981,7 +1981,6 @@
             }
         </script>-->
         
-        <!-- Ленивая загрузка изображений -->
         <script src="<?=ASSETS_PATH?>assets/lib/jquery/jquery-3.6.0.min.js"></script>
         <script src="<?=ASSETS_PATH?>assets/lib/lazysizes/lazysizes.min.js"></script>
         <script src="<?=ASSETS_PATH?>assets/lib/slick/slick.min.js"></script>        
